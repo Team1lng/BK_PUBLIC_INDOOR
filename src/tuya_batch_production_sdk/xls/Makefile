@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.3-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6
+CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6
+CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/src/tuya_batch_production_sdk/xls/CMakeFiles/progress.marks
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/xls/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/CMakeFiles 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/tuya_batch_production_sdk/xls/CMakeFiles/progress.marks
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/xls/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/xls/clean
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/xls/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/xls/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/xls/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/xls/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/xls/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/rule:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/rule
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/rule
 .PHONY : src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ xls: src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/rule
 
 # fast build rule for target.
 xls/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build
 .PHONY : xls/fast
 
 endian.o: endian.c.o
@@ -131,7 +131,7 @@ endian.o: endian.c.o
 
 # target to build an object file
 endian.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/endian.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/endian.c.o
 .PHONY : endian.c.o
 
 endian.i: endian.c.i
@@ -140,7 +140,7 @@ endian.i: endian.c.i
 
 # target to preprocess a source file
 endian.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/endian.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/endian.c.i
 .PHONY : endian.c.i
 
 endian.s: endian.c.s
@@ -149,7 +149,7 @@ endian.s: endian.c.s
 
 # target to generate assembly for a file
 endian.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/endian.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/endian.c.s
 .PHONY : endian.c.s
 
 ole.o: ole.c.o
@@ -158,7 +158,7 @@ ole.o: ole.c.o
 
 # target to build an object file
 ole.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/ole.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/ole.c.o
 .PHONY : ole.c.o
 
 ole.i: ole.c.i
@@ -167,7 +167,7 @@ ole.i: ole.c.i
 
 # target to preprocess a source file
 ole.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/ole.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/ole.c.i
 .PHONY : ole.c.i
 
 ole.s: ole.c.s
@@ -176,7 +176,7 @@ ole.s: ole.c.s
 
 # target to generate assembly for a file
 ole.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/ole.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/ole.c.s
 .PHONY : ole.c.s
 
 tuya_uuid_and_key.o: tuya_uuid_and_key.c.o
@@ -185,7 +185,7 @@ tuya_uuid_and_key.o: tuya_uuid_and_key.c.o
 
 # target to build an object file
 tuya_uuid_and_key.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/tuya_uuid_and_key.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/tuya_uuid_and_key.c.o
 .PHONY : tuya_uuid_and_key.c.o
 
 tuya_uuid_and_key.i: tuya_uuid_and_key.c.i
@@ -194,7 +194,7 @@ tuya_uuid_and_key.i: tuya_uuid_and_key.c.i
 
 # target to preprocess a source file
 tuya_uuid_and_key.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/tuya_uuid_and_key.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/tuya_uuid_and_key.c.i
 .PHONY : tuya_uuid_and_key.c.i
 
 tuya_uuid_and_key.s: tuya_uuid_and_key.c.s
@@ -203,7 +203,7 @@ tuya_uuid_and_key.s: tuya_uuid_and_key.c.s
 
 # target to generate assembly for a file
 tuya_uuid_and_key.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/tuya_uuid_and_key.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/tuya_uuid_and_key.c.s
 .PHONY : tuya_uuid_and_key.c.s
 
 xls.o: xls.c.o
@@ -212,7 +212,7 @@ xls.o: xls.c.o
 
 # target to build an object file
 xls.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xls.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xls.c.o
 .PHONY : xls.c.o
 
 xls.i: xls.c.i
@@ -221,7 +221,7 @@ xls.i: xls.c.i
 
 # target to preprocess a source file
 xls.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xls.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xls.c.i
 .PHONY : xls.c.i
 
 xls.s: xls.c.s
@@ -230,7 +230,7 @@ xls.s: xls.c.s
 
 # target to generate assembly for a file
 xls.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xls.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xls.c.s
 .PHONY : xls.c.s
 
 xlstool.o: xlstool.c.o
@@ -239,7 +239,7 @@ xlstool.o: xlstool.c.o
 
 # target to build an object file
 xlstool.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xlstool.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xlstool.c.o
 .PHONY : xlstool.c.o
 
 xlstool.i: xlstool.c.i
@@ -248,7 +248,7 @@ xlstool.i: xlstool.c.i
 
 # target to preprocess a source file
 xlstool.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xlstool.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xlstool.c.i
 .PHONY : xlstool.c.i
 
 xlstool.s: xlstool.c.s
@@ -257,7 +257,7 @@ xlstool.s: xlstool.c.s
 
 # target to generate assembly for a file
 xlstool.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xlstool.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/build.make src/tuya_batch_production_sdk/xls/CMakeFiles/xls.dir/xlstool.c.s
 .PHONY : xlstool.c.s
 
 # Help Target
@@ -295,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

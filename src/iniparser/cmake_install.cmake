@@ -1,4 +1,4 @@
-# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/src/iniparser
+# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/iniparser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

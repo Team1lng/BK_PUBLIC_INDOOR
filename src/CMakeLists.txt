@@ -10,22 +10,12 @@ aux_source_directory(./layout DIR_SRCS)
 
 file(REMOVE ./layout/resource/rom.bin)
 file(REMOVE ./layout/resource/rom.h)
-file(REMOVE ../language.xls)
-# file(REMOVE ../upgrade/app/rings/*)#file(REMOVE ...)命令不支持通配符（wildcard）匹配。因此，直接使用file(REMOVE ../upgrade/app/rings/*)是不能达到预期效果的
-# 这段代码将使用file命令和GLOB宏获取指定路径下的所有文件，并使用foreach循环遍历每个文件，然后使用file命令的REMOVE选项将其删除。
-file(GLOB RINGS_FILES "../upgrade/app/rings/*")
-foreach(RINGS_FILE ${RINGS_FILES})
-    file(REMOVE ${RINGS_FILE})
-endforeach()
-
-# file(GLOB RINGS_FILES "../upgrade/app/rings/*")
-# file(REMOVE ${RINGS_FILES})
 
 aux_source_directory(./layout/resource/res_boke DIR_SRCS)
-file(COPY ./layout/resource/res_boke/rom.h DESTINATION ./layout/resource/)
-file(COPY ./layout/resource/res_boke/rom.bin DESTINATION ./layout/resource/)
-file(COPY ../upgrade/ring/normal/rings/ DESTINATION ../upgrade/app/rings/)
-file(COPY ../upgrade/language/bcom/language.xls DESTINATION ../)
+file(COPY ./layout/resource/res_boke/rom.h DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/layout/resource/)
+file(COPY ./layout/resource/res_boke/rom.bin DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/layout/resource/)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/../upgrade/ring/normal/rings/ DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/../upgrade/app/rings/)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/../upgrade/language/bcom/language.xls DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/../)
 
 # aux_source_directory(./layout/resource/icon_font/output DIR_SRCS) 
 
@@ -40,7 +30,7 @@ add_subdirectory(lv_qrcode)  #添加目录 lv_qrcode
 add_subdirectory(api)  #添加目录 api
 add_subdirectory(tuya_batch_production_sdk)  #添加目录 tuya_batch_production_sdk
 add_subdirectory(iniparser)  
-add_subdirectory(tuya-6.2.6)  
+add_subdirectory(tuya-6.2.20)
 
 include_directories(./include/anyka)  
 include_directories(./include/api)  
@@ -49,7 +39,7 @@ include_directories(./include/freetype)
 include_directories(./include/libmad)  
 include_directories(./include/tuya)
 include_directories(./include/g711)
-include_directories(./tuya-6.2.6)  
+include_directories(./tuya-6.2.20)
 
 include_directories(./include/live555/BasicUsageEnvironment/include)  
 include_directories(./include/live555/groupsock/include)  
@@ -151,7 +141,7 @@ target_link_libraries(${leo_proj}  -Wl,--start-group
 #target_link_libraries(${leo_proj} ${ANYKA_PATH}/../tuya/libmbedtls.a)
 #target_link_libraries(${leo_proj} ${ANYKA_PATH}/../../api/libleo_api_lib.a)
 tuya
-${CMAKE_CURRENT_SOURCE_DIR}/tuya-6.2.6/lib/libtuyaos.a
+${CMAKE_CURRENT_SOURCE_DIR}/tuya-6.2.20/libs/libtuyaos.a
 ${ANYKA_PATH}/../iconv/libiconv.a
 ${CMAKE_CURRENT_SOURCE_DIR}/tuya_batch_production_sdk/xls/libxls.a
 -Wl,--end-group)

@@ -5,7 +5,7 @@ include_directories(../include/anyka)
 include_directories(../include/api)
 include_directories(../include/freetype)
 include_directories(../include/libmad)
-include_directories(../tuya-6.2.6)
+include_directories(../tuya-6.2.20)
 include_directories(../lvgl)
 
 include_directories(../include/live555/BasicUsageEnvironment/include)

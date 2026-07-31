@@ -18,10 +18,19 @@ add_definitions(
 set(PUBLIC_LOGO_NAME "public.rgb")
 
 
-SET(IPS_SCREEN 7)
+if(NOT DEFINED IPS_SCREEN)
+	set(IPS_SCREEN 7)
+endif()
 
+if(NOT IPS_SCREEN EQUAL 7 AND NOT IPS_SCREEN EQUAL 8)
+	message(FATAL_ERROR "IPS_SCREEN must be 7 or 8, got: ${IPS_SCREEN}")
+endif()
 # 涂鸦应用版本
-add_definitions(-DIPC_APP_VERSION="1.0.1")
+if(IPS_SCREEN EQUAL 8)
+	add_definitions(-DIPC_APP_VERSION="1.3.1")
+else()
+	add_definitions(-DIPC_APP_VERSION="1.3.1")
+endif()
 add_definitions(-DWEATHER_MOUDLE)
 
 # 根据屏寸设置 PID

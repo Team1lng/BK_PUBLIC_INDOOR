@@ -3,12 +3,12 @@
 ## 20260722
 1. Tuya 6 门锁 DP 映射与状态上报修正
    问题：原移植代码仍沿用 Tuya 4 的 DP 定义，导致手机端门锁能力与实际设备不一致；门锁/门禁 DP 下发 `false` 时也会进入开锁处理。
-   涉及文件：`src/tuya-6.2.6/app/app_main/include/ty_dp_define.h`、`src/tuya-6.2.6/app/app_main/src/ty_sdk_dp_callback.c`、`src/tuya-6.2.6/tuya_sdk.h`、`src/layout/layout_define.c`、`src/layout/layout_home.c`、`src/layout/layout_monitor.c`、`src/layout/layout_standby.c`。
+   涉及文件：`src/tuya-6.2.20/app/app_main/include/ty_dp_define.h`、`src/tuya-6.2.20/app/app_main/src/ty_sdk_dp_callback.c`、`src/tuya-6.2.20/tuya_sdk.h`、`src/layout/layout_define.c`、`src/layout/layout_home.c`、`src/layout/layout_monitor.c`、`src/layout/layout_standby.c`。
    修改内容：统一 DP 定义：`232` 为门口机 `gate1`、`234` 为门口机主锁、`244` 为室内机 `gate2`；多锁支持 DP `233` 上报 `234,232,244`；初始化、UI 操作和延时复位均按新 DP 回报状态；只在收到 `true` 时执行开锁/开门，避免状态复位触发重复动作。
 
 2. Tuya OTA 支持室内机与门口机分流升级
    问题：原 OTA 下载完成后统一按室内机 APP 包解压升级，不能将门口机固件交由两线协议下发。
-   涉及文件：`src/tuya-6.2.6/app/app_user_upgrade/src/ty_sdk_upgrade.c`、`src/tuya-6.2.6/tuya_sdk.h`、`src/layout/layout_define.c`、`src/layout/layout_monitor.c`、`src/layout/layout_standby.c`、`src/layout/layout_setting_senior.c`。
+   涉及文件：`src/tuya-6.2.20/app/app_user_upgrade/src/ty_sdk_upgrade.c`、`src/tuya-6.2.20/tuya_sdk.h`、`src/layout/layout_define.c`、`src/layout/layout_monitor.c`、`src/layout/layout_standby.c`、`src/layout/layout_setting_senior.c`。
    修改内容：室内机固件继续关闭看门狗、保留 Wi-Fi 配置、解压并执行 `/tmp/update.sh`；门口机固件下载后保存为 `/mnt/tf/cbin.update`，通过 `TUYA_EVENT_OTA_UPGRADE` 切换到高级设置页并启动门口机升级流程；升级进度改为按固件类型上报，监控/待机页面收到事件时先停止相应视频和录像任务。
 
 3. Wi-Fi“忘记网络”改为禁用自动重连且保留密码缓存
@@ -28,7 +28,7 @@
 
 6. Tuya 音视频与运行稳定性修复
    问题：网络音频接收路径错误调用视频上报接口；H.264 NAL 类型判断受运算符优先级影响；Wi-Fi 健康检查和看门狗缺少有效的失败诊断。
-   涉及文件：`src/api/network/network_audio_package.c`、`src/tuya-6.2.6/tuya_sdk.c`、`src/api/network/ping_host.c`、`src/layout/user_data.c`。
+   涉及文件：`src/api/network/network_audio_package.c`、`src/tuya-6.2.20/tuya_sdk.c`、`src/api/network/ping_host.c`、`src/layout/user_data.c`。
    修改内容：PCM 数据改为调用 `tuya_realtime_audio_put_frame()`；修正 NAL 类型表达式括号，正确区分 P/B 帧和 I 帧；减少 Wi-Fi 断开日志刷屏，并记录看门狗打开/喂狗失败以及 Wi-Fi 模组重载的开始、结束状态，便于定位异常重启和监控无图问题。
 
 

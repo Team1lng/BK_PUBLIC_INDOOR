@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.3-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6
+CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6
+CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -211,7 +211,7 @@ tuya: cmake_check_build_system
 
 # fast build rule for target.
 tuya/fast:
-	$(MAKE) -f src/tuya-6.2.6/CMakeFiles/tuya.dir/build.make src/tuya-6.2.6/CMakeFiles/tuya.dir/build
+	$(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/build
 .PHONY : tuya/fast
 
 # Help Target

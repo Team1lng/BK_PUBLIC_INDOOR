@@ -1445,7 +1445,7 @@ void camera_status_default_event_register(event_pro_callback handle)
 void default_camera_status_callback(unsigned long arg1, unsigned long arg2)
 {
 	char version_str[16] = {0};
-	int model = 0;
+	int report_channel = 0;
 	int version = 0;
 	int model1 = 0;
 	int model2 = 0;
@@ -1459,12 +1459,12 @@ void default_camera_status_callback(unsigned long arg1, unsigned long arg2)
 		if (version1 == 0)
 		{
 			version = version2;
-			model = model2;
+			report_channel = 2;
 		}
 		else if (version2 == 0)
 		{
 			version = version1;
-			model = model1;
+			report_channel = 1;
 		}
 		else
 		{
@@ -1473,12 +1473,20 @@ void default_camera_status_callback(unsigned long arg1, unsigned long arg2)
 				tuya_sub_version_report(0, NULL);
 				return;
 			}
-			version = version1 < version2 ? version1 : version2;
-			model = model1;
+			if (version1 <= version2)
+			{
+				version = version1;
+				report_channel = 1;
+			}
+			else
+			{
+				version = version2;
+				report_channel = 2;
+			}
 		}
 
 		sprintf(version_str, "%d.%d.%d", version / 10000, version % 10000 / 100, version % 100);
-		tuya_sub_version_report(model, version_str);
+		tuya_sub_version_report(report_channel, version_str);
 	}
 	else
 	{

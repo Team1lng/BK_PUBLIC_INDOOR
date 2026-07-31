@@ -1,4 +1,4 @@
-# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/src/tuya_batch_production_sdk
+# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/tuya_batch_production_sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/src/tuya_batch_production_sdk/xls/cmake_install.cmake")
+  include("/home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/tuya_batch_production_sdk/xls/cmake_install.cmake")
 
 endif()
 

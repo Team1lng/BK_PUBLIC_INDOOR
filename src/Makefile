@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.3-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6
+CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6
+CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/src/CMakeFiles/progress.marks
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/CMakeFiles 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/CMakeFiles/progress.marks
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/../ANYKA37E.BIN.dir/rule:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/../ANYKA37E.BIN.dir/rule
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/../ANYKA37E.BIN.dir/rule
 .PHONY : src/CMakeFiles/../ANYKA37E.BIN.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ src/CMakeFiles/../ANYKA37E.BIN.dir/rule:
 
 # fast build rule for target.
 ../ANYKA37E.BIN/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/build
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/build
 .PHONY : ../ANYKA37E.BIN/fast
 
 layout/ak_drv_wdt.o: layout/ak_drv_wdt.c.o
@@ -131,7 +131,7 @@ layout/ak_drv_wdt.o: layout/ak_drv_wdt.c.o
 
 # target to build an object file
 layout/ak_drv_wdt.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/ak_drv_wdt.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/ak_drv_wdt.c.o
 .PHONY : layout/ak_drv_wdt.c.o
 
 layout/ak_drv_wdt.i: layout/ak_drv_wdt.c.i
@@ -140,7 +140,7 @@ layout/ak_drv_wdt.i: layout/ak_drv_wdt.c.i
 
 # target to preprocess a source file
 layout/ak_drv_wdt.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/ak_drv_wdt.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/ak_drv_wdt.c.i
 .PHONY : layout/ak_drv_wdt.c.i
 
 layout/ak_drv_wdt.s: layout/ak_drv_wdt.c.s
@@ -149,7 +149,7 @@ layout/ak_drv_wdt.s: layout/ak_drv_wdt.c.s
 
 # target to generate assembly for a file
 layout/ak_drv_wdt.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/ak_drv_wdt.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/ak_drv_wdt.c.s
 .PHONY : layout/ak_drv_wdt.c.s
 
 layout/doorbell_upgrade_windows.o: layout/doorbell_upgrade_windows.c.o
@@ -158,7 +158,7 @@ layout/doorbell_upgrade_windows.o: layout/doorbell_upgrade_windows.c.o
 
 # target to build an object file
 layout/doorbell_upgrade_windows.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/doorbell_upgrade_windows.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/doorbell_upgrade_windows.c.o
 .PHONY : layout/doorbell_upgrade_windows.c.o
 
 layout/doorbell_upgrade_windows.i: layout/doorbell_upgrade_windows.c.i
@@ -167,7 +167,7 @@ layout/doorbell_upgrade_windows.i: layout/doorbell_upgrade_windows.c.i
 
 # target to preprocess a source file
 layout/doorbell_upgrade_windows.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/doorbell_upgrade_windows.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/doorbell_upgrade_windows.c.i
 .PHONY : layout/doorbell_upgrade_windows.c.i
 
 layout/doorbell_upgrade_windows.s: layout/doorbell_upgrade_windows.c.s
@@ -176,7 +176,7 @@ layout/doorbell_upgrade_windows.s: layout/doorbell_upgrade_windows.c.s
 
 # target to generate assembly for a file
 layout/doorbell_upgrade_windows.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/doorbell_upgrade_windows.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/doorbell_upgrade_windows.c.s
 .PHONY : layout/doorbell_upgrade_windows.c.s
 
 layout/lang_xls.o: layout/lang_xls.c.o
@@ -185,7 +185,7 @@ layout/lang_xls.o: layout/lang_xls.c.o
 
 # target to build an object file
 layout/lang_xls.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/lang_xls.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/lang_xls.c.o
 .PHONY : layout/lang_xls.c.o
 
 layout/lang_xls.i: layout/lang_xls.c.i
@@ -194,7 +194,7 @@ layout/lang_xls.i: layout/lang_xls.c.i
 
 # target to preprocess a source file
 layout/lang_xls.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/lang_xls.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/lang_xls.c.i
 .PHONY : layout/lang_xls.c.i
 
 layout/lang_xls.s: layout/lang_xls.c.s
@@ -203,7 +203,7 @@ layout/lang_xls.s: layout/lang_xls.c.s
 
 # target to generate assembly for a file
 layout/lang_xls.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/lang_xls.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/lang_xls.c.s
 .PHONY : layout/lang_xls.c.s
 
 layout/layout_1_music_list.o: layout/layout_1_music_list.c.o
@@ -212,7 +212,7 @@ layout/layout_1_music_list.o: layout/layout_1_music_list.c.o
 
 # target to build an object file
 layout/layout_1_music_list.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_music_list.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_music_list.c.o
 .PHONY : layout/layout_1_music_list.c.o
 
 layout/layout_1_music_list.i: layout/layout_1_music_list.c.i
@@ -221,7 +221,7 @@ layout/layout_1_music_list.i: layout/layout_1_music_list.c.i
 
 # target to preprocess a source file
 layout/layout_1_music_list.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_music_list.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_music_list.c.i
 .PHONY : layout/layout_1_music_list.c.i
 
 layout/layout_1_music_list.s: layout/layout_1_music_list.c.s
@@ -230,7 +230,7 @@ layout/layout_1_music_list.s: layout/layout_1_music_list.c.s
 
 # target to generate assembly for a file
 layout/layout_1_music_list.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_music_list.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_music_list.c.s
 .PHONY : layout/layout_1_music_list.c.s
 
 layout/layout_1_photo_list.o: layout/layout_1_photo_list.c.o
@@ -239,7 +239,7 @@ layout/layout_1_photo_list.o: layout/layout_1_photo_list.c.o
 
 # target to build an object file
 layout/layout_1_photo_list.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_photo_list.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_photo_list.c.o
 .PHONY : layout/layout_1_photo_list.c.o
 
 layout/layout_1_photo_list.i: layout/layout_1_photo_list.c.i
@@ -248,7 +248,7 @@ layout/layout_1_photo_list.i: layout/layout_1_photo_list.c.i
 
 # target to preprocess a source file
 layout/layout_1_photo_list.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_photo_list.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_photo_list.c.i
 .PHONY : layout/layout_1_photo_list.c.i
 
 layout/layout_1_photo_list.s: layout/layout_1_photo_list.c.s
@@ -257,7 +257,7 @@ layout/layout_1_photo_list.s: layout/layout_1_photo_list.c.s
 
 # target to generate assembly for a file
 layout/layout_1_photo_list.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_photo_list.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_photo_list.c.s
 .PHONY : layout/layout_1_photo_list.c.s
 
 layout/layout_1_video_list.o: layout/layout_1_video_list.c.o
@@ -266,7 +266,7 @@ layout/layout_1_video_list.o: layout/layout_1_video_list.c.o
 
 # target to build an object file
 layout/layout_1_video_list.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_video_list.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_video_list.c.o
 .PHONY : layout/layout_1_video_list.c.o
 
 layout/layout_1_video_list.i: layout/layout_1_video_list.c.i
@@ -275,7 +275,7 @@ layout/layout_1_video_list.i: layout/layout_1_video_list.c.i
 
 # target to preprocess a source file
 layout/layout_1_video_list.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_video_list.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_video_list.c.i
 .PHONY : layout/layout_1_video_list.c.i
 
 layout/layout_1_video_list.s: layout/layout_1_video_list.c.s
@@ -284,7 +284,7 @@ layout/layout_1_video_list.s: layout/layout_1_video_list.c.s
 
 # target to generate assembly for a file
 layout/layout_1_video_list.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_video_list.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_1_video_list.c.s
 .PHONY : layout/layout_1_video_list.c.s
 
 layout/layout_add_data.o: layout/layout_add_data.c.o
@@ -293,7 +293,7 @@ layout/layout_add_data.o: layout/layout_add_data.c.o
 
 # target to build an object file
 layout/layout_add_data.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_data.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_data.c.o
 .PHONY : layout/layout_add_data.c.o
 
 layout/layout_add_data.i: layout/layout_add_data.c.i
@@ -302,7 +302,7 @@ layout/layout_add_data.i: layout/layout_add_data.c.i
 
 # target to preprocess a source file
 layout/layout_add_data.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_data.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_data.c.i
 .PHONY : layout/layout_add_data.c.i
 
 layout/layout_add_data.s: layout/layout_add_data.c.s
@@ -311,7 +311,7 @@ layout/layout_add_data.s: layout/layout_add_data.c.s
 
 # target to generate assembly for a file
 layout/layout_add_data.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_data.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_data.c.s
 .PHONY : layout/layout_add_data.c.s
 
 layout/layout_add_wifi.o: layout/layout_add_wifi.c.o
@@ -320,7 +320,7 @@ layout/layout_add_wifi.o: layout/layout_add_wifi.c.o
 
 # target to build an object file
 layout/layout_add_wifi.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_wifi.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_wifi.c.o
 .PHONY : layout/layout_add_wifi.c.o
 
 layout/layout_add_wifi.i: layout/layout_add_wifi.c.i
@@ -329,7 +329,7 @@ layout/layout_add_wifi.i: layout/layout_add_wifi.c.i
 
 # target to preprocess a source file
 layout/layout_add_wifi.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_wifi.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_wifi.c.i
 .PHONY : layout/layout_add_wifi.c.i
 
 layout/layout_add_wifi.s: layout/layout_add_wifi.c.s
@@ -338,7 +338,7 @@ layout/layout_add_wifi.s: layout/layout_add_wifi.c.s
 
 # target to generate assembly for a file
 layout/layout_add_wifi.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_wifi.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_add_wifi.c.s
 .PHONY : layout/layout_add_wifi.c.s
 
 layout/layout_call.o: layout/layout_call.c.o
@@ -347,7 +347,7 @@ layout/layout_call.o: layout/layout_call.c.o
 
 # target to build an object file
 layout/layout_call.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_call.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_call.c.o
 .PHONY : layout/layout_call.c.o
 
 layout/layout_call.i: layout/layout_call.c.i
@@ -356,7 +356,7 @@ layout/layout_call.i: layout/layout_call.c.i
 
 # target to preprocess a source file
 layout/layout_call.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_call.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_call.c.i
 .PHONY : layout/layout_call.c.i
 
 layout/layout_call.s: layout/layout_call.c.s
@@ -365,7 +365,7 @@ layout/layout_call.s: layout/layout_call.c.s
 
 # target to generate assembly for a file
 layout/layout_call.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_call.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_call.c.s
 .PHONY : layout/layout_call.c.s
 
 layout/layout_cctv.o: layout/layout_cctv.c.o
@@ -374,7 +374,7 @@ layout/layout_cctv.o: layout/layout_cctv.c.o
 
 # target to build an object file
 layout/layout_cctv.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_cctv.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_cctv.c.o
 .PHONY : layout/layout_cctv.c.o
 
 layout/layout_cctv.i: layout/layout_cctv.c.i
@@ -383,7 +383,7 @@ layout/layout_cctv.i: layout/layout_cctv.c.i
 
 # target to preprocess a source file
 layout/layout_cctv.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_cctv.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_cctv.c.i
 .PHONY : layout/layout_cctv.c.i
 
 layout/layout_cctv.s: layout/layout_cctv.c.s
@@ -392,7 +392,7 @@ layout/layout_cctv.s: layout/layout_cctv.c.s
 
 # target to generate assembly for a file
 layout/layout_cctv.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_cctv.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_cctv.c.s
 .PHONY : layout/layout_cctv.c.s
 
 layout/layout_connect_wifi.o: layout/layout_connect_wifi.c.o
@@ -401,7 +401,7 @@ layout/layout_connect_wifi.o: layout/layout_connect_wifi.c.o
 
 # target to build an object file
 layout/layout_connect_wifi.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_connect_wifi.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_connect_wifi.c.o
 .PHONY : layout/layout_connect_wifi.c.o
 
 layout/layout_connect_wifi.i: layout/layout_connect_wifi.c.i
@@ -410,7 +410,7 @@ layout/layout_connect_wifi.i: layout/layout_connect_wifi.c.i
 
 # target to preprocess a source file
 layout/layout_connect_wifi.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_connect_wifi.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_connect_wifi.c.i
 .PHONY : layout/layout_connect_wifi.c.i
 
 layout/layout_connect_wifi.s: layout/layout_connect_wifi.c.s
@@ -419,7 +419,7 @@ layout/layout_connect_wifi.s: layout/layout_connect_wifi.c.s
 
 # target to generate assembly for a file
 layout/layout_connect_wifi.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_connect_wifi.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_connect_wifi.c.s
 .PHONY : layout/layout_connect_wifi.c.s
 
 layout/layout_data_list.o: layout/layout_data_list.c.o
@@ -428,7 +428,7 @@ layout/layout_data_list.o: layout/layout_data_list.c.o
 
 # target to build an object file
 layout/layout_data_list.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_data_list.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_data_list.c.o
 .PHONY : layout/layout_data_list.c.o
 
 layout/layout_data_list.i: layout/layout_data_list.c.i
@@ -437,7 +437,7 @@ layout/layout_data_list.i: layout/layout_data_list.c.i
 
 # target to preprocess a source file
 layout/layout_data_list.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_data_list.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_data_list.c.i
 .PHONY : layout/layout_data_list.c.i
 
 layout/layout_data_list.s: layout/layout_data_list.c.s
@@ -446,7 +446,7 @@ layout/layout_data_list.s: layout/layout_data_list.c.s
 
 # target to generate assembly for a file
 layout/layout_data_list.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_data_list.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_data_list.c.s
 .PHONY : layout/layout_data_list.c.s
 
 layout/layout_define.o: layout/layout_define.c.o
@@ -455,7 +455,7 @@ layout/layout_define.o: layout/layout_define.c.o
 
 # target to build an object file
 layout/layout_define.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_define.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_define.c.o
 .PHONY : layout/layout_define.c.o
 
 layout/layout_define.i: layout/layout_define.c.i
@@ -464,7 +464,7 @@ layout/layout_define.i: layout/layout_define.c.i
 
 # target to preprocess a source file
 layout/layout_define.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_define.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_define.c.i
 .PHONY : layout/layout_define.c.i
 
 layout/layout_define.s: layout/layout_define.c.s
@@ -473,7 +473,7 @@ layout/layout_define.s: layout/layout_define.c.s
 
 # target to generate assembly for a file
 layout/layout_define.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_define.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_define.c.s
 .PHONY : layout/layout_define.c.s
 
 layout/layout_device_busy.o: layout/layout_device_busy.c.o
@@ -482,7 +482,7 @@ layout/layout_device_busy.o: layout/layout_device_busy.c.o
 
 # target to build an object file
 layout/layout_device_busy.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_busy.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_busy.c.o
 .PHONY : layout/layout_device_busy.c.o
 
 layout/layout_device_busy.i: layout/layout_device_busy.c.i
@@ -491,7 +491,7 @@ layout/layout_device_busy.i: layout/layout_device_busy.c.i
 
 # target to preprocess a source file
 layout/layout_device_busy.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_busy.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_busy.c.i
 .PHONY : layout/layout_device_busy.c.i
 
 layout/layout_device_busy.s: layout/layout_device_busy.c.s
@@ -500,7 +500,7 @@ layout/layout_device_busy.s: layout/layout_device_busy.c.s
 
 # target to generate assembly for a file
 layout/layout_device_busy.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_busy.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_busy.c.s
 .PHONY : layout/layout_device_busy.c.s
 
 layout/layout_device_transfer.o: layout/layout_device_transfer.c.o
@@ -509,7 +509,7 @@ layout/layout_device_transfer.o: layout/layout_device_transfer.c.o
 
 # target to build an object file
 layout/layout_device_transfer.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_transfer.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_transfer.c.o
 .PHONY : layout/layout_device_transfer.c.o
 
 layout/layout_device_transfer.i: layout/layout_device_transfer.c.i
@@ -518,7 +518,7 @@ layout/layout_device_transfer.i: layout/layout_device_transfer.c.i
 
 # target to preprocess a source file
 layout/layout_device_transfer.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_transfer.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_transfer.c.i
 .PHONY : layout/layout_device_transfer.c.i
 
 layout/layout_device_transfer.s: layout/layout_device_transfer.c.s
@@ -527,7 +527,7 @@ layout/layout_device_transfer.s: layout/layout_device_transfer.c.s
 
 # target to generate assembly for a file
 layout/layout_device_transfer.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_transfer.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_device_transfer.c.s
 .PHONY : layout/layout_device_transfer.c.s
 
 layout/layout_event.o: layout/layout_event.c.o
@@ -536,7 +536,7 @@ layout/layout_event.o: layout/layout_event.c.o
 
 # target to build an object file
 layout/layout_event.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_event.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_event.c.o
 .PHONY : layout/layout_event.c.o
 
 layout/layout_event.i: layout/layout_event.c.i
@@ -545,7 +545,7 @@ layout/layout_event.i: layout/layout_event.c.i
 
 # target to preprocess a source file
 layout/layout_event.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_event.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_event.c.i
 .PHONY : layout/layout_event.c.i
 
 layout/layout_event.s: layout/layout_event.c.s
@@ -554,7 +554,7 @@ layout/layout_event.s: layout/layout_event.c.s
 
 # target to generate assembly for a file
 layout/layout_event.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_event.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_event.c.s
 .PHONY : layout/layout_event.c.s
 
 layout/layout_family_transfer.o: layout/layout_family_transfer.c.o
@@ -563,7 +563,7 @@ layout/layout_family_transfer.o: layout/layout_family_transfer.c.o
 
 # target to build an object file
 layout/layout_family_transfer.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_family_transfer.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_family_transfer.c.o
 .PHONY : layout/layout_family_transfer.c.o
 
 layout/layout_family_transfer.i: layout/layout_family_transfer.c.i
@@ -572,7 +572,7 @@ layout/layout_family_transfer.i: layout/layout_family_transfer.c.i
 
 # target to preprocess a source file
 layout/layout_family_transfer.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_family_transfer.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_family_transfer.c.i
 .PHONY : layout/layout_family_transfer.c.i
 
 layout/layout_family_transfer.s: layout/layout_family_transfer.c.s
@@ -581,7 +581,7 @@ layout/layout_family_transfer.s: layout/layout_family_transfer.c.s
 
 # target to generate assembly for a file
 layout/layout_family_transfer.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_family_transfer.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_family_transfer.c.s
 .PHONY : layout/layout_family_transfer.c.s
 
 layout/layout_file_list.o: layout/layout_file_list.c.o
@@ -590,7 +590,7 @@ layout/layout_file_list.o: layout/layout_file_list.c.o
 
 # target to build an object file
 layout/layout_file_list.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_file_list.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_file_list.c.o
 .PHONY : layout/layout_file_list.c.o
 
 layout/layout_file_list.i: layout/layout_file_list.c.i
@@ -599,7 +599,7 @@ layout/layout_file_list.i: layout/layout_file_list.c.i
 
 # target to preprocess a source file
 layout/layout_file_list.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_file_list.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_file_list.c.i
 .PHONY : layout/layout_file_list.c.i
 
 layout/layout_file_list.s: layout/layout_file_list.c.s
@@ -608,7 +608,7 @@ layout/layout_file_list.s: layout/layout_file_list.c.s
 
 # target to generate assembly for a file
 layout/layout_file_list.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_file_list.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_file_list.c.s
 .PHONY : layout/layout_file_list.c.s
 
 layout/layout_home.o: layout/layout_home.c.o
@@ -617,7 +617,7 @@ layout/layout_home.o: layout/layout_home.c.o
 
 # target to build an object file
 layout/layout_home.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_home.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_home.c.o
 .PHONY : layout/layout_home.c.o
 
 layout/layout_home.i: layout/layout_home.c.i
@@ -626,7 +626,7 @@ layout/layout_home.i: layout/layout_home.c.i
 
 # target to preprocess a source file
 layout/layout_home.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_home.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_home.c.i
 .PHONY : layout/layout_home.c.i
 
 layout/layout_home.s: layout/layout_home.c.s
@@ -635,7 +635,7 @@ layout/layout_home.s: layout/layout_home.c.s
 
 # target to generate assembly for a file
 layout/layout_home.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_home.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_home.c.s
 .PHONY : layout/layout_home.c.s
 
 layout/layout_interphone.o: layout/layout_interphone.c.o
@@ -644,7 +644,7 @@ layout/layout_interphone.o: layout/layout_interphone.c.o
 
 # target to build an object file
 layout/layout_interphone.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_interphone.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_interphone.c.o
 .PHONY : layout/layout_interphone.c.o
 
 layout/layout_interphone.i: layout/layout_interphone.c.i
@@ -653,7 +653,7 @@ layout/layout_interphone.i: layout/layout_interphone.c.i
 
 # target to preprocess a source file
 layout/layout_interphone.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_interphone.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_interphone.c.i
 .PHONY : layout/layout_interphone.c.i
 
 layout/layout_interphone.s: layout/layout_interphone.c.s
@@ -662,7 +662,7 @@ layout/layout_interphone.s: layout/layout_interphone.c.s
 
 # target to generate assembly for a file
 layout/layout_interphone.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_interphone.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_interphone.c.s
 .PHONY : layout/layout_interphone.c.s
 
 layout/layout_keyboard.o: layout/layout_keyboard.c.o
@@ -671,7 +671,7 @@ layout/layout_keyboard.o: layout/layout_keyboard.c.o
 
 # target to build an object file
 layout/layout_keyboard.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_keyboard.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_keyboard.c.o
 .PHONY : layout/layout_keyboard.c.o
 
 layout/layout_keyboard.i: layout/layout_keyboard.c.i
@@ -680,7 +680,7 @@ layout/layout_keyboard.i: layout/layout_keyboard.c.i
 
 # target to preprocess a source file
 layout/layout_keyboard.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_keyboard.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_keyboard.c.i
 .PHONY : layout/layout_keyboard.c.i
 
 layout/layout_keyboard.s: layout/layout_keyboard.c.s
@@ -689,7 +689,7 @@ layout/layout_keyboard.s: layout/layout_keyboard.c.s
 
 # target to generate assembly for a file
 layout/layout_keyboard.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_keyboard.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_keyboard.c.s
 .PHONY : layout/layout_keyboard.c.s
 
 layout/layout_media.o: layout/layout_media.c.o
@@ -698,7 +698,7 @@ layout/layout_media.o: layout/layout_media.c.o
 
 # target to build an object file
 layout/layout_media.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media.c.o
 .PHONY : layout/layout_media.c.o
 
 layout/layout_media.i: layout/layout_media.c.i
@@ -707,7 +707,7 @@ layout/layout_media.i: layout/layout_media.c.i
 
 # target to preprocess a source file
 layout/layout_media.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media.c.i
 .PHONY : layout/layout_media.c.i
 
 layout/layout_media.s: layout/layout_media.c.s
@@ -716,7 +716,7 @@ layout/layout_media.s: layout/layout_media.c.s
 
 # target to generate assembly for a file
 layout/layout_media.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media.c.s
 .PHONY : layout/layout_media.c.s
 
 layout/layout_media_music.o: layout/layout_media_music.c.o
@@ -725,7 +725,7 @@ layout/layout_media_music.o: layout/layout_media_music.c.o
 
 # target to build an object file
 layout/layout_media_music.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_music.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_music.c.o
 .PHONY : layout/layout_media_music.c.o
 
 layout/layout_media_music.i: layout/layout_media_music.c.i
@@ -734,7 +734,7 @@ layout/layout_media_music.i: layout/layout_media_music.c.i
 
 # target to preprocess a source file
 layout/layout_media_music.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_music.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_music.c.i
 .PHONY : layout/layout_media_music.c.i
 
 layout/layout_media_music.s: layout/layout_media_music.c.s
@@ -743,7 +743,7 @@ layout/layout_media_music.s: layout/layout_media_music.c.s
 
 # target to generate assembly for a file
 layout/layout_media_music.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_music.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_music.c.s
 .PHONY : layout/layout_media_music.c.s
 
 layout/layout_media_photo.o: layout/layout_media_photo.c.o
@@ -752,7 +752,7 @@ layout/layout_media_photo.o: layout/layout_media_photo.c.o
 
 # target to build an object file
 layout/layout_media_photo.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_photo.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_photo.c.o
 .PHONY : layout/layout_media_photo.c.o
 
 layout/layout_media_photo.i: layout/layout_media_photo.c.i
@@ -761,7 +761,7 @@ layout/layout_media_photo.i: layout/layout_media_photo.c.i
 
 # target to preprocess a source file
 layout/layout_media_photo.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_photo.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_photo.c.i
 .PHONY : layout/layout_media_photo.c.i
 
 layout/layout_media_photo.s: layout/layout_media_photo.c.s
@@ -770,7 +770,7 @@ layout/layout_media_photo.s: layout/layout_media_photo.c.s
 
 # target to generate assembly for a file
 layout/layout_media_photo.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_photo.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_media_photo.c.s
 .PHONY : layout/layout_media_photo.c.s
 
 layout/layout_monitor.o: layout/layout_monitor.c.o
@@ -779,7 +779,7 @@ layout/layout_monitor.o: layout/layout_monitor.c.o
 
 # target to build an object file
 layout/layout_monitor.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor.c.o
 .PHONY : layout/layout_monitor.c.o
 
 layout/layout_monitor.i: layout/layout_monitor.c.i
@@ -788,7 +788,7 @@ layout/layout_monitor.i: layout/layout_monitor.c.i
 
 # target to preprocess a source file
 layout/layout_monitor.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor.c.i
 .PHONY : layout/layout_monitor.c.i
 
 layout/layout_monitor.s: layout/layout_monitor.c.s
@@ -797,7 +797,7 @@ layout/layout_monitor.s: layout/layout_monitor.c.s
 
 # target to generate assembly for a file
 layout/layout_monitor.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor.c.s
 .PHONY : layout/layout_monitor.c.s
 
 layout/layout_monitor2.o: layout/layout_monitor2.c.o
@@ -806,7 +806,7 @@ layout/layout_monitor2.o: layout/layout_monitor2.c.o
 
 # target to build an object file
 layout/layout_monitor2.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor2.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor2.c.o
 .PHONY : layout/layout_monitor2.c.o
 
 layout/layout_monitor2.i: layout/layout_monitor2.c.i
@@ -815,7 +815,7 @@ layout/layout_monitor2.i: layout/layout_monitor2.c.i
 
 # target to preprocess a source file
 layout/layout_monitor2.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor2.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor2.c.i
 .PHONY : layout/layout_monitor2.c.i
 
 layout/layout_monitor2.s: layout/layout_monitor2.c.s
@@ -824,7 +824,7 @@ layout/layout_monitor2.s: layout/layout_monitor2.c.s
 
 # target to generate assembly for a file
 layout/layout_monitor2.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor2.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor2.c.s
 .PHONY : layout/layout_monitor2.c.s
 
 layout/layout_monitor_1.o: layout/layout_monitor_1.c.o
@@ -833,7 +833,7 @@ layout/layout_monitor_1.o: layout/layout_monitor_1.c.o
 
 # target to build an object file
 layout/layout_monitor_1.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor_1.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor_1.c.o
 .PHONY : layout/layout_monitor_1.c.o
 
 layout/layout_monitor_1.i: layout/layout_monitor_1.c.i
@@ -842,7 +842,7 @@ layout/layout_monitor_1.i: layout/layout_monitor_1.c.i
 
 # target to preprocess a source file
 layout/layout_monitor_1.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor_1.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor_1.c.i
 .PHONY : layout/layout_monitor_1.c.i
 
 layout/layout_monitor_1.s: layout/layout_monitor_1.c.s
@@ -851,7 +851,7 @@ layout/layout_monitor_1.s: layout/layout_monitor_1.c.s
 
 # target to generate assembly for a file
 layout/layout_monitor_1.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor_1.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_monitor_1.c.s
 .PHONY : layout/layout_monitor_1.c.s
 
 layout/layout_password_input.o: layout/layout_password_input.c.o
@@ -860,7 +860,7 @@ layout/layout_password_input.o: layout/layout_password_input.c.o
 
 # target to build an object file
 layout/layout_password_input.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_password_input.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_password_input.c.o
 .PHONY : layout/layout_password_input.c.o
 
 layout/layout_password_input.i: layout/layout_password_input.c.i
@@ -869,7 +869,7 @@ layout/layout_password_input.i: layout/layout_password_input.c.i
 
 # target to preprocess a source file
 layout/layout_password_input.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_password_input.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_password_input.c.i
 .PHONY : layout/layout_password_input.c.i
 
 layout/layout_password_input.s: layout/layout_password_input.c.s
@@ -878,7 +878,7 @@ layout/layout_password_input.s: layout/layout_password_input.c.s
 
 # target to generate assembly for a file
 layout/layout_password_input.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_password_input.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_password_input.c.s
 .PHONY : layout/layout_password_input.c.s
 
 layout/layout_photo.o: layout/layout_photo.c.o
@@ -887,7 +887,7 @@ layout/layout_photo.o: layout/layout_photo.c.o
 
 # target to build an object file
 layout/layout_photo.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_photo.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_photo.c.o
 .PHONY : layout/layout_photo.c.o
 
 layout/layout_photo.i: layout/layout_photo.c.i
@@ -896,7 +896,7 @@ layout/layout_photo.i: layout/layout_photo.c.i
 
 # target to preprocess a source file
 layout/layout_photo.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_photo.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_photo.c.i
 .PHONY : layout/layout_photo.c.i
 
 layout/layout_photo.s: layout/layout_photo.c.s
@@ -905,7 +905,7 @@ layout/layout_photo.s: layout/layout_photo.c.s
 
 # target to generate assembly for a file
 layout/layout_photo.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_photo.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_photo.c.s
 .PHONY : layout/layout_photo.c.s
 
 layout/layout_playback.o: layout/layout_playback.c.o
@@ -914,7 +914,7 @@ layout/layout_playback.o: layout/layout_playback.c.o
 
 # target to build an object file
 layout/layout_playback.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_playback.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_playback.c.o
 .PHONY : layout/layout_playback.c.o
 
 layout/layout_playback.i: layout/layout_playback.c.i
@@ -923,7 +923,7 @@ layout/layout_playback.i: layout/layout_playback.c.i
 
 # target to preprocess a source file
 layout/layout_playback.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_playback.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_playback.c.i
 .PHONY : layout/layout_playback.c.i
 
 layout/layout_playback.s: layout/layout_playback.c.s
@@ -932,7 +932,7 @@ layout/layout_playback.s: layout/layout_playback.c.s
 
 # target to generate assembly for a file
 layout/layout_playback.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_playback.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_playback.c.s
 .PHONY : layout/layout_playback.c.s
 
 layout/layout_record_list.o: layout/layout_record_list.c.o
@@ -941,7 +941,7 @@ layout/layout_record_list.o: layout/layout_record_list.c.o
 
 # target to build an object file
 layout/layout_record_list.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_record_list.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_record_list.c.o
 .PHONY : layout/layout_record_list.c.o
 
 layout/layout_record_list.i: layout/layout_record_list.c.i
@@ -950,7 +950,7 @@ layout/layout_record_list.i: layout/layout_record_list.c.i
 
 # target to preprocess a source file
 layout/layout_record_list.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_record_list.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_record_list.c.i
 .PHONY : layout/layout_record_list.c.i
 
 layout/layout_record_list.s: layout/layout_record_list.c.s
@@ -959,7 +959,7 @@ layout/layout_record_list.s: layout/layout_record_list.c.s
 
 # target to generate assembly for a file
 layout/layout_record_list.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_record_list.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_record_list.c.s
 .PHONY : layout/layout_record_list.c.s
 
 layout/layout_setting.o: layout/layout_setting.c.o
@@ -968,7 +968,7 @@ layout/layout_setting.o: layout/layout_setting.c.o
 
 # target to build an object file
 layout/layout_setting.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting.c.o
 .PHONY : layout/layout_setting.c.o
 
 layout/layout_setting.i: layout/layout_setting.c.i
@@ -977,7 +977,7 @@ layout/layout_setting.i: layout/layout_setting.c.i
 
 # target to preprocess a source file
 layout/layout_setting.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting.c.i
 .PHONY : layout/layout_setting.c.i
 
 layout/layout_setting.s: layout/layout_setting.c.s
@@ -986,7 +986,7 @@ layout/layout_setting.s: layout/layout_setting.c.s
 
 # target to generate assembly for a file
 layout/layout_setting.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting.c.s
 .PHONY : layout/layout_setting.c.s
 
 layout/layout_setting_admin.o: layout/layout_setting_admin.c.o
@@ -995,7 +995,7 @@ layout/layout_setting_admin.o: layout/layout_setting_admin.c.o
 
 # target to build an object file
 layout/layout_setting_admin.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_admin.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_admin.c.o
 .PHONY : layout/layout_setting_admin.c.o
 
 layout/layout_setting_admin.i: layout/layout_setting_admin.c.i
@@ -1004,7 +1004,7 @@ layout/layout_setting_admin.i: layout/layout_setting_admin.c.i
 
 # target to preprocess a source file
 layout/layout_setting_admin.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_admin.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_admin.c.i
 .PHONY : layout/layout_setting_admin.c.i
 
 layout/layout_setting_admin.s: layout/layout_setting_admin.c.s
@@ -1013,7 +1013,7 @@ layout/layout_setting_admin.s: layout/layout_setting_admin.c.s
 
 # target to generate assembly for a file
 layout/layout_setting_admin.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_admin.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_admin.c.s
 .PHONY : layout/layout_setting_admin.c.s
 
 layout/layout_setting_camera.o: layout/layout_setting_camera.c.o
@@ -1022,7 +1022,7 @@ layout/layout_setting_camera.o: layout/layout_setting_camera.c.o
 
 # target to build an object file
 layout/layout_setting_camera.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_camera.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_camera.c.o
 .PHONY : layout/layout_setting_camera.c.o
 
 layout/layout_setting_camera.i: layout/layout_setting_camera.c.i
@@ -1031,7 +1031,7 @@ layout/layout_setting_camera.i: layout/layout_setting_camera.c.i
 
 # target to preprocess a source file
 layout/layout_setting_camera.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_camera.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_camera.c.i
 .PHONY : layout/layout_setting_camera.c.i
 
 layout/layout_setting_camera.s: layout/layout_setting_camera.c.s
@@ -1040,7 +1040,7 @@ layout/layout_setting_camera.s: layout/layout_setting_camera.c.s
 
 # target to generate assembly for a file
 layout/layout_setting_camera.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_camera.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_camera.c.s
 .PHONY : layout/layout_setting_camera.c.s
 
 layout/layout_setting_door.o: layout/layout_setting_door.c.o
@@ -1049,7 +1049,7 @@ layout/layout_setting_door.o: layout/layout_setting_door.c.o
 
 # target to build an object file
 layout/layout_setting_door.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_door.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_door.c.o
 .PHONY : layout/layout_setting_door.c.o
 
 layout/layout_setting_door.i: layout/layout_setting_door.c.i
@@ -1058,7 +1058,7 @@ layout/layout_setting_door.i: layout/layout_setting_door.c.i
 
 # target to preprocess a source file
 layout/layout_setting_door.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_door.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_door.c.i
 .PHONY : layout/layout_setting_door.c.i
 
 layout/layout_setting_door.s: layout/layout_setting_door.c.s
@@ -1067,7 +1067,7 @@ layout/layout_setting_door.s: layout/layout_setting_door.c.s
 
 # target to generate assembly for a file
 layout/layout_setting_door.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_door.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_door.c.s
 .PHONY : layout/layout_setting_door.c.s
 
 layout/layout_setting_info.o: layout/layout_setting_info.c.o
@@ -1076,7 +1076,7 @@ layout/layout_setting_info.o: layout/layout_setting_info.c.o
 
 # target to build an object file
 layout/layout_setting_info.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_info.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_info.c.o
 .PHONY : layout/layout_setting_info.c.o
 
 layout/layout_setting_info.i: layout/layout_setting_info.c.i
@@ -1085,7 +1085,7 @@ layout/layout_setting_info.i: layout/layout_setting_info.c.i
 
 # target to preprocess a source file
 layout/layout_setting_info.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_info.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_info.c.i
 .PHONY : layout/layout_setting_info.c.i
 
 layout/layout_setting_info.s: layout/layout_setting_info.c.s
@@ -1094,7 +1094,7 @@ layout/layout_setting_info.s: layout/layout_setting_info.c.s
 
 # target to generate assembly for a file
 layout/layout_setting_info.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_info.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_info.c.s
 .PHONY : layout/layout_setting_info.c.s
 
 layout/layout_setting_ipc.o: layout/layout_setting_ipc.c.o
@@ -1103,7 +1103,7 @@ layout/layout_setting_ipc.o: layout/layout_setting_ipc.c.o
 
 # target to build an object file
 layout/layout_setting_ipc.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ipc.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ipc.c.o
 .PHONY : layout/layout_setting_ipc.c.o
 
 layout/layout_setting_ipc.i: layout/layout_setting_ipc.c.i
@@ -1112,7 +1112,7 @@ layout/layout_setting_ipc.i: layout/layout_setting_ipc.c.i
 
 # target to preprocess a source file
 layout/layout_setting_ipc.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ipc.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ipc.c.i
 .PHONY : layout/layout_setting_ipc.c.i
 
 layout/layout_setting_ipc.s: layout/layout_setting_ipc.c.s
@@ -1121,7 +1121,7 @@ layout/layout_setting_ipc.s: layout/layout_setting_ipc.c.s
 
 # target to generate assembly for a file
 layout/layout_setting_ipc.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ipc.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ipc.c.s
 .PHONY : layout/layout_setting_ipc.c.s
 
 layout/layout_setting_ring.o: layout/layout_setting_ring.c.o
@@ -1130,7 +1130,7 @@ layout/layout_setting_ring.o: layout/layout_setting_ring.c.o
 
 # target to build an object file
 layout/layout_setting_ring.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ring.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ring.c.o
 .PHONY : layout/layout_setting_ring.c.o
 
 layout/layout_setting_ring.i: layout/layout_setting_ring.c.i
@@ -1139,7 +1139,7 @@ layout/layout_setting_ring.i: layout/layout_setting_ring.c.i
 
 # target to preprocess a source file
 layout/layout_setting_ring.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ring.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ring.c.i
 .PHONY : layout/layout_setting_ring.c.i
 
 layout/layout_setting_ring.s: layout/layout_setting_ring.c.s
@@ -1148,7 +1148,7 @@ layout/layout_setting_ring.s: layout/layout_setting_ring.c.s
 
 # target to generate assembly for a file
 layout/layout_setting_ring.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ring.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_ring.c.s
 .PHONY : layout/layout_setting_ring.c.s
 
 layout/layout_setting_scene.o: layout/layout_setting_scene.c.o
@@ -1157,7 +1157,7 @@ layout/layout_setting_scene.o: layout/layout_setting_scene.c.o
 
 # target to build an object file
 layout/layout_setting_scene.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_scene.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_scene.c.o
 .PHONY : layout/layout_setting_scene.c.o
 
 layout/layout_setting_scene.i: layout/layout_setting_scene.c.i
@@ -1166,7 +1166,7 @@ layout/layout_setting_scene.i: layout/layout_setting_scene.c.i
 
 # target to preprocess a source file
 layout/layout_setting_scene.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_scene.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_scene.c.i
 .PHONY : layout/layout_setting_scene.c.i
 
 layout/layout_setting_scene.s: layout/layout_setting_scene.c.s
@@ -1175,7 +1175,7 @@ layout/layout_setting_scene.s: layout/layout_setting_scene.c.s
 
 # target to generate assembly for a file
 layout/layout_setting_scene.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_scene.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_scene.c.s
 .PHONY : layout/layout_setting_scene.c.s
 
 layout/layout_setting_senior.o: layout/layout_setting_senior.c.o
@@ -1184,7 +1184,7 @@ layout/layout_setting_senior.o: layout/layout_setting_senior.c.o
 
 # target to build an object file
 layout/layout_setting_senior.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_senior.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_senior.c.o
 .PHONY : layout/layout_setting_senior.c.o
 
 layout/layout_setting_senior.i: layout/layout_setting_senior.c.i
@@ -1193,7 +1193,7 @@ layout/layout_setting_senior.i: layout/layout_setting_senior.c.i
 
 # target to preprocess a source file
 layout/layout_setting_senior.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_senior.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_senior.c.i
 .PHONY : layout/layout_setting_senior.c.i
 
 layout/layout_setting_senior.s: layout/layout_setting_senior.c.s
@@ -1202,7 +1202,7 @@ layout/layout_setting_senior.s: layout/layout_setting_senior.c.s
 
 # target to generate assembly for a file
 layout/layout_setting_senior.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_senior.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_senior.c.s
 .PHONY : layout/layout_setting_senior.c.s
 
 layout/layout_setting_sys.o: layout/layout_setting_sys.c.o
@@ -1211,7 +1211,7 @@ layout/layout_setting_sys.o: layout/layout_setting_sys.c.o
 
 # target to build an object file
 layout/layout_setting_sys.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_sys.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_sys.c.o
 .PHONY : layout/layout_setting_sys.c.o
 
 layout/layout_setting_sys.i: layout/layout_setting_sys.c.i
@@ -1220,7 +1220,7 @@ layout/layout_setting_sys.i: layout/layout_setting_sys.c.i
 
 # target to preprocess a source file
 layout/layout_setting_sys.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_sys.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_sys.c.i
 .PHONY : layout/layout_setting_sys.c.i
 
 layout/layout_setting_sys.s: layout/layout_setting_sys.c.s
@@ -1229,7 +1229,7 @@ layout/layout_setting_sys.s: layout/layout_setting_sys.c.s
 
 # target to generate assembly for a file
 layout/layout_setting_sys.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_sys.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_sys.c.s
 .PHONY : layout/layout_setting_sys.c.s
 
 layout/layout_setting_wifi.o: layout/layout_setting_wifi.c.o
@@ -1238,7 +1238,7 @@ layout/layout_setting_wifi.o: layout/layout_setting_wifi.c.o
 
 # target to build an object file
 layout/layout_setting_wifi.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_wifi.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_wifi.c.o
 .PHONY : layout/layout_setting_wifi.c.o
 
 layout/layout_setting_wifi.i: layout/layout_setting_wifi.c.i
@@ -1247,7 +1247,7 @@ layout/layout_setting_wifi.i: layout/layout_setting_wifi.c.i
 
 # target to preprocess a source file
 layout/layout_setting_wifi.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_wifi.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_wifi.c.i
 .PHONY : layout/layout_setting_wifi.c.i
 
 layout/layout_setting_wifi.s: layout/layout_setting_wifi.c.s
@@ -1256,7 +1256,7 @@ layout/layout_setting_wifi.s: layout/layout_setting_wifi.c.s
 
 # target to generate assembly for a file
 layout/layout_setting_wifi.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_wifi.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_setting_wifi.c.s
 .PHONY : layout/layout_setting_wifi.c.s
 
 layout/layout_standby.o: layout/layout_standby.c.o
@@ -1265,7 +1265,7 @@ layout/layout_standby.o: layout/layout_standby.c.o
 
 # target to build an object file
 layout/layout_standby.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_standby.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_standby.c.o
 .PHONY : layout/layout_standby.c.o
 
 layout/layout_standby.i: layout/layout_standby.c.i
@@ -1274,7 +1274,7 @@ layout/layout_standby.i: layout/layout_standby.c.i
 
 # target to preprocess a source file
 layout/layout_standby.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_standby.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_standby.c.i
 .PHONY : layout/layout_standby.c.i
 
 layout/layout_standby.s: layout/layout_standby.c.s
@@ -1283,7 +1283,7 @@ layout/layout_standby.s: layout/layout_standby.c.s
 
 # target to generate assembly for a file
 layout/layout_standby.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_standby.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_standby.c.s
 .PHONY : layout/layout_standby.c.s
 
 layout/layout_time_display.o: layout/layout_time_display.c.o
@@ -1292,7 +1292,7 @@ layout/layout_time_display.o: layout/layout_time_display.c.o
 
 # target to build an object file
 layout/layout_time_display.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_time_display.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_time_display.c.o
 .PHONY : layout/layout_time_display.c.o
 
 layout/layout_time_display.i: layout/layout_time_display.c.i
@@ -1301,7 +1301,7 @@ layout/layout_time_display.i: layout/layout_time_display.c.i
 
 # target to preprocess a source file
 layout/layout_time_display.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_time_display.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_time_display.c.i
 .PHONY : layout/layout_time_display.c.i
 
 layout/layout_time_display.s: layout/layout_time_display.c.s
@@ -1310,7 +1310,7 @@ layout/layout_time_display.s: layout/layout_time_display.c.s
 
 # target to generate assembly for a file
 layout/layout_time_display.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_time_display.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_time_display.c.s
 .PHONY : layout/layout_time_display.c.s
 
 layout/layout_transfer.o: layout/layout_transfer.c.o
@@ -1319,7 +1319,7 @@ layout/layout_transfer.o: layout/layout_transfer.c.o
 
 # target to build an object file
 layout/layout_transfer.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_transfer.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_transfer.c.o
 .PHONY : layout/layout_transfer.c.o
 
 layout/layout_transfer.i: layout/layout_transfer.c.i
@@ -1328,7 +1328,7 @@ layout/layout_transfer.i: layout/layout_transfer.c.i
 
 # target to preprocess a source file
 layout/layout_transfer.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_transfer.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_transfer.c.i
 .PHONY : layout/layout_transfer.c.i
 
 layout/layout_transfer.s: layout/layout_transfer.c.s
@@ -1337,7 +1337,7 @@ layout/layout_transfer.s: layout/layout_transfer.c.s
 
 # target to generate assembly for a file
 layout/layout_transfer.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_transfer.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_transfer.c.s
 .PHONY : layout/layout_transfer.c.s
 
 layout/layout_tuya_register.o: layout/layout_tuya_register.c.o
@@ -1346,7 +1346,7 @@ layout/layout_tuya_register.o: layout/layout_tuya_register.c.o
 
 # target to build an object file
 layout/layout_tuya_register.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_tuya_register.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_tuya_register.c.o
 .PHONY : layout/layout_tuya_register.c.o
 
 layout/layout_tuya_register.i: layout/layout_tuya_register.c.i
@@ -1355,7 +1355,7 @@ layout/layout_tuya_register.i: layout/layout_tuya_register.c.i
 
 # target to preprocess a source file
 layout/layout_tuya_register.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_tuya_register.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_tuya_register.c.i
 .PHONY : layout/layout_tuya_register.c.i
 
 layout/layout_tuya_register.s: layout/layout_tuya_register.c.s
@@ -1364,7 +1364,7 @@ layout/layout_tuya_register.s: layout/layout_tuya_register.c.s
 
 # target to generate assembly for a file
 layout/layout_tuya_register.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_tuya_register.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_tuya_register.c.s
 .PHONY : layout/layout_tuya_register.c.s
 
 layout/layout_video.o: layout/layout_video.c.o
@@ -1373,7 +1373,7 @@ layout/layout_video.o: layout/layout_video.c.o
 
 # target to build an object file
 layout/layout_video.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_video.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_video.c.o
 .PHONY : layout/layout_video.c.o
 
 layout/layout_video.i: layout/layout_video.c.i
@@ -1382,7 +1382,7 @@ layout/layout_video.i: layout/layout_video.c.i
 
 # target to preprocess a source file
 layout/layout_video.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_video.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_video.c.i
 .PHONY : layout/layout_video.c.i
 
 layout/layout_video.s: layout/layout_video.c.s
@@ -1391,7 +1391,7 @@ layout/layout_video.s: layout/layout_video.c.s
 
 # target to generate assembly for a file
 layout/layout_video.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_video.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/layout_video.c.s
 .PHONY : layout/layout_video.c.s
 
 layout/numeric_keypad.o: layout/numeric_keypad.c.o
@@ -1400,7 +1400,7 @@ layout/numeric_keypad.o: layout/numeric_keypad.c.o
 
 # target to build an object file
 layout/numeric_keypad.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/numeric_keypad.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/numeric_keypad.c.o
 .PHONY : layout/numeric_keypad.c.o
 
 layout/numeric_keypad.i: layout/numeric_keypad.c.i
@@ -1409,7 +1409,7 @@ layout/numeric_keypad.i: layout/numeric_keypad.c.i
 
 # target to preprocess a source file
 layout/numeric_keypad.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/numeric_keypad.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/numeric_keypad.c.i
 .PHONY : layout/numeric_keypad.c.i
 
 layout/numeric_keypad.s: layout/numeric_keypad.c.s
@@ -1418,7 +1418,7 @@ layout/numeric_keypad.s: layout/numeric_keypad.c.s
 
 # target to generate assembly for a file
 layout/numeric_keypad.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/numeric_keypad.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/numeric_keypad.c.s
 .PHONY : layout/numeric_keypad.c.s
 
 layout/tuya_uuid_upgrade.o: layout/tuya_uuid_upgrade.c.o
@@ -1427,7 +1427,7 @@ layout/tuya_uuid_upgrade.o: layout/tuya_uuid_upgrade.c.o
 
 # target to build an object file
 layout/tuya_uuid_upgrade.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/tuya_uuid_upgrade.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/tuya_uuid_upgrade.c.o
 .PHONY : layout/tuya_uuid_upgrade.c.o
 
 layout/tuya_uuid_upgrade.i: layout/tuya_uuid_upgrade.c.i
@@ -1436,7 +1436,7 @@ layout/tuya_uuid_upgrade.i: layout/tuya_uuid_upgrade.c.i
 
 # target to preprocess a source file
 layout/tuya_uuid_upgrade.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/tuya_uuid_upgrade.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/tuya_uuid_upgrade.c.i
 .PHONY : layout/tuya_uuid_upgrade.c.i
 
 layout/tuya_uuid_upgrade.s: layout/tuya_uuid_upgrade.c.s
@@ -1445,7 +1445,7 @@ layout/tuya_uuid_upgrade.s: layout/tuya_uuid_upgrade.c.s
 
 # target to generate assembly for a file
 layout/tuya_uuid_upgrade.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/tuya_uuid_upgrade.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/tuya_uuid_upgrade.c.s
 .PHONY : layout/tuya_uuid_upgrade.c.s
 
 layout/upgrade_firmware.o: layout/upgrade_firmware.c.o
@@ -1454,7 +1454,7 @@ layout/upgrade_firmware.o: layout/upgrade_firmware.c.o
 
 # target to build an object file
 layout/upgrade_firmware.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/upgrade_firmware.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/upgrade_firmware.c.o
 .PHONY : layout/upgrade_firmware.c.o
 
 layout/upgrade_firmware.i: layout/upgrade_firmware.c.i
@@ -1463,7 +1463,7 @@ layout/upgrade_firmware.i: layout/upgrade_firmware.c.i
 
 # target to preprocess a source file
 layout/upgrade_firmware.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/upgrade_firmware.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/upgrade_firmware.c.i
 .PHONY : layout/upgrade_firmware.c.i
 
 layout/upgrade_firmware.s: layout/upgrade_firmware.c.s
@@ -1472,7 +1472,7 @@ layout/upgrade_firmware.s: layout/upgrade_firmware.c.s
 
 # target to generate assembly for a file
 layout/upgrade_firmware.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/upgrade_firmware.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/upgrade_firmware.c.s
 .PHONY : layout/upgrade_firmware.c.s
 
 layout/user_data.o: layout/user_data.c.o
@@ -1481,7 +1481,7 @@ layout/user_data.o: layout/user_data.c.o
 
 # target to build an object file
 layout/user_data.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/user_data.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/user_data.c.o
 .PHONY : layout/user_data.c.o
 
 layout/user_data.i: layout/user_data.c.i
@@ -1490,7 +1490,7 @@ layout/user_data.i: layout/user_data.c.i
 
 # target to preprocess a source file
 layout/user_data.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/user_data.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/user_data.c.i
 .PHONY : layout/user_data.c.i
 
 layout/user_data.s: layout/user_data.c.s
@@ -1499,7 +1499,7 @@ layout/user_data.s: layout/user_data.c.s
 
 # target to generate assembly for a file
 layout/user_data.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/user_data.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/layout/user_data.c.s
 .PHONY : layout/user_data.c.s
 
 main.o: main.c.o
@@ -1508,7 +1508,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/main.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -1517,7 +1517,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/main.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -1526,7 +1526,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/main.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/CMakeFiles/../ANYKA37E.BIN.dir/build.make src/CMakeFiles/../ANYKA37E.BIN.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -1705,6 +1705,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

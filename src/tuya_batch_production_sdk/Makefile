@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.3-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6
+CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6
+CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/src/tuya_batch_production_sdk/CMakeFiles/progress.marks
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6/CMakeFiles 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/tuya_batch_production_sdk/CMakeFiles/progress.marks
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/clean
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya_batch_production_sdk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -129,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_ment_2wdg_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
