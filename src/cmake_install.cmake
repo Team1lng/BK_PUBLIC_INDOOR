@@ -1,4 +1,4 @@
-# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src
+# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/lvgl/cmake_install.cmake")
-  include("/home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/lv_drivers/cmake_install.cmake")
-  include("/home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/lv_qrcode/cmake_install.cmake")
-  include("/home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/api/cmake_install.cmake")
-  include("/home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/tuya_batch_production_sdk/cmake_install.cmake")
-  include("/home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/iniparser/cmake_install.cmake")
-  include("/home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/tuya-6.2.20/cmake_install.cmake")
+  include("/home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/lvgl/cmake_install.cmake")
+  include("/home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/lv_drivers/cmake_install.cmake")
+  include("/home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/lv_qrcode/cmake_install.cmake")
+  include("/home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/api/cmake_install.cmake")
+  include("/home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/tuya_batch_production_sdk/cmake_install.cmake")
+  include("/home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/iniparser/cmake_install.cmake")
+  include("/home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/tuya-6.2.20/cmake_install.cmake")
 
 endif()
 

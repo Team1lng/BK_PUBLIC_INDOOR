@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.3-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
+CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_indoor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
+CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_indoor
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/lv_qrcode/CMakeFiles/progress.marks
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/lv_qrcode/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/lv_qrcode/CMakeFiles/progress.marks
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/lv_qrcode/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/lv_qrcode/clean
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/lv_qrcode/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/lv_qrcode/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/lv_qrcode/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/lv_qrcode/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/lv_qrcode/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/rule:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/rule
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/rule
 .PHONY : src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ lv_qrcode_lib: src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/rule
 
 # fast build rule for target.
 lv_qrcode_lib/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build
 .PHONY : lv_qrcode_lib/fast
 
 lv_jpg_decode.o: lv_jpg_decode.c.o
@@ -131,7 +131,7 @@ lv_jpg_decode.o: lv_jpg_decode.c.o
 
 # target to build an object file
 lv_jpg_decode.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_jpg_decode.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_jpg_decode.c.o
 .PHONY : lv_jpg_decode.c.o
 
 lv_jpg_decode.i: lv_jpg_decode.c.i
@@ -140,7 +140,7 @@ lv_jpg_decode.i: lv_jpg_decode.c.i
 
 # target to preprocess a source file
 lv_jpg_decode.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_jpg_decode.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_jpg_decode.c.i
 .PHONY : lv_jpg_decode.c.i
 
 lv_jpg_decode.s: lv_jpg_decode.c.s
@@ -149,7 +149,7 @@ lv_jpg_decode.s: lv_jpg_decode.c.s
 
 # target to generate assembly for a file
 lv_jpg_decode.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_jpg_decode.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_jpg_decode.c.s
 .PHONY : lv_jpg_decode.c.s
 
 lv_qrcode.o: lv_qrcode.c.o
@@ -158,7 +158,7 @@ lv_qrcode.o: lv_qrcode.c.o
 
 # target to build an object file
 lv_qrcode.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_qrcode.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_qrcode.c.o
 .PHONY : lv_qrcode.c.o
 
 lv_qrcode.i: lv_qrcode.c.i
@@ -167,7 +167,7 @@ lv_qrcode.i: lv_qrcode.c.i
 
 # target to preprocess a source file
 lv_qrcode.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_qrcode.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_qrcode.c.i
 .PHONY : lv_qrcode.c.i
 
 lv_qrcode.s: lv_qrcode.c.s
@@ -176,7 +176,7 @@ lv_qrcode.s: lv_qrcode.c.s
 
 # target to generate assembly for a file
 lv_qrcode.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_qrcode.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/lv_qrcode.c.s
 .PHONY : lv_qrcode.c.s
 
 qrcodegen.o: qrcodegen.c.o
@@ -185,7 +185,7 @@ qrcodegen.o: qrcodegen.c.o
 
 # target to build an object file
 qrcodegen.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/qrcodegen.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/qrcodegen.c.o
 .PHONY : qrcodegen.c.o
 
 qrcodegen.i: qrcodegen.c.i
@@ -194,7 +194,7 @@ qrcodegen.i: qrcodegen.c.i
 
 # target to preprocess a source file
 qrcodegen.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/qrcodegen.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/qrcodegen.c.i
 .PHONY : qrcodegen.c.i
 
 qrcodegen.s: qrcodegen.c.s
@@ -203,7 +203,7 @@ qrcodegen.s: qrcodegen.c.s
 
 # target to generate assembly for a file
 qrcodegen.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/qrcodegen.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/build.make src/lv_qrcode/CMakeFiles/lv_qrcode_lib.dir/qrcodegen.c.s
 .PHONY : qrcodegen.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

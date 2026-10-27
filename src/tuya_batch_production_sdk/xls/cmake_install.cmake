@@ -1,4 +1,4 @@
-# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/tuya_batch_production_sdk/xls
+# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/tuya_batch_production_sdk/xls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

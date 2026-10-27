@@ -8,7 +8,10 @@ extern const lv_btnmatrix_ctrl_t *kb_ctrl[];
 extern int connectwifi_index;
 extern lv_obj_t *connect_wifi_cb(void);
 extern void set_msg_text(lv_obj_t *msg, int state);
-extern int wifi_connection_status_sucess(void);
+extern bool wifi_connection_check_start(void);
+extern int wifi_connection_check_state(void);
+extern void wifi_connection_check_cancel(void);
+extern void wifi_link_info_refresh(void);
 
 extern void set_location(lv_obj_t *obj, int x, int y, int w, int h);
 
@@ -120,6 +123,7 @@ static void close_wifi_connect(void)
 	{
 		Debug("\n\n\n");
 		connect_falge = false;
+		wifi_connection_check_cancel();
 		system("killall wpa_supplicant");
 		system("killall udhcpc");
 
@@ -142,14 +146,14 @@ static void msg_task(struct _lv_task_t *task_t)
 		if (task_timer <= 12)
 		{
 			task_timer++;
-			int connect_ret = wifi_connection_status_sucess();
-			if (connect_ret == 1 && (task_timer > 3))
+			int connect_ret = wifi_connection_check_state();
+			if (connect_ret == WIFI_CONNECTION_CHECK_SUCCESS && (task_timer > 3))
 			{ // 连接成功
+				connect_falge = false;
 
 				Debug("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&:%d\n", user_data_get()->wifi.wifi_connect_flag);
-				system("\\cp -rf /tmp/wpa_supplicant.conf " WPA_SUPPLICANT_PATH " &");
-				system("sync &");
 				user_data_get()->wifi.wifi_connect_flag = true;
+				wifi_link_info_refresh();
 				user_data_save();
 				goto_layout(pLAYOUT(setting_wifi));
 				lv_obj_t *msg1 = connect_wifi_cb();
@@ -157,10 +161,11 @@ static void msg_task(struct _lv_task_t *task_t)
 				task_timer = 0;
 			}
 		}
-		else
+		else if (wifi_connection_check_state() == WIFI_CONNECTION_CHECK_FAIL || task_timer > 30)
 		{ // 连接失败
 			Debug("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&:%d\n", user_data_get()->wifi.wifi_connect_flag);
 			connect_falge = false;
+			wifi_connection_check_cancel();
 			task_timer = 0;
 			lv_obj_t *msg1 = connect_wifi_cb();
 			set_msg_text(msg1, CONNECT_FAIL);
@@ -308,6 +313,7 @@ static void lv_keyboard_event_cb(lv_obj_t *kb)
 
 			// tuya_ipc_reconnect_wifi();
 			wpa_cli_connect_new_wifi(connectwifi_name, (char *)txt);
+			wifi_connection_check_start();
 		}
 		else if (ext->btnm.pattern_p[btn_id]->offset == ROM_RES_KB_ENTER_PNG) /* LV_SYMBOL_NEW_LINE*/
 			printf("***LV_SYMBOL_NEW_LINE***\n");

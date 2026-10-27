@@ -27,9 +27,9 @@ if(NOT IPS_SCREEN EQUAL 7 AND NOT IPS_SCREEN EQUAL 8)
 endif()
 # 涂鸦应用版本
 if(IPS_SCREEN EQUAL 8)
-	add_definitions(-DIPC_APP_VERSION="1.3.1")
+	add_definitions(-DIPC_APP_VERSION="1.3.3")
 else()
-	add_definitions(-DIPC_APP_VERSION="1.3.1")
+	add_definitions(-DIPC_APP_VERSION="1.3.3")
 endif()
 add_definitions(-DWEATHER_MOUDLE)
 

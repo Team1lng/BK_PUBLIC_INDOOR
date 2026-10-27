@@ -2285,7 +2285,7 @@ static void LAYOUT_ENETER_FUNC(monitor)
 static void LAYOUT_QUIT_FUNC(monitor)
 {
 	Debug("============================>>>\n");
-
+	tuya_cloud_storage_stop();
 	extern void main_device_monitor_busy_func(unsigned long arg1, unsigned long arg2);
 	device_monitor_busy_register(main_device_monitor_busy_func);
 	record_video_stop(0x00); // 停止录像

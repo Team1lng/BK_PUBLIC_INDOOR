@@ -2113,6 +2113,7 @@ static void LAYOUT_ENETER_FUNC(standby)
 static void LAYOUT_QUIT_FUNC(standby)
 {
 	sdcard_event_register(setting_sdcard_callback);
+	tuya_cloud_storage_stop();
 
 	if (monitor_enter_way_get() != MONITOR_ENTER_CALL)
 	{

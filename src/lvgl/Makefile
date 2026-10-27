@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.3-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
+CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_indoor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
+CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_indoor
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/lvgl/CMakeFiles/progress.marks
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/lvgl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/lvgl/CMakeFiles/progress.marks
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/lvgl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/lvgl/clean
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/lvgl/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/lvgl/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/lvgl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/lvgl/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/lvgl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/lvgl/CMakeFiles/lvgl_lib.dir/rule:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/lvgl/CMakeFiles/lvgl_lib.dir/rule
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/lvgl/CMakeFiles/lvgl_lib.dir/rule
 .PHONY : src/lvgl/CMakeFiles/lvgl_lib.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ lvgl_lib: src/lvgl/CMakeFiles/lvgl_lib.dir/rule
 
 # fast build rule for target.
 lvgl_lib/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/build
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/build
 .PHONY : lvgl_lib/fast
 
 src/lv_core/lv_disp.o: src/lv_core/lv_disp.c.o
@@ -131,7 +131,7 @@ src/lv_core/lv_disp.o: src/lv_core/lv_disp.c.o
 
 # target to build an object file
 src/lv_core/lv_disp.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_disp.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_disp.c.o
 .PHONY : src/lv_core/lv_disp.c.o
 
 src/lv_core/lv_disp.i: src/lv_core/lv_disp.c.i
@@ -140,7 +140,7 @@ src/lv_core/lv_disp.i: src/lv_core/lv_disp.c.i
 
 # target to preprocess a source file
 src/lv_core/lv_disp.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_disp.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_disp.c.i
 .PHONY : src/lv_core/lv_disp.c.i
 
 src/lv_core/lv_disp.s: src/lv_core/lv_disp.c.s
@@ -149,7 +149,7 @@ src/lv_core/lv_disp.s: src/lv_core/lv_disp.c.s
 
 # target to generate assembly for a file
 src/lv_core/lv_disp.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_disp.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_disp.c.s
 .PHONY : src/lv_core/lv_disp.c.s
 
 src/lv_core/lv_group.o: src/lv_core/lv_group.c.o
@@ -158,7 +158,7 @@ src/lv_core/lv_group.o: src/lv_core/lv_group.c.o
 
 # target to build an object file
 src/lv_core/lv_group.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_group.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_group.c.o
 .PHONY : src/lv_core/lv_group.c.o
 
 src/lv_core/lv_group.i: src/lv_core/lv_group.c.i
@@ -167,7 +167,7 @@ src/lv_core/lv_group.i: src/lv_core/lv_group.c.i
 
 # target to preprocess a source file
 src/lv_core/lv_group.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_group.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_group.c.i
 .PHONY : src/lv_core/lv_group.c.i
 
 src/lv_core/lv_group.s: src/lv_core/lv_group.c.s
@@ -176,7 +176,7 @@ src/lv_core/lv_group.s: src/lv_core/lv_group.c.s
 
 # target to generate assembly for a file
 src/lv_core/lv_group.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_group.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_group.c.s
 .PHONY : src/lv_core/lv_group.c.s
 
 src/lv_core/lv_indev.o: src/lv_core/lv_indev.c.o
@@ -185,7 +185,7 @@ src/lv_core/lv_indev.o: src/lv_core/lv_indev.c.o
 
 # target to build an object file
 src/lv_core/lv_indev.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_indev.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_indev.c.o
 .PHONY : src/lv_core/lv_indev.c.o
 
 src/lv_core/lv_indev.i: src/lv_core/lv_indev.c.i
@@ -194,7 +194,7 @@ src/lv_core/lv_indev.i: src/lv_core/lv_indev.c.i
 
 # target to preprocess a source file
 src/lv_core/lv_indev.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_indev.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_indev.c.i
 .PHONY : src/lv_core/lv_indev.c.i
 
 src/lv_core/lv_indev.s: src/lv_core/lv_indev.c.s
@@ -203,7 +203,7 @@ src/lv_core/lv_indev.s: src/lv_core/lv_indev.c.s
 
 # target to generate assembly for a file
 src/lv_core/lv_indev.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_indev.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_indev.c.s
 .PHONY : src/lv_core/lv_indev.c.s
 
 src/lv_core/lv_obj.o: src/lv_core/lv_obj.c.o
@@ -212,7 +212,7 @@ src/lv_core/lv_obj.o: src/lv_core/lv_obj.c.o
 
 # target to build an object file
 src/lv_core/lv_obj.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_obj.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_obj.c.o
 .PHONY : src/lv_core/lv_obj.c.o
 
 src/lv_core/lv_obj.i: src/lv_core/lv_obj.c.i
@@ -221,7 +221,7 @@ src/lv_core/lv_obj.i: src/lv_core/lv_obj.c.i
 
 # target to preprocess a source file
 src/lv_core/lv_obj.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_obj.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_obj.c.i
 .PHONY : src/lv_core/lv_obj.c.i
 
 src/lv_core/lv_obj.s: src/lv_core/lv_obj.c.s
@@ -230,7 +230,7 @@ src/lv_core/lv_obj.s: src/lv_core/lv_obj.c.s
 
 # target to generate assembly for a file
 src/lv_core/lv_obj.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_obj.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_obj.c.s
 .PHONY : src/lv_core/lv_obj.c.s
 
 src/lv_core/lv_refr.o: src/lv_core/lv_refr.c.o
@@ -239,7 +239,7 @@ src/lv_core/lv_refr.o: src/lv_core/lv_refr.c.o
 
 # target to build an object file
 src/lv_core/lv_refr.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_refr.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_refr.c.o
 .PHONY : src/lv_core/lv_refr.c.o
 
 src/lv_core/lv_refr.i: src/lv_core/lv_refr.c.i
@@ -248,7 +248,7 @@ src/lv_core/lv_refr.i: src/lv_core/lv_refr.c.i
 
 # target to preprocess a source file
 src/lv_core/lv_refr.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_refr.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_refr.c.i
 .PHONY : src/lv_core/lv_refr.c.i
 
 src/lv_core/lv_refr.s: src/lv_core/lv_refr.c.s
@@ -257,7 +257,7 @@ src/lv_core/lv_refr.s: src/lv_core/lv_refr.c.s
 
 # target to generate assembly for a file
 src/lv_core/lv_refr.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_refr.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_refr.c.s
 .PHONY : src/lv_core/lv_refr.c.s
 
 src/lv_core/lv_style.o: src/lv_core/lv_style.c.o
@@ -266,7 +266,7 @@ src/lv_core/lv_style.o: src/lv_core/lv_style.c.o
 
 # target to build an object file
 src/lv_core/lv_style.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_style.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_style.c.o
 .PHONY : src/lv_core/lv_style.c.o
 
 src/lv_core/lv_style.i: src/lv_core/lv_style.c.i
@@ -275,7 +275,7 @@ src/lv_core/lv_style.i: src/lv_core/lv_style.c.i
 
 # target to preprocess a source file
 src/lv_core/lv_style.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_style.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_style.c.i
 .PHONY : src/lv_core/lv_style.c.i
 
 src/lv_core/lv_style.s: src/lv_core/lv_style.c.s
@@ -284,7 +284,7 @@ src/lv_core/lv_style.s: src/lv_core/lv_style.c.s
 
 # target to generate assembly for a file
 src/lv_core/lv_style.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_style.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_core/lv_style.c.s
 .PHONY : src/lv_core/lv_style.c.s
 
 src/lv_draw/lv_draw_arc.o: src/lv_draw/lv_draw_arc.c.o
@@ -293,7 +293,7 @@ src/lv_draw/lv_draw_arc.o: src/lv_draw/lv_draw_arc.c.o
 
 # target to build an object file
 src/lv_draw/lv_draw_arc.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_arc.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_arc.c.o
 .PHONY : src/lv_draw/lv_draw_arc.c.o
 
 src/lv_draw/lv_draw_arc.i: src/lv_draw/lv_draw_arc.c.i
@@ -302,7 +302,7 @@ src/lv_draw/lv_draw_arc.i: src/lv_draw/lv_draw_arc.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_draw_arc.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_arc.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_arc.c.i
 .PHONY : src/lv_draw/lv_draw_arc.c.i
 
 src/lv_draw/lv_draw_arc.s: src/lv_draw/lv_draw_arc.c.s
@@ -311,7 +311,7 @@ src/lv_draw/lv_draw_arc.s: src/lv_draw/lv_draw_arc.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_draw_arc.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_arc.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_arc.c.s
 .PHONY : src/lv_draw/lv_draw_arc.c.s
 
 src/lv_draw/lv_draw_blend.o: src/lv_draw/lv_draw_blend.c.o
@@ -320,7 +320,7 @@ src/lv_draw/lv_draw_blend.o: src/lv_draw/lv_draw_blend.c.o
 
 # target to build an object file
 src/lv_draw/lv_draw_blend.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_blend.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_blend.c.o
 .PHONY : src/lv_draw/lv_draw_blend.c.o
 
 src/lv_draw/lv_draw_blend.i: src/lv_draw/lv_draw_blend.c.i
@@ -329,7 +329,7 @@ src/lv_draw/lv_draw_blend.i: src/lv_draw/lv_draw_blend.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_draw_blend.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_blend.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_blend.c.i
 .PHONY : src/lv_draw/lv_draw_blend.c.i
 
 src/lv_draw/lv_draw_blend.s: src/lv_draw/lv_draw_blend.c.s
@@ -338,7 +338,7 @@ src/lv_draw/lv_draw_blend.s: src/lv_draw/lv_draw_blend.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_draw_blend.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_blend.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_blend.c.s
 .PHONY : src/lv_draw/lv_draw_blend.c.s
 
 src/lv_draw/lv_draw_img.o: src/lv_draw/lv_draw_img.c.o
@@ -347,7 +347,7 @@ src/lv_draw/lv_draw_img.o: src/lv_draw/lv_draw_img.c.o
 
 # target to build an object file
 src/lv_draw/lv_draw_img.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_img.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_img.c.o
 .PHONY : src/lv_draw/lv_draw_img.c.o
 
 src/lv_draw/lv_draw_img.i: src/lv_draw/lv_draw_img.c.i
@@ -356,7 +356,7 @@ src/lv_draw/lv_draw_img.i: src/lv_draw/lv_draw_img.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_draw_img.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_img.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_img.c.i
 .PHONY : src/lv_draw/lv_draw_img.c.i
 
 src/lv_draw/lv_draw_img.s: src/lv_draw/lv_draw_img.c.s
@@ -365,7 +365,7 @@ src/lv_draw/lv_draw_img.s: src/lv_draw/lv_draw_img.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_draw_img.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_img.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_img.c.s
 .PHONY : src/lv_draw/lv_draw_img.c.s
 
 src/lv_draw/lv_draw_label.o: src/lv_draw/lv_draw_label.c.o
@@ -374,7 +374,7 @@ src/lv_draw/lv_draw_label.o: src/lv_draw/lv_draw_label.c.o
 
 # target to build an object file
 src/lv_draw/lv_draw_label.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_label.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_label.c.o
 .PHONY : src/lv_draw/lv_draw_label.c.o
 
 src/lv_draw/lv_draw_label.i: src/lv_draw/lv_draw_label.c.i
@@ -383,7 +383,7 @@ src/lv_draw/lv_draw_label.i: src/lv_draw/lv_draw_label.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_draw_label.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_label.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_label.c.i
 .PHONY : src/lv_draw/lv_draw_label.c.i
 
 src/lv_draw/lv_draw_label.s: src/lv_draw/lv_draw_label.c.s
@@ -392,7 +392,7 @@ src/lv_draw/lv_draw_label.s: src/lv_draw/lv_draw_label.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_draw_label.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_label.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_label.c.s
 .PHONY : src/lv_draw/lv_draw_label.c.s
 
 src/lv_draw/lv_draw_line.o: src/lv_draw/lv_draw_line.c.o
@@ -401,7 +401,7 @@ src/lv_draw/lv_draw_line.o: src/lv_draw/lv_draw_line.c.o
 
 # target to build an object file
 src/lv_draw/lv_draw_line.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_line.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_line.c.o
 .PHONY : src/lv_draw/lv_draw_line.c.o
 
 src/lv_draw/lv_draw_line.i: src/lv_draw/lv_draw_line.c.i
@@ -410,7 +410,7 @@ src/lv_draw/lv_draw_line.i: src/lv_draw/lv_draw_line.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_draw_line.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_line.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_line.c.i
 .PHONY : src/lv_draw/lv_draw_line.c.i
 
 src/lv_draw/lv_draw_line.s: src/lv_draw/lv_draw_line.c.s
@@ -419,7 +419,7 @@ src/lv_draw/lv_draw_line.s: src/lv_draw/lv_draw_line.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_draw_line.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_line.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_line.c.s
 .PHONY : src/lv_draw/lv_draw_line.c.s
 
 src/lv_draw/lv_draw_mask.o: src/lv_draw/lv_draw_mask.c.o
@@ -428,7 +428,7 @@ src/lv_draw/lv_draw_mask.o: src/lv_draw/lv_draw_mask.c.o
 
 # target to build an object file
 src/lv_draw/lv_draw_mask.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_mask.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_mask.c.o
 .PHONY : src/lv_draw/lv_draw_mask.c.o
 
 src/lv_draw/lv_draw_mask.i: src/lv_draw/lv_draw_mask.c.i
@@ -437,7 +437,7 @@ src/lv_draw/lv_draw_mask.i: src/lv_draw/lv_draw_mask.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_draw_mask.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_mask.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_mask.c.i
 .PHONY : src/lv_draw/lv_draw_mask.c.i
 
 src/lv_draw/lv_draw_mask.s: src/lv_draw/lv_draw_mask.c.s
@@ -446,7 +446,7 @@ src/lv_draw/lv_draw_mask.s: src/lv_draw/lv_draw_mask.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_draw_mask.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_mask.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_mask.c.s
 .PHONY : src/lv_draw/lv_draw_mask.c.s
 
 src/lv_draw/lv_draw_rect.o: src/lv_draw/lv_draw_rect.c.o
@@ -455,7 +455,7 @@ src/lv_draw/lv_draw_rect.o: src/lv_draw/lv_draw_rect.c.o
 
 # target to build an object file
 src/lv_draw/lv_draw_rect.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_rect.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_rect.c.o
 .PHONY : src/lv_draw/lv_draw_rect.c.o
 
 src/lv_draw/lv_draw_rect.i: src/lv_draw/lv_draw_rect.c.i
@@ -464,7 +464,7 @@ src/lv_draw/lv_draw_rect.i: src/lv_draw/lv_draw_rect.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_draw_rect.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_rect.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_rect.c.i
 .PHONY : src/lv_draw/lv_draw_rect.c.i
 
 src/lv_draw/lv_draw_rect.s: src/lv_draw/lv_draw_rect.c.s
@@ -473,7 +473,7 @@ src/lv_draw/lv_draw_rect.s: src/lv_draw/lv_draw_rect.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_draw_rect.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_rect.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_rect.c.s
 .PHONY : src/lv_draw/lv_draw_rect.c.s
 
 src/lv_draw/lv_draw_triangle.o: src/lv_draw/lv_draw_triangle.c.o
@@ -482,7 +482,7 @@ src/lv_draw/lv_draw_triangle.o: src/lv_draw/lv_draw_triangle.c.o
 
 # target to build an object file
 src/lv_draw/lv_draw_triangle.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_triangle.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_triangle.c.o
 .PHONY : src/lv_draw/lv_draw_triangle.c.o
 
 src/lv_draw/lv_draw_triangle.i: src/lv_draw/lv_draw_triangle.c.i
@@ -491,7 +491,7 @@ src/lv_draw/lv_draw_triangle.i: src/lv_draw/lv_draw_triangle.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_draw_triangle.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_triangle.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_triangle.c.i
 .PHONY : src/lv_draw/lv_draw_triangle.c.i
 
 src/lv_draw/lv_draw_triangle.s: src/lv_draw/lv_draw_triangle.c.s
@@ -500,7 +500,7 @@ src/lv_draw/lv_draw_triangle.s: src/lv_draw/lv_draw_triangle.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_draw_triangle.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_triangle.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_draw_triangle.c.s
 .PHONY : src/lv_draw/lv_draw_triangle.c.s
 
 src/lv_draw/lv_img_buf.o: src/lv_draw/lv_img_buf.c.o
@@ -509,7 +509,7 @@ src/lv_draw/lv_img_buf.o: src/lv_draw/lv_img_buf.c.o
 
 # target to build an object file
 src/lv_draw/lv_img_buf.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_buf.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_buf.c.o
 .PHONY : src/lv_draw/lv_img_buf.c.o
 
 src/lv_draw/lv_img_buf.i: src/lv_draw/lv_img_buf.c.i
@@ -518,7 +518,7 @@ src/lv_draw/lv_img_buf.i: src/lv_draw/lv_img_buf.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_img_buf.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_buf.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_buf.c.i
 .PHONY : src/lv_draw/lv_img_buf.c.i
 
 src/lv_draw/lv_img_buf.s: src/lv_draw/lv_img_buf.c.s
@@ -527,7 +527,7 @@ src/lv_draw/lv_img_buf.s: src/lv_draw/lv_img_buf.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_img_buf.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_buf.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_buf.c.s
 .PHONY : src/lv_draw/lv_img_buf.c.s
 
 src/lv_draw/lv_img_cache.o: src/lv_draw/lv_img_cache.c.o
@@ -536,7 +536,7 @@ src/lv_draw/lv_img_cache.o: src/lv_draw/lv_img_cache.c.o
 
 # target to build an object file
 src/lv_draw/lv_img_cache.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_cache.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_cache.c.o
 .PHONY : src/lv_draw/lv_img_cache.c.o
 
 src/lv_draw/lv_img_cache.i: src/lv_draw/lv_img_cache.c.i
@@ -545,7 +545,7 @@ src/lv_draw/lv_img_cache.i: src/lv_draw/lv_img_cache.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_img_cache.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_cache.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_cache.c.i
 .PHONY : src/lv_draw/lv_img_cache.c.i
 
 src/lv_draw/lv_img_cache.s: src/lv_draw/lv_img_cache.c.s
@@ -554,7 +554,7 @@ src/lv_draw/lv_img_cache.s: src/lv_draw/lv_img_cache.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_img_cache.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_cache.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_cache.c.s
 .PHONY : src/lv_draw/lv_img_cache.c.s
 
 src/lv_draw/lv_img_decoder.o: src/lv_draw/lv_img_decoder.c.o
@@ -563,7 +563,7 @@ src/lv_draw/lv_img_decoder.o: src/lv_draw/lv_img_decoder.c.o
 
 # target to build an object file
 src/lv_draw/lv_img_decoder.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_decoder.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_decoder.c.o
 .PHONY : src/lv_draw/lv_img_decoder.c.o
 
 src/lv_draw/lv_img_decoder.i: src/lv_draw/lv_img_decoder.c.i
@@ -572,7 +572,7 @@ src/lv_draw/lv_img_decoder.i: src/lv_draw/lv_img_decoder.c.i
 
 # target to preprocess a source file
 src/lv_draw/lv_img_decoder.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_decoder.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_decoder.c.i
 .PHONY : src/lv_draw/lv_img_decoder.c.i
 
 src/lv_draw/lv_img_decoder.s: src/lv_draw/lv_img_decoder.c.s
@@ -581,7 +581,7 @@ src/lv_draw/lv_img_decoder.s: src/lv_draw/lv_img_decoder.c.s
 
 # target to generate assembly for a file
 src/lv_draw/lv_img_decoder.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_decoder.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_draw/lv_img_decoder.c.s
 .PHONY : src/lv_draw/lv_img_decoder.c.s
 
 src/lv_font/lv_font.o: src/lv_font/lv_font.c.o
@@ -590,7 +590,7 @@ src/lv_font/lv_font.o: src/lv_font/lv_font.c.o
 
 # target to build an object file
 src/lv_font/lv_font.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font.c.o
 .PHONY : src/lv_font/lv_font.c.o
 
 src/lv_font/lv_font.i: src/lv_font/lv_font.c.i
@@ -599,7 +599,7 @@ src/lv_font/lv_font.i: src/lv_font/lv_font.c.i
 
 # target to preprocess a source file
 src/lv_font/lv_font.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font.c.i
 .PHONY : src/lv_font/lv_font.c.i
 
 src/lv_font/lv_font.s: src/lv_font/lv_font.c.s
@@ -608,7 +608,7 @@ src/lv_font/lv_font.s: src/lv_font/lv_font.c.s
 
 # target to generate assembly for a file
 src/lv_font/lv_font.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font.c.s
 .PHONY : src/lv_font/lv_font.c.s
 
 src/lv_font/lv_font_fmt_txt.o: src/lv_font/lv_font_fmt_txt.c.o
@@ -617,7 +617,7 @@ src/lv_font/lv_font_fmt_txt.o: src/lv_font/lv_font_fmt_txt.c.o
 
 # target to build an object file
 src/lv_font/lv_font_fmt_txt.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_fmt_txt.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_fmt_txt.c.o
 .PHONY : src/lv_font/lv_font_fmt_txt.c.o
 
 src/lv_font/lv_font_fmt_txt.i: src/lv_font/lv_font_fmt_txt.c.i
@@ -626,7 +626,7 @@ src/lv_font/lv_font_fmt_txt.i: src/lv_font/lv_font_fmt_txt.c.i
 
 # target to preprocess a source file
 src/lv_font/lv_font_fmt_txt.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_fmt_txt.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_fmt_txt.c.i
 .PHONY : src/lv_font/lv_font_fmt_txt.c.i
 
 src/lv_font/lv_font_fmt_txt.s: src/lv_font/lv_font_fmt_txt.c.s
@@ -635,7 +635,7 @@ src/lv_font/lv_font_fmt_txt.s: src/lv_font/lv_font_fmt_txt.c.s
 
 # target to generate assembly for a file
 src/lv_font/lv_font_fmt_txt.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_fmt_txt.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_fmt_txt.c.s
 .PHONY : src/lv_font/lv_font_fmt_txt.c.s
 
 src/lv_font/lv_font_loader.o: src/lv_font/lv_font_loader.c.o
@@ -644,7 +644,7 @@ src/lv_font/lv_font_loader.o: src/lv_font/lv_font_loader.c.o
 
 # target to build an object file
 src/lv_font/lv_font_loader.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_loader.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_loader.c.o
 .PHONY : src/lv_font/lv_font_loader.c.o
 
 src/lv_font/lv_font_loader.i: src/lv_font/lv_font_loader.c.i
@@ -653,7 +653,7 @@ src/lv_font/lv_font_loader.i: src/lv_font/lv_font_loader.c.i
 
 # target to preprocess a source file
 src/lv_font/lv_font_loader.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_loader.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_loader.c.i
 .PHONY : src/lv_font/lv_font_loader.c.i
 
 src/lv_font/lv_font_loader.s: src/lv_font/lv_font_loader.c.s
@@ -662,7 +662,7 @@ src/lv_font/lv_font_loader.s: src/lv_font/lv_font_loader.c.s
 
 # target to generate assembly for a file
 src/lv_font/lv_font_loader.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_loader.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_font/lv_font_loader.c.s
 .PHONY : src/lv_font/lv_font_loader.c.s
 
 src/lv_hal/lv_hal_disp.o: src/lv_hal/lv_hal_disp.c.o
@@ -671,7 +671,7 @@ src/lv_hal/lv_hal_disp.o: src/lv_hal/lv_hal_disp.c.o
 
 # target to build an object file
 src/lv_hal/lv_hal_disp.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_disp.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_disp.c.o
 .PHONY : src/lv_hal/lv_hal_disp.c.o
 
 src/lv_hal/lv_hal_disp.i: src/lv_hal/lv_hal_disp.c.i
@@ -680,7 +680,7 @@ src/lv_hal/lv_hal_disp.i: src/lv_hal/lv_hal_disp.c.i
 
 # target to preprocess a source file
 src/lv_hal/lv_hal_disp.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_disp.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_disp.c.i
 .PHONY : src/lv_hal/lv_hal_disp.c.i
 
 src/lv_hal/lv_hal_disp.s: src/lv_hal/lv_hal_disp.c.s
@@ -689,7 +689,7 @@ src/lv_hal/lv_hal_disp.s: src/lv_hal/lv_hal_disp.c.s
 
 # target to generate assembly for a file
 src/lv_hal/lv_hal_disp.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_disp.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_disp.c.s
 .PHONY : src/lv_hal/lv_hal_disp.c.s
 
 src/lv_hal/lv_hal_indev.o: src/lv_hal/lv_hal_indev.c.o
@@ -698,7 +698,7 @@ src/lv_hal/lv_hal_indev.o: src/lv_hal/lv_hal_indev.c.o
 
 # target to build an object file
 src/lv_hal/lv_hal_indev.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_indev.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_indev.c.o
 .PHONY : src/lv_hal/lv_hal_indev.c.o
 
 src/lv_hal/lv_hal_indev.i: src/lv_hal/lv_hal_indev.c.i
@@ -707,7 +707,7 @@ src/lv_hal/lv_hal_indev.i: src/lv_hal/lv_hal_indev.c.i
 
 # target to preprocess a source file
 src/lv_hal/lv_hal_indev.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_indev.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_indev.c.i
 .PHONY : src/lv_hal/lv_hal_indev.c.i
 
 src/lv_hal/lv_hal_indev.s: src/lv_hal/lv_hal_indev.c.s
@@ -716,7 +716,7 @@ src/lv_hal/lv_hal_indev.s: src/lv_hal/lv_hal_indev.c.s
 
 # target to generate assembly for a file
 src/lv_hal/lv_hal_indev.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_indev.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_indev.c.s
 .PHONY : src/lv_hal/lv_hal_indev.c.s
 
 src/lv_hal/lv_hal_tick.o: src/lv_hal/lv_hal_tick.c.o
@@ -725,7 +725,7 @@ src/lv_hal/lv_hal_tick.o: src/lv_hal/lv_hal_tick.c.o
 
 # target to build an object file
 src/lv_hal/lv_hal_tick.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_tick.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_tick.c.o
 .PHONY : src/lv_hal/lv_hal_tick.c.o
 
 src/lv_hal/lv_hal_tick.i: src/lv_hal/lv_hal_tick.c.i
@@ -734,7 +734,7 @@ src/lv_hal/lv_hal_tick.i: src/lv_hal/lv_hal_tick.c.i
 
 # target to preprocess a source file
 src/lv_hal/lv_hal_tick.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_tick.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_tick.c.i
 .PHONY : src/lv_hal/lv_hal_tick.c.i
 
 src/lv_hal/lv_hal_tick.s: src/lv_hal/lv_hal_tick.c.s
@@ -743,7 +743,7 @@ src/lv_hal/lv_hal_tick.s: src/lv_hal/lv_hal_tick.c.s
 
 # target to generate assembly for a file
 src/lv_hal/lv_hal_tick.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_tick.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_hal/lv_hal_tick.c.s
 .PHONY : src/lv_hal/lv_hal_tick.c.s
 
 src/lv_misc/lv_anim.o: src/lv_misc/lv_anim.c.o
@@ -752,7 +752,7 @@ src/lv_misc/lv_anim.o: src/lv_misc/lv_anim.c.o
 
 # target to build an object file
 src/lv_misc/lv_anim.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_anim.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_anim.c.o
 .PHONY : src/lv_misc/lv_anim.c.o
 
 src/lv_misc/lv_anim.i: src/lv_misc/lv_anim.c.i
@@ -761,7 +761,7 @@ src/lv_misc/lv_anim.i: src/lv_misc/lv_anim.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_anim.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_anim.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_anim.c.i
 .PHONY : src/lv_misc/lv_anim.c.i
 
 src/lv_misc/lv_anim.s: src/lv_misc/lv_anim.c.s
@@ -770,7 +770,7 @@ src/lv_misc/lv_anim.s: src/lv_misc/lv_anim.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_anim.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_anim.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_anim.c.s
 .PHONY : src/lv_misc/lv_anim.c.s
 
 src/lv_misc/lv_area.o: src/lv_misc/lv_area.c.o
@@ -779,7 +779,7 @@ src/lv_misc/lv_area.o: src/lv_misc/lv_area.c.o
 
 # target to build an object file
 src/lv_misc/lv_area.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_area.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_area.c.o
 .PHONY : src/lv_misc/lv_area.c.o
 
 src/lv_misc/lv_area.i: src/lv_misc/lv_area.c.i
@@ -788,7 +788,7 @@ src/lv_misc/lv_area.i: src/lv_misc/lv_area.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_area.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_area.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_area.c.i
 .PHONY : src/lv_misc/lv_area.c.i
 
 src/lv_misc/lv_area.s: src/lv_misc/lv_area.c.s
@@ -797,7 +797,7 @@ src/lv_misc/lv_area.s: src/lv_misc/lv_area.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_area.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_area.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_area.c.s
 .PHONY : src/lv_misc/lv_area.c.s
 
 src/lv_misc/lv_async.o: src/lv_misc/lv_async.c.o
@@ -806,7 +806,7 @@ src/lv_misc/lv_async.o: src/lv_misc/lv_async.c.o
 
 # target to build an object file
 src/lv_misc/lv_async.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_async.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_async.c.o
 .PHONY : src/lv_misc/lv_async.c.o
 
 src/lv_misc/lv_async.i: src/lv_misc/lv_async.c.i
@@ -815,7 +815,7 @@ src/lv_misc/lv_async.i: src/lv_misc/lv_async.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_async.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_async.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_async.c.i
 .PHONY : src/lv_misc/lv_async.c.i
 
 src/lv_misc/lv_async.s: src/lv_misc/lv_async.c.s
@@ -824,7 +824,7 @@ src/lv_misc/lv_async.s: src/lv_misc/lv_async.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_async.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_async.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_async.c.s
 .PHONY : src/lv_misc/lv_async.c.s
 
 src/lv_misc/lv_bidi.o: src/lv_misc/lv_bidi.c.o
@@ -833,7 +833,7 @@ src/lv_misc/lv_bidi.o: src/lv_misc/lv_bidi.c.o
 
 # target to build an object file
 src/lv_misc/lv_bidi.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_bidi.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_bidi.c.o
 .PHONY : src/lv_misc/lv_bidi.c.o
 
 src/lv_misc/lv_bidi.i: src/lv_misc/lv_bidi.c.i
@@ -842,7 +842,7 @@ src/lv_misc/lv_bidi.i: src/lv_misc/lv_bidi.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_bidi.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_bidi.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_bidi.c.i
 .PHONY : src/lv_misc/lv_bidi.c.i
 
 src/lv_misc/lv_bidi.s: src/lv_misc/lv_bidi.c.s
@@ -851,7 +851,7 @@ src/lv_misc/lv_bidi.s: src/lv_misc/lv_bidi.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_bidi.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_bidi.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_bidi.c.s
 .PHONY : src/lv_misc/lv_bidi.c.s
 
 src/lv_misc/lv_color.o: src/lv_misc/lv_color.c.o
@@ -860,7 +860,7 @@ src/lv_misc/lv_color.o: src/lv_misc/lv_color.c.o
 
 # target to build an object file
 src/lv_misc/lv_color.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_color.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_color.c.o
 .PHONY : src/lv_misc/lv_color.c.o
 
 src/lv_misc/lv_color.i: src/lv_misc/lv_color.c.i
@@ -869,7 +869,7 @@ src/lv_misc/lv_color.i: src/lv_misc/lv_color.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_color.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_color.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_color.c.i
 .PHONY : src/lv_misc/lv_color.c.i
 
 src/lv_misc/lv_color.s: src/lv_misc/lv_color.c.s
@@ -878,7 +878,7 @@ src/lv_misc/lv_color.s: src/lv_misc/lv_color.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_color.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_color.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_color.c.s
 .PHONY : src/lv_misc/lv_color.c.s
 
 src/lv_misc/lv_debug.o: src/lv_misc/lv_debug.c.o
@@ -887,7 +887,7 @@ src/lv_misc/lv_debug.o: src/lv_misc/lv_debug.c.o
 
 # target to build an object file
 src/lv_misc/lv_debug.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_debug.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_debug.c.o
 .PHONY : src/lv_misc/lv_debug.c.o
 
 src/lv_misc/lv_debug.i: src/lv_misc/lv_debug.c.i
@@ -896,7 +896,7 @@ src/lv_misc/lv_debug.i: src/lv_misc/lv_debug.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_debug.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_debug.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_debug.c.i
 .PHONY : src/lv_misc/lv_debug.c.i
 
 src/lv_misc/lv_debug.s: src/lv_misc/lv_debug.c.s
@@ -905,7 +905,7 @@ src/lv_misc/lv_debug.s: src/lv_misc/lv_debug.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_debug.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_debug.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_debug.c.s
 .PHONY : src/lv_misc/lv_debug.c.s
 
 src/lv_misc/lv_fs.o: src/lv_misc/lv_fs.c.o
@@ -914,7 +914,7 @@ src/lv_misc/lv_fs.o: src/lv_misc/lv_fs.c.o
 
 # target to build an object file
 src/lv_misc/lv_fs.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_fs.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_fs.c.o
 .PHONY : src/lv_misc/lv_fs.c.o
 
 src/lv_misc/lv_fs.i: src/lv_misc/lv_fs.c.i
@@ -923,7 +923,7 @@ src/lv_misc/lv_fs.i: src/lv_misc/lv_fs.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_fs.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_fs.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_fs.c.i
 .PHONY : src/lv_misc/lv_fs.c.i
 
 src/lv_misc/lv_fs.s: src/lv_misc/lv_fs.c.s
@@ -932,7 +932,7 @@ src/lv_misc/lv_fs.s: src/lv_misc/lv_fs.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_fs.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_fs.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_fs.c.s
 .PHONY : src/lv_misc/lv_fs.c.s
 
 src/lv_misc/lv_gc.o: src/lv_misc/lv_gc.c.o
@@ -941,7 +941,7 @@ src/lv_misc/lv_gc.o: src/lv_misc/lv_gc.c.o
 
 # target to build an object file
 src/lv_misc/lv_gc.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_gc.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_gc.c.o
 .PHONY : src/lv_misc/lv_gc.c.o
 
 src/lv_misc/lv_gc.i: src/lv_misc/lv_gc.c.i
@@ -950,7 +950,7 @@ src/lv_misc/lv_gc.i: src/lv_misc/lv_gc.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_gc.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_gc.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_gc.c.i
 .PHONY : src/lv_misc/lv_gc.c.i
 
 src/lv_misc/lv_gc.s: src/lv_misc/lv_gc.c.s
@@ -959,7 +959,7 @@ src/lv_misc/lv_gc.s: src/lv_misc/lv_gc.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_gc.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_gc.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_gc.c.s
 .PHONY : src/lv_misc/lv_gc.c.s
 
 src/lv_misc/lv_ll.o: src/lv_misc/lv_ll.c.o
@@ -968,7 +968,7 @@ src/lv_misc/lv_ll.o: src/lv_misc/lv_ll.c.o
 
 # target to build an object file
 src/lv_misc/lv_ll.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_ll.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_ll.c.o
 .PHONY : src/lv_misc/lv_ll.c.o
 
 src/lv_misc/lv_ll.i: src/lv_misc/lv_ll.c.i
@@ -977,7 +977,7 @@ src/lv_misc/lv_ll.i: src/lv_misc/lv_ll.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_ll.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_ll.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_ll.c.i
 .PHONY : src/lv_misc/lv_ll.c.i
 
 src/lv_misc/lv_ll.s: src/lv_misc/lv_ll.c.s
@@ -986,7 +986,7 @@ src/lv_misc/lv_ll.s: src/lv_misc/lv_ll.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_ll.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_ll.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_ll.c.s
 .PHONY : src/lv_misc/lv_ll.c.s
 
 src/lv_misc/lv_log.o: src/lv_misc/lv_log.c.o
@@ -995,7 +995,7 @@ src/lv_misc/lv_log.o: src/lv_misc/lv_log.c.o
 
 # target to build an object file
 src/lv_misc/lv_log.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_log.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_log.c.o
 .PHONY : src/lv_misc/lv_log.c.o
 
 src/lv_misc/lv_log.i: src/lv_misc/lv_log.c.i
@@ -1004,7 +1004,7 @@ src/lv_misc/lv_log.i: src/lv_misc/lv_log.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_log.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_log.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_log.c.i
 .PHONY : src/lv_misc/lv_log.c.i
 
 src/lv_misc/lv_log.s: src/lv_misc/lv_log.c.s
@@ -1013,7 +1013,7 @@ src/lv_misc/lv_log.s: src/lv_misc/lv_log.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_log.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_log.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_log.c.s
 .PHONY : src/lv_misc/lv_log.c.s
 
 src/lv_misc/lv_math.o: src/lv_misc/lv_math.c.o
@@ -1022,7 +1022,7 @@ src/lv_misc/lv_math.o: src/lv_misc/lv_math.c.o
 
 # target to build an object file
 src/lv_misc/lv_math.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_math.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_math.c.o
 .PHONY : src/lv_misc/lv_math.c.o
 
 src/lv_misc/lv_math.i: src/lv_misc/lv_math.c.i
@@ -1031,7 +1031,7 @@ src/lv_misc/lv_math.i: src/lv_misc/lv_math.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_math.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_math.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_math.c.i
 .PHONY : src/lv_misc/lv_math.c.i
 
 src/lv_misc/lv_math.s: src/lv_misc/lv_math.c.s
@@ -1040,7 +1040,7 @@ src/lv_misc/lv_math.s: src/lv_misc/lv_math.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_math.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_math.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_math.c.s
 .PHONY : src/lv_misc/lv_math.c.s
 
 src/lv_misc/lv_mem.o: src/lv_misc/lv_mem.c.o
@@ -1049,7 +1049,7 @@ src/lv_misc/lv_mem.o: src/lv_misc/lv_mem.c.o
 
 # target to build an object file
 src/lv_misc/lv_mem.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_mem.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_mem.c.o
 .PHONY : src/lv_misc/lv_mem.c.o
 
 src/lv_misc/lv_mem.i: src/lv_misc/lv_mem.c.i
@@ -1058,7 +1058,7 @@ src/lv_misc/lv_mem.i: src/lv_misc/lv_mem.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_mem.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_mem.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_mem.c.i
 .PHONY : src/lv_misc/lv_mem.c.i
 
 src/lv_misc/lv_mem.s: src/lv_misc/lv_mem.c.s
@@ -1067,7 +1067,7 @@ src/lv_misc/lv_mem.s: src/lv_misc/lv_mem.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_mem.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_mem.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_mem.c.s
 .PHONY : src/lv_misc/lv_mem.c.s
 
 src/lv_misc/lv_printf.o: src/lv_misc/lv_printf.c.o
@@ -1076,7 +1076,7 @@ src/lv_misc/lv_printf.o: src/lv_misc/lv_printf.c.o
 
 # target to build an object file
 src/lv_misc/lv_printf.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_printf.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_printf.c.o
 .PHONY : src/lv_misc/lv_printf.c.o
 
 src/lv_misc/lv_printf.i: src/lv_misc/lv_printf.c.i
@@ -1085,7 +1085,7 @@ src/lv_misc/lv_printf.i: src/lv_misc/lv_printf.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_printf.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_printf.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_printf.c.i
 .PHONY : src/lv_misc/lv_printf.c.i
 
 src/lv_misc/lv_printf.s: src/lv_misc/lv_printf.c.s
@@ -1094,7 +1094,7 @@ src/lv_misc/lv_printf.s: src/lv_misc/lv_printf.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_printf.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_printf.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_printf.c.s
 .PHONY : src/lv_misc/lv_printf.c.s
 
 src/lv_misc/lv_task.o: src/lv_misc/lv_task.c.o
@@ -1103,7 +1103,7 @@ src/lv_misc/lv_task.o: src/lv_misc/lv_task.c.o
 
 # target to build an object file
 src/lv_misc/lv_task.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_task.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_task.c.o
 .PHONY : src/lv_misc/lv_task.c.o
 
 src/lv_misc/lv_task.i: src/lv_misc/lv_task.c.i
@@ -1112,7 +1112,7 @@ src/lv_misc/lv_task.i: src/lv_misc/lv_task.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_task.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_task.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_task.c.i
 .PHONY : src/lv_misc/lv_task.c.i
 
 src/lv_misc/lv_task.s: src/lv_misc/lv_task.c.s
@@ -1121,7 +1121,7 @@ src/lv_misc/lv_task.s: src/lv_misc/lv_task.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_task.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_task.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_task.c.s
 .PHONY : src/lv_misc/lv_task.c.s
 
 src/lv_misc/lv_templ.o: src/lv_misc/lv_templ.c.o
@@ -1130,7 +1130,7 @@ src/lv_misc/lv_templ.o: src/lv_misc/lv_templ.c.o
 
 # target to build an object file
 src/lv_misc/lv_templ.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_templ.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_templ.c.o
 .PHONY : src/lv_misc/lv_templ.c.o
 
 src/lv_misc/lv_templ.i: src/lv_misc/lv_templ.c.i
@@ -1139,7 +1139,7 @@ src/lv_misc/lv_templ.i: src/lv_misc/lv_templ.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_templ.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_templ.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_templ.c.i
 .PHONY : src/lv_misc/lv_templ.c.i
 
 src/lv_misc/lv_templ.s: src/lv_misc/lv_templ.c.s
@@ -1148,7 +1148,7 @@ src/lv_misc/lv_templ.s: src/lv_misc/lv_templ.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_templ.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_templ.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_templ.c.s
 .PHONY : src/lv_misc/lv_templ.c.s
 
 src/lv_misc/lv_txt.o: src/lv_misc/lv_txt.c.o
@@ -1157,7 +1157,7 @@ src/lv_misc/lv_txt.o: src/lv_misc/lv_txt.c.o
 
 # target to build an object file
 src/lv_misc/lv_txt.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt.c.o
 .PHONY : src/lv_misc/lv_txt.c.o
 
 src/lv_misc/lv_txt.i: src/lv_misc/lv_txt.c.i
@@ -1166,7 +1166,7 @@ src/lv_misc/lv_txt.i: src/lv_misc/lv_txt.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_txt.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt.c.i
 .PHONY : src/lv_misc/lv_txt.c.i
 
 src/lv_misc/lv_txt.s: src/lv_misc/lv_txt.c.s
@@ -1175,7 +1175,7 @@ src/lv_misc/lv_txt.s: src/lv_misc/lv_txt.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_txt.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt.c.s
 .PHONY : src/lv_misc/lv_txt.c.s
 
 src/lv_misc/lv_txt_ap.o: src/lv_misc/lv_txt_ap.c.o
@@ -1184,7 +1184,7 @@ src/lv_misc/lv_txt_ap.o: src/lv_misc/lv_txt_ap.c.o
 
 # target to build an object file
 src/lv_misc/lv_txt_ap.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt_ap.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt_ap.c.o
 .PHONY : src/lv_misc/lv_txt_ap.c.o
 
 src/lv_misc/lv_txt_ap.i: src/lv_misc/lv_txt_ap.c.i
@@ -1193,7 +1193,7 @@ src/lv_misc/lv_txt_ap.i: src/lv_misc/lv_txt_ap.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_txt_ap.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt_ap.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt_ap.c.i
 .PHONY : src/lv_misc/lv_txt_ap.c.i
 
 src/lv_misc/lv_txt_ap.s: src/lv_misc/lv_txt_ap.c.s
@@ -1202,7 +1202,7 @@ src/lv_misc/lv_txt_ap.s: src/lv_misc/lv_txt_ap.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_txt_ap.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt_ap.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_txt_ap.c.s
 .PHONY : src/lv_misc/lv_txt_ap.c.s
 
 src/lv_misc/lv_utils.o: src/lv_misc/lv_utils.c.o
@@ -1211,7 +1211,7 @@ src/lv_misc/lv_utils.o: src/lv_misc/lv_utils.c.o
 
 # target to build an object file
 src/lv_misc/lv_utils.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_utils.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_utils.c.o
 .PHONY : src/lv_misc/lv_utils.c.o
 
 src/lv_misc/lv_utils.i: src/lv_misc/lv_utils.c.i
@@ -1220,7 +1220,7 @@ src/lv_misc/lv_utils.i: src/lv_misc/lv_utils.c.i
 
 # target to preprocess a source file
 src/lv_misc/lv_utils.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_utils.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_utils.c.i
 .PHONY : src/lv_misc/lv_utils.c.i
 
 src/lv_misc/lv_utils.s: src/lv_misc/lv_utils.c.s
@@ -1229,7 +1229,7 @@ src/lv_misc/lv_utils.s: src/lv_misc/lv_utils.c.s
 
 # target to generate assembly for a file
 src/lv_misc/lv_utils.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_utils.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_misc/lv_utils.c.s
 .PHONY : src/lv_misc/lv_utils.c.s
 
 src/lv_themes/lv_theme.o: src/lv_themes/lv_theme.c.o
@@ -1238,7 +1238,7 @@ src/lv_themes/lv_theme.o: src/lv_themes/lv_theme.c.o
 
 # target to build an object file
 src/lv_themes/lv_theme.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme.c.o
 .PHONY : src/lv_themes/lv_theme.c.o
 
 src/lv_themes/lv_theme.i: src/lv_themes/lv_theme.c.i
@@ -1247,7 +1247,7 @@ src/lv_themes/lv_theme.i: src/lv_themes/lv_theme.c.i
 
 # target to preprocess a source file
 src/lv_themes/lv_theme.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme.c.i
 .PHONY : src/lv_themes/lv_theme.c.i
 
 src/lv_themes/lv_theme.s: src/lv_themes/lv_theme.c.s
@@ -1256,7 +1256,7 @@ src/lv_themes/lv_theme.s: src/lv_themes/lv_theme.c.s
 
 # target to generate assembly for a file
 src/lv_themes/lv_theme.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme.c.s
 .PHONY : src/lv_themes/lv_theme.c.s
 
 src/lv_themes/lv_theme_empty.o: src/lv_themes/lv_theme_empty.c.o
@@ -1265,7 +1265,7 @@ src/lv_themes/lv_theme_empty.o: src/lv_themes/lv_theme_empty.c.o
 
 # target to build an object file
 src/lv_themes/lv_theme_empty.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_empty.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_empty.c.o
 .PHONY : src/lv_themes/lv_theme_empty.c.o
 
 src/lv_themes/lv_theme_empty.i: src/lv_themes/lv_theme_empty.c.i
@@ -1274,7 +1274,7 @@ src/lv_themes/lv_theme_empty.i: src/lv_themes/lv_theme_empty.c.i
 
 # target to preprocess a source file
 src/lv_themes/lv_theme_empty.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_empty.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_empty.c.i
 .PHONY : src/lv_themes/lv_theme_empty.c.i
 
 src/lv_themes/lv_theme_empty.s: src/lv_themes/lv_theme_empty.c.s
@@ -1283,7 +1283,7 @@ src/lv_themes/lv_theme_empty.s: src/lv_themes/lv_theme_empty.c.s
 
 # target to generate assembly for a file
 src/lv_themes/lv_theme_empty.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_empty.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_empty.c.s
 .PHONY : src/lv_themes/lv_theme_empty.c.s
 
 src/lv_themes/lv_theme_material.o: src/lv_themes/lv_theme_material.c.o
@@ -1292,7 +1292,7 @@ src/lv_themes/lv_theme_material.o: src/lv_themes/lv_theme_material.c.o
 
 # target to build an object file
 src/lv_themes/lv_theme_material.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_material.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_material.c.o
 .PHONY : src/lv_themes/lv_theme_material.c.o
 
 src/lv_themes/lv_theme_material.i: src/lv_themes/lv_theme_material.c.i
@@ -1301,7 +1301,7 @@ src/lv_themes/lv_theme_material.i: src/lv_themes/lv_theme_material.c.i
 
 # target to preprocess a source file
 src/lv_themes/lv_theme_material.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_material.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_material.c.i
 .PHONY : src/lv_themes/lv_theme_material.c.i
 
 src/lv_themes/lv_theme_material.s: src/lv_themes/lv_theme_material.c.s
@@ -1310,7 +1310,7 @@ src/lv_themes/lv_theme_material.s: src/lv_themes/lv_theme_material.c.s
 
 # target to generate assembly for a file
 src/lv_themes/lv_theme_material.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_material.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_material.c.s
 .PHONY : src/lv_themes/lv_theme_material.c.s
 
 src/lv_themes/lv_theme_mono.o: src/lv_themes/lv_theme_mono.c.o
@@ -1319,7 +1319,7 @@ src/lv_themes/lv_theme_mono.o: src/lv_themes/lv_theme_mono.c.o
 
 # target to build an object file
 src/lv_themes/lv_theme_mono.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_mono.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_mono.c.o
 .PHONY : src/lv_themes/lv_theme_mono.c.o
 
 src/lv_themes/lv_theme_mono.i: src/lv_themes/lv_theme_mono.c.i
@@ -1328,7 +1328,7 @@ src/lv_themes/lv_theme_mono.i: src/lv_themes/lv_theme_mono.c.i
 
 # target to preprocess a source file
 src/lv_themes/lv_theme_mono.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_mono.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_mono.c.i
 .PHONY : src/lv_themes/lv_theme_mono.c.i
 
 src/lv_themes/lv_theme_mono.s: src/lv_themes/lv_theme_mono.c.s
@@ -1337,7 +1337,7 @@ src/lv_themes/lv_theme_mono.s: src/lv_themes/lv_theme_mono.c.s
 
 # target to generate assembly for a file
 src/lv_themes/lv_theme_mono.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_mono.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_mono.c.s
 .PHONY : src/lv_themes/lv_theme_mono.c.s
 
 src/lv_themes/lv_theme_template.o: src/lv_themes/lv_theme_template.c.o
@@ -1346,7 +1346,7 @@ src/lv_themes/lv_theme_template.o: src/lv_themes/lv_theme_template.c.o
 
 # target to build an object file
 src/lv_themes/lv_theme_template.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_template.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_template.c.o
 .PHONY : src/lv_themes/lv_theme_template.c.o
 
 src/lv_themes/lv_theme_template.i: src/lv_themes/lv_theme_template.c.i
@@ -1355,7 +1355,7 @@ src/lv_themes/lv_theme_template.i: src/lv_themes/lv_theme_template.c.i
 
 # target to preprocess a source file
 src/lv_themes/lv_theme_template.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_template.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_template.c.i
 .PHONY : src/lv_themes/lv_theme_template.c.i
 
 src/lv_themes/lv_theme_template.s: src/lv_themes/lv_theme_template.c.s
@@ -1364,7 +1364,7 @@ src/lv_themes/lv_theme_template.s: src/lv_themes/lv_theme_template.c.s
 
 # target to generate assembly for a file
 src/lv_themes/lv_theme_template.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_template.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_themes/lv_theme_template.c.s
 .PHONY : src/lv_themes/lv_theme_template.c.s
 
 src/lv_widgets/lv_arc.o: src/lv_widgets/lv_arc.c.o
@@ -1373,7 +1373,7 @@ src/lv_widgets/lv_arc.o: src/lv_widgets/lv_arc.c.o
 
 # target to build an object file
 src/lv_widgets/lv_arc.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_arc.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_arc.c.o
 .PHONY : src/lv_widgets/lv_arc.c.o
 
 src/lv_widgets/lv_arc.i: src/lv_widgets/lv_arc.c.i
@@ -1382,7 +1382,7 @@ src/lv_widgets/lv_arc.i: src/lv_widgets/lv_arc.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_arc.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_arc.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_arc.c.i
 .PHONY : src/lv_widgets/lv_arc.c.i
 
 src/lv_widgets/lv_arc.s: src/lv_widgets/lv_arc.c.s
@@ -1391,7 +1391,7 @@ src/lv_widgets/lv_arc.s: src/lv_widgets/lv_arc.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_arc.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_arc.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_arc.c.s
 .PHONY : src/lv_widgets/lv_arc.c.s
 
 src/lv_widgets/lv_bar.o: src/lv_widgets/lv_bar.c.o
@@ -1400,7 +1400,7 @@ src/lv_widgets/lv_bar.o: src/lv_widgets/lv_bar.c.o
 
 # target to build an object file
 src/lv_widgets/lv_bar.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_bar.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_bar.c.o
 .PHONY : src/lv_widgets/lv_bar.c.o
 
 src/lv_widgets/lv_bar.i: src/lv_widgets/lv_bar.c.i
@@ -1409,7 +1409,7 @@ src/lv_widgets/lv_bar.i: src/lv_widgets/lv_bar.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_bar.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_bar.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_bar.c.i
 .PHONY : src/lv_widgets/lv_bar.c.i
 
 src/lv_widgets/lv_bar.s: src/lv_widgets/lv_bar.c.s
@@ -1418,7 +1418,7 @@ src/lv_widgets/lv_bar.s: src/lv_widgets/lv_bar.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_bar.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_bar.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_bar.c.s
 .PHONY : src/lv_widgets/lv_bar.c.s
 
 src/lv_widgets/lv_btn.o: src/lv_widgets/lv_btn.c.o
@@ -1427,7 +1427,7 @@ src/lv_widgets/lv_btn.o: src/lv_widgets/lv_btn.c.o
 
 # target to build an object file
 src/lv_widgets/lv_btn.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btn.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btn.c.o
 .PHONY : src/lv_widgets/lv_btn.c.o
 
 src/lv_widgets/lv_btn.i: src/lv_widgets/lv_btn.c.i
@@ -1436,7 +1436,7 @@ src/lv_widgets/lv_btn.i: src/lv_widgets/lv_btn.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_btn.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btn.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btn.c.i
 .PHONY : src/lv_widgets/lv_btn.c.i
 
 src/lv_widgets/lv_btn.s: src/lv_widgets/lv_btn.c.s
@@ -1445,7 +1445,7 @@ src/lv_widgets/lv_btn.s: src/lv_widgets/lv_btn.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_btn.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btn.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btn.c.s
 .PHONY : src/lv_widgets/lv_btn.c.s
 
 src/lv_widgets/lv_btnmatrix.o: src/lv_widgets/lv_btnmatrix.c.o
@@ -1454,7 +1454,7 @@ src/lv_widgets/lv_btnmatrix.o: src/lv_widgets/lv_btnmatrix.c.o
 
 # target to build an object file
 src/lv_widgets/lv_btnmatrix.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btnmatrix.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btnmatrix.c.o
 .PHONY : src/lv_widgets/lv_btnmatrix.c.o
 
 src/lv_widgets/lv_btnmatrix.i: src/lv_widgets/lv_btnmatrix.c.i
@@ -1463,7 +1463,7 @@ src/lv_widgets/lv_btnmatrix.i: src/lv_widgets/lv_btnmatrix.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_btnmatrix.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btnmatrix.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btnmatrix.c.i
 .PHONY : src/lv_widgets/lv_btnmatrix.c.i
 
 src/lv_widgets/lv_btnmatrix.s: src/lv_widgets/lv_btnmatrix.c.s
@@ -1472,7 +1472,7 @@ src/lv_widgets/lv_btnmatrix.s: src/lv_widgets/lv_btnmatrix.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_btnmatrix.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btnmatrix.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_btnmatrix.c.s
 .PHONY : src/lv_widgets/lv_btnmatrix.c.s
 
 src/lv_widgets/lv_calendar.o: src/lv_widgets/lv_calendar.c.o
@@ -1481,7 +1481,7 @@ src/lv_widgets/lv_calendar.o: src/lv_widgets/lv_calendar.c.o
 
 # target to build an object file
 src/lv_widgets/lv_calendar.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_calendar.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_calendar.c.o
 .PHONY : src/lv_widgets/lv_calendar.c.o
 
 src/lv_widgets/lv_calendar.i: src/lv_widgets/lv_calendar.c.i
@@ -1490,7 +1490,7 @@ src/lv_widgets/lv_calendar.i: src/lv_widgets/lv_calendar.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_calendar.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_calendar.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_calendar.c.i
 .PHONY : src/lv_widgets/lv_calendar.c.i
 
 src/lv_widgets/lv_calendar.s: src/lv_widgets/lv_calendar.c.s
@@ -1499,7 +1499,7 @@ src/lv_widgets/lv_calendar.s: src/lv_widgets/lv_calendar.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_calendar.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_calendar.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_calendar.c.s
 .PHONY : src/lv_widgets/lv_calendar.c.s
 
 src/lv_widgets/lv_canvas.o: src/lv_widgets/lv_canvas.c.o
@@ -1508,7 +1508,7 @@ src/lv_widgets/lv_canvas.o: src/lv_widgets/lv_canvas.c.o
 
 # target to build an object file
 src/lv_widgets/lv_canvas.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_canvas.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_canvas.c.o
 .PHONY : src/lv_widgets/lv_canvas.c.o
 
 src/lv_widgets/lv_canvas.i: src/lv_widgets/lv_canvas.c.i
@@ -1517,7 +1517,7 @@ src/lv_widgets/lv_canvas.i: src/lv_widgets/lv_canvas.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_canvas.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_canvas.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_canvas.c.i
 .PHONY : src/lv_widgets/lv_canvas.c.i
 
 src/lv_widgets/lv_canvas.s: src/lv_widgets/lv_canvas.c.s
@@ -1526,7 +1526,7 @@ src/lv_widgets/lv_canvas.s: src/lv_widgets/lv_canvas.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_canvas.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_canvas.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_canvas.c.s
 .PHONY : src/lv_widgets/lv_canvas.c.s
 
 src/lv_widgets/lv_chart.o: src/lv_widgets/lv_chart.c.o
@@ -1535,7 +1535,7 @@ src/lv_widgets/lv_chart.o: src/lv_widgets/lv_chart.c.o
 
 # target to build an object file
 src/lv_widgets/lv_chart.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_chart.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_chart.c.o
 .PHONY : src/lv_widgets/lv_chart.c.o
 
 src/lv_widgets/lv_chart.i: src/lv_widgets/lv_chart.c.i
@@ -1544,7 +1544,7 @@ src/lv_widgets/lv_chart.i: src/lv_widgets/lv_chart.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_chart.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_chart.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_chart.c.i
 .PHONY : src/lv_widgets/lv_chart.c.i
 
 src/lv_widgets/lv_chart.s: src/lv_widgets/lv_chart.c.s
@@ -1553,7 +1553,7 @@ src/lv_widgets/lv_chart.s: src/lv_widgets/lv_chart.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_chart.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_chart.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_chart.c.s
 .PHONY : src/lv_widgets/lv_chart.c.s
 
 src/lv_widgets/lv_checkbox.o: src/lv_widgets/lv_checkbox.c.o
@@ -1562,7 +1562,7 @@ src/lv_widgets/lv_checkbox.o: src/lv_widgets/lv_checkbox.c.o
 
 # target to build an object file
 src/lv_widgets/lv_checkbox.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_checkbox.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_checkbox.c.o
 .PHONY : src/lv_widgets/lv_checkbox.c.o
 
 src/lv_widgets/lv_checkbox.i: src/lv_widgets/lv_checkbox.c.i
@@ -1571,7 +1571,7 @@ src/lv_widgets/lv_checkbox.i: src/lv_widgets/lv_checkbox.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_checkbox.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_checkbox.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_checkbox.c.i
 .PHONY : src/lv_widgets/lv_checkbox.c.i
 
 src/lv_widgets/lv_checkbox.s: src/lv_widgets/lv_checkbox.c.s
@@ -1580,7 +1580,7 @@ src/lv_widgets/lv_checkbox.s: src/lv_widgets/lv_checkbox.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_checkbox.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_checkbox.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_checkbox.c.s
 .PHONY : src/lv_widgets/lv_checkbox.c.s
 
 src/lv_widgets/lv_cont.o: src/lv_widgets/lv_cont.c.o
@@ -1589,7 +1589,7 @@ src/lv_widgets/lv_cont.o: src/lv_widgets/lv_cont.c.o
 
 # target to build an object file
 src/lv_widgets/lv_cont.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cont.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cont.c.o
 .PHONY : src/lv_widgets/lv_cont.c.o
 
 src/lv_widgets/lv_cont.i: src/lv_widgets/lv_cont.c.i
@@ -1598,7 +1598,7 @@ src/lv_widgets/lv_cont.i: src/lv_widgets/lv_cont.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_cont.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cont.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cont.c.i
 .PHONY : src/lv_widgets/lv_cont.c.i
 
 src/lv_widgets/lv_cont.s: src/lv_widgets/lv_cont.c.s
@@ -1607,7 +1607,7 @@ src/lv_widgets/lv_cont.s: src/lv_widgets/lv_cont.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_cont.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cont.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cont.c.s
 .PHONY : src/lv_widgets/lv_cont.c.s
 
 src/lv_widgets/lv_cpicker.o: src/lv_widgets/lv_cpicker.c.o
@@ -1616,7 +1616,7 @@ src/lv_widgets/lv_cpicker.o: src/lv_widgets/lv_cpicker.c.o
 
 # target to build an object file
 src/lv_widgets/lv_cpicker.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cpicker.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cpicker.c.o
 .PHONY : src/lv_widgets/lv_cpicker.c.o
 
 src/lv_widgets/lv_cpicker.i: src/lv_widgets/lv_cpicker.c.i
@@ -1625,7 +1625,7 @@ src/lv_widgets/lv_cpicker.i: src/lv_widgets/lv_cpicker.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_cpicker.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cpicker.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cpicker.c.i
 .PHONY : src/lv_widgets/lv_cpicker.c.i
 
 src/lv_widgets/lv_cpicker.s: src/lv_widgets/lv_cpicker.c.s
@@ -1634,7 +1634,7 @@ src/lv_widgets/lv_cpicker.s: src/lv_widgets/lv_cpicker.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_cpicker.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cpicker.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_cpicker.c.s
 .PHONY : src/lv_widgets/lv_cpicker.c.s
 
 src/lv_widgets/lv_dropdown.o: src/lv_widgets/lv_dropdown.c.o
@@ -1643,7 +1643,7 @@ src/lv_widgets/lv_dropdown.o: src/lv_widgets/lv_dropdown.c.o
 
 # target to build an object file
 src/lv_widgets/lv_dropdown.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_dropdown.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_dropdown.c.o
 .PHONY : src/lv_widgets/lv_dropdown.c.o
 
 src/lv_widgets/lv_dropdown.i: src/lv_widgets/lv_dropdown.c.i
@@ -1652,7 +1652,7 @@ src/lv_widgets/lv_dropdown.i: src/lv_widgets/lv_dropdown.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_dropdown.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_dropdown.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_dropdown.c.i
 .PHONY : src/lv_widgets/lv_dropdown.c.i
 
 src/lv_widgets/lv_dropdown.s: src/lv_widgets/lv_dropdown.c.s
@@ -1661,7 +1661,7 @@ src/lv_widgets/lv_dropdown.s: src/lv_widgets/lv_dropdown.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_dropdown.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_dropdown.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_dropdown.c.s
 .PHONY : src/lv_widgets/lv_dropdown.c.s
 
 src/lv_widgets/lv_gauge.o: src/lv_widgets/lv_gauge.c.o
@@ -1670,7 +1670,7 @@ src/lv_widgets/lv_gauge.o: src/lv_widgets/lv_gauge.c.o
 
 # target to build an object file
 src/lv_widgets/lv_gauge.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_gauge.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_gauge.c.o
 .PHONY : src/lv_widgets/lv_gauge.c.o
 
 src/lv_widgets/lv_gauge.i: src/lv_widgets/lv_gauge.c.i
@@ -1679,7 +1679,7 @@ src/lv_widgets/lv_gauge.i: src/lv_widgets/lv_gauge.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_gauge.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_gauge.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_gauge.c.i
 .PHONY : src/lv_widgets/lv_gauge.c.i
 
 src/lv_widgets/lv_gauge.s: src/lv_widgets/lv_gauge.c.s
@@ -1688,7 +1688,7 @@ src/lv_widgets/lv_gauge.s: src/lv_widgets/lv_gauge.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_gauge.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_gauge.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_gauge.c.s
 .PHONY : src/lv_widgets/lv_gauge.c.s
 
 src/lv_widgets/lv_img.o: src/lv_widgets/lv_img.c.o
@@ -1697,7 +1697,7 @@ src/lv_widgets/lv_img.o: src/lv_widgets/lv_img.c.o
 
 # target to build an object file
 src/lv_widgets/lv_img.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_img.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_img.c.o
 .PHONY : src/lv_widgets/lv_img.c.o
 
 src/lv_widgets/lv_img.i: src/lv_widgets/lv_img.c.i
@@ -1706,7 +1706,7 @@ src/lv_widgets/lv_img.i: src/lv_widgets/lv_img.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_img.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_img.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_img.c.i
 .PHONY : src/lv_widgets/lv_img.c.i
 
 src/lv_widgets/lv_img.s: src/lv_widgets/lv_img.c.s
@@ -1715,7 +1715,7 @@ src/lv_widgets/lv_img.s: src/lv_widgets/lv_img.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_img.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_img.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_img.c.s
 .PHONY : src/lv_widgets/lv_img.c.s
 
 src/lv_widgets/lv_imgbtn.o: src/lv_widgets/lv_imgbtn.c.o
@@ -1724,7 +1724,7 @@ src/lv_widgets/lv_imgbtn.o: src/lv_widgets/lv_imgbtn.c.o
 
 # target to build an object file
 src/lv_widgets/lv_imgbtn.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_imgbtn.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_imgbtn.c.o
 .PHONY : src/lv_widgets/lv_imgbtn.c.o
 
 src/lv_widgets/lv_imgbtn.i: src/lv_widgets/lv_imgbtn.c.i
@@ -1733,7 +1733,7 @@ src/lv_widgets/lv_imgbtn.i: src/lv_widgets/lv_imgbtn.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_imgbtn.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_imgbtn.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_imgbtn.c.i
 .PHONY : src/lv_widgets/lv_imgbtn.c.i
 
 src/lv_widgets/lv_imgbtn.s: src/lv_widgets/lv_imgbtn.c.s
@@ -1742,7 +1742,7 @@ src/lv_widgets/lv_imgbtn.s: src/lv_widgets/lv_imgbtn.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_imgbtn.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_imgbtn.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_imgbtn.c.s
 .PHONY : src/lv_widgets/lv_imgbtn.c.s
 
 src/lv_widgets/lv_keyboard.o: src/lv_widgets/lv_keyboard.c.o
@@ -1751,7 +1751,7 @@ src/lv_widgets/lv_keyboard.o: src/lv_widgets/lv_keyboard.c.o
 
 # target to build an object file
 src/lv_widgets/lv_keyboard.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_keyboard.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_keyboard.c.o
 .PHONY : src/lv_widgets/lv_keyboard.c.o
 
 src/lv_widgets/lv_keyboard.i: src/lv_widgets/lv_keyboard.c.i
@@ -1760,7 +1760,7 @@ src/lv_widgets/lv_keyboard.i: src/lv_widgets/lv_keyboard.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_keyboard.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_keyboard.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_keyboard.c.i
 .PHONY : src/lv_widgets/lv_keyboard.c.i
 
 src/lv_widgets/lv_keyboard.s: src/lv_widgets/lv_keyboard.c.s
@@ -1769,7 +1769,7 @@ src/lv_widgets/lv_keyboard.s: src/lv_widgets/lv_keyboard.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_keyboard.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_keyboard.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_keyboard.c.s
 .PHONY : src/lv_widgets/lv_keyboard.c.s
 
 src/lv_widgets/lv_label.o: src/lv_widgets/lv_label.c.o
@@ -1778,7 +1778,7 @@ src/lv_widgets/lv_label.o: src/lv_widgets/lv_label.c.o
 
 # target to build an object file
 src/lv_widgets/lv_label.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_label.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_label.c.o
 .PHONY : src/lv_widgets/lv_label.c.o
 
 src/lv_widgets/lv_label.i: src/lv_widgets/lv_label.c.i
@@ -1787,7 +1787,7 @@ src/lv_widgets/lv_label.i: src/lv_widgets/lv_label.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_label.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_label.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_label.c.i
 .PHONY : src/lv_widgets/lv_label.c.i
 
 src/lv_widgets/lv_label.s: src/lv_widgets/lv_label.c.s
@@ -1796,7 +1796,7 @@ src/lv_widgets/lv_label.s: src/lv_widgets/lv_label.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_label.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_label.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_label.c.s
 .PHONY : src/lv_widgets/lv_label.c.s
 
 src/lv_widgets/lv_led.o: src/lv_widgets/lv_led.c.o
@@ -1805,7 +1805,7 @@ src/lv_widgets/lv_led.o: src/lv_widgets/lv_led.c.o
 
 # target to build an object file
 src/lv_widgets/lv_led.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_led.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_led.c.o
 .PHONY : src/lv_widgets/lv_led.c.o
 
 src/lv_widgets/lv_led.i: src/lv_widgets/lv_led.c.i
@@ -1814,7 +1814,7 @@ src/lv_widgets/lv_led.i: src/lv_widgets/lv_led.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_led.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_led.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_led.c.i
 .PHONY : src/lv_widgets/lv_led.c.i
 
 src/lv_widgets/lv_led.s: src/lv_widgets/lv_led.c.s
@@ -1823,7 +1823,7 @@ src/lv_widgets/lv_led.s: src/lv_widgets/lv_led.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_led.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_led.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_led.c.s
 .PHONY : src/lv_widgets/lv_led.c.s
 
 src/lv_widgets/lv_line.o: src/lv_widgets/lv_line.c.o
@@ -1832,7 +1832,7 @@ src/lv_widgets/lv_line.o: src/lv_widgets/lv_line.c.o
 
 # target to build an object file
 src/lv_widgets/lv_line.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_line.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_line.c.o
 .PHONY : src/lv_widgets/lv_line.c.o
 
 src/lv_widgets/lv_line.i: src/lv_widgets/lv_line.c.i
@@ -1841,7 +1841,7 @@ src/lv_widgets/lv_line.i: src/lv_widgets/lv_line.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_line.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_line.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_line.c.i
 .PHONY : src/lv_widgets/lv_line.c.i
 
 src/lv_widgets/lv_line.s: src/lv_widgets/lv_line.c.s
@@ -1850,7 +1850,7 @@ src/lv_widgets/lv_line.s: src/lv_widgets/lv_line.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_line.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_line.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_line.c.s
 .PHONY : src/lv_widgets/lv_line.c.s
 
 src/lv_widgets/lv_linemeter.o: src/lv_widgets/lv_linemeter.c.o
@@ -1859,7 +1859,7 @@ src/lv_widgets/lv_linemeter.o: src/lv_widgets/lv_linemeter.c.o
 
 # target to build an object file
 src/lv_widgets/lv_linemeter.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_linemeter.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_linemeter.c.o
 .PHONY : src/lv_widgets/lv_linemeter.c.o
 
 src/lv_widgets/lv_linemeter.i: src/lv_widgets/lv_linemeter.c.i
@@ -1868,7 +1868,7 @@ src/lv_widgets/lv_linemeter.i: src/lv_widgets/lv_linemeter.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_linemeter.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_linemeter.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_linemeter.c.i
 .PHONY : src/lv_widgets/lv_linemeter.c.i
 
 src/lv_widgets/lv_linemeter.s: src/lv_widgets/lv_linemeter.c.s
@@ -1877,7 +1877,7 @@ src/lv_widgets/lv_linemeter.s: src/lv_widgets/lv_linemeter.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_linemeter.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_linemeter.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_linemeter.c.s
 .PHONY : src/lv_widgets/lv_linemeter.c.s
 
 src/lv_widgets/lv_list.o: src/lv_widgets/lv_list.c.o
@@ -1886,7 +1886,7 @@ src/lv_widgets/lv_list.o: src/lv_widgets/lv_list.c.o
 
 # target to build an object file
 src/lv_widgets/lv_list.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_list.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_list.c.o
 .PHONY : src/lv_widgets/lv_list.c.o
 
 src/lv_widgets/lv_list.i: src/lv_widgets/lv_list.c.i
@@ -1895,7 +1895,7 @@ src/lv_widgets/lv_list.i: src/lv_widgets/lv_list.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_list.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_list.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_list.c.i
 .PHONY : src/lv_widgets/lv_list.c.i
 
 src/lv_widgets/lv_list.s: src/lv_widgets/lv_list.c.s
@@ -1904,7 +1904,7 @@ src/lv_widgets/lv_list.s: src/lv_widgets/lv_list.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_list.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_list.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_list.c.s
 .PHONY : src/lv_widgets/lv_list.c.s
 
 src/lv_widgets/lv_msgbox.o: src/lv_widgets/lv_msgbox.c.o
@@ -1913,7 +1913,7 @@ src/lv_widgets/lv_msgbox.o: src/lv_widgets/lv_msgbox.c.o
 
 # target to build an object file
 src/lv_widgets/lv_msgbox.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_msgbox.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_msgbox.c.o
 .PHONY : src/lv_widgets/lv_msgbox.c.o
 
 src/lv_widgets/lv_msgbox.i: src/lv_widgets/lv_msgbox.c.i
@@ -1922,7 +1922,7 @@ src/lv_widgets/lv_msgbox.i: src/lv_widgets/lv_msgbox.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_msgbox.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_msgbox.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_msgbox.c.i
 .PHONY : src/lv_widgets/lv_msgbox.c.i
 
 src/lv_widgets/lv_msgbox.s: src/lv_widgets/lv_msgbox.c.s
@@ -1931,7 +1931,7 @@ src/lv_widgets/lv_msgbox.s: src/lv_widgets/lv_msgbox.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_msgbox.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_msgbox.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_msgbox.c.s
 .PHONY : src/lv_widgets/lv_msgbox.c.s
 
 src/lv_widgets/lv_objmask.o: src/lv_widgets/lv_objmask.c.o
@@ -1940,7 +1940,7 @@ src/lv_widgets/lv_objmask.o: src/lv_widgets/lv_objmask.c.o
 
 # target to build an object file
 src/lv_widgets/lv_objmask.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objmask.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objmask.c.o
 .PHONY : src/lv_widgets/lv_objmask.c.o
 
 src/lv_widgets/lv_objmask.i: src/lv_widgets/lv_objmask.c.i
@@ -1949,7 +1949,7 @@ src/lv_widgets/lv_objmask.i: src/lv_widgets/lv_objmask.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_objmask.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objmask.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objmask.c.i
 .PHONY : src/lv_widgets/lv_objmask.c.i
 
 src/lv_widgets/lv_objmask.s: src/lv_widgets/lv_objmask.c.s
@@ -1958,7 +1958,7 @@ src/lv_widgets/lv_objmask.s: src/lv_widgets/lv_objmask.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_objmask.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objmask.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objmask.c.s
 .PHONY : src/lv_widgets/lv_objmask.c.s
 
 src/lv_widgets/lv_objx_templ.o: src/lv_widgets/lv_objx_templ.c.o
@@ -1967,7 +1967,7 @@ src/lv_widgets/lv_objx_templ.o: src/lv_widgets/lv_objx_templ.c.o
 
 # target to build an object file
 src/lv_widgets/lv_objx_templ.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objx_templ.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objx_templ.c.o
 .PHONY : src/lv_widgets/lv_objx_templ.c.o
 
 src/lv_widgets/lv_objx_templ.i: src/lv_widgets/lv_objx_templ.c.i
@@ -1976,7 +1976,7 @@ src/lv_widgets/lv_objx_templ.i: src/lv_widgets/lv_objx_templ.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_objx_templ.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objx_templ.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objx_templ.c.i
 .PHONY : src/lv_widgets/lv_objx_templ.c.i
 
 src/lv_widgets/lv_objx_templ.s: src/lv_widgets/lv_objx_templ.c.s
@@ -1985,7 +1985,7 @@ src/lv_widgets/lv_objx_templ.s: src/lv_widgets/lv_objx_templ.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_objx_templ.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objx_templ.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_objx_templ.c.s
 .PHONY : src/lv_widgets/lv_objx_templ.c.s
 
 src/lv_widgets/lv_page.o: src/lv_widgets/lv_page.c.o
@@ -1994,7 +1994,7 @@ src/lv_widgets/lv_page.o: src/lv_widgets/lv_page.c.o
 
 # target to build an object file
 src/lv_widgets/lv_page.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_page.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_page.c.o
 .PHONY : src/lv_widgets/lv_page.c.o
 
 src/lv_widgets/lv_page.i: src/lv_widgets/lv_page.c.i
@@ -2003,7 +2003,7 @@ src/lv_widgets/lv_page.i: src/lv_widgets/lv_page.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_page.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_page.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_page.c.i
 .PHONY : src/lv_widgets/lv_page.c.i
 
 src/lv_widgets/lv_page.s: src/lv_widgets/lv_page.c.s
@@ -2012,7 +2012,7 @@ src/lv_widgets/lv_page.s: src/lv_widgets/lv_page.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_page.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_page.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_page.c.s
 .PHONY : src/lv_widgets/lv_page.c.s
 
 src/lv_widgets/lv_roller.o: src/lv_widgets/lv_roller.c.o
@@ -2021,7 +2021,7 @@ src/lv_widgets/lv_roller.o: src/lv_widgets/lv_roller.c.o
 
 # target to build an object file
 src/lv_widgets/lv_roller.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_roller.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_roller.c.o
 .PHONY : src/lv_widgets/lv_roller.c.o
 
 src/lv_widgets/lv_roller.i: src/lv_widgets/lv_roller.c.i
@@ -2030,7 +2030,7 @@ src/lv_widgets/lv_roller.i: src/lv_widgets/lv_roller.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_roller.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_roller.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_roller.c.i
 .PHONY : src/lv_widgets/lv_roller.c.i
 
 src/lv_widgets/lv_roller.s: src/lv_widgets/lv_roller.c.s
@@ -2039,7 +2039,7 @@ src/lv_widgets/lv_roller.s: src/lv_widgets/lv_roller.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_roller.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_roller.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_roller.c.s
 .PHONY : src/lv_widgets/lv_roller.c.s
 
 src/lv_widgets/lv_slider.o: src/lv_widgets/lv_slider.c.o
@@ -2048,7 +2048,7 @@ src/lv_widgets/lv_slider.o: src/lv_widgets/lv_slider.c.o
 
 # target to build an object file
 src/lv_widgets/lv_slider.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_slider.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_slider.c.o
 .PHONY : src/lv_widgets/lv_slider.c.o
 
 src/lv_widgets/lv_slider.i: src/lv_widgets/lv_slider.c.i
@@ -2057,7 +2057,7 @@ src/lv_widgets/lv_slider.i: src/lv_widgets/lv_slider.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_slider.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_slider.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_slider.c.i
 .PHONY : src/lv_widgets/lv_slider.c.i
 
 src/lv_widgets/lv_slider.s: src/lv_widgets/lv_slider.c.s
@@ -2066,7 +2066,7 @@ src/lv_widgets/lv_slider.s: src/lv_widgets/lv_slider.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_slider.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_slider.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_slider.c.s
 .PHONY : src/lv_widgets/lv_slider.c.s
 
 src/lv_widgets/lv_spinbox.o: src/lv_widgets/lv_spinbox.c.o
@@ -2075,7 +2075,7 @@ src/lv_widgets/lv_spinbox.o: src/lv_widgets/lv_spinbox.c.o
 
 # target to build an object file
 src/lv_widgets/lv_spinbox.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinbox.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinbox.c.o
 .PHONY : src/lv_widgets/lv_spinbox.c.o
 
 src/lv_widgets/lv_spinbox.i: src/lv_widgets/lv_spinbox.c.i
@@ -2084,7 +2084,7 @@ src/lv_widgets/lv_spinbox.i: src/lv_widgets/lv_spinbox.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_spinbox.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinbox.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinbox.c.i
 .PHONY : src/lv_widgets/lv_spinbox.c.i
 
 src/lv_widgets/lv_spinbox.s: src/lv_widgets/lv_spinbox.c.s
@@ -2093,7 +2093,7 @@ src/lv_widgets/lv_spinbox.s: src/lv_widgets/lv_spinbox.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_spinbox.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinbox.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinbox.c.s
 .PHONY : src/lv_widgets/lv_spinbox.c.s
 
 src/lv_widgets/lv_spinner.o: src/lv_widgets/lv_spinner.c.o
@@ -2102,7 +2102,7 @@ src/lv_widgets/lv_spinner.o: src/lv_widgets/lv_spinner.c.o
 
 # target to build an object file
 src/lv_widgets/lv_spinner.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinner.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinner.c.o
 .PHONY : src/lv_widgets/lv_spinner.c.o
 
 src/lv_widgets/lv_spinner.i: src/lv_widgets/lv_spinner.c.i
@@ -2111,7 +2111,7 @@ src/lv_widgets/lv_spinner.i: src/lv_widgets/lv_spinner.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_spinner.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinner.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinner.c.i
 .PHONY : src/lv_widgets/lv_spinner.c.i
 
 src/lv_widgets/lv_spinner.s: src/lv_widgets/lv_spinner.c.s
@@ -2120,7 +2120,7 @@ src/lv_widgets/lv_spinner.s: src/lv_widgets/lv_spinner.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_spinner.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinner.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_spinner.c.s
 .PHONY : src/lv_widgets/lv_spinner.c.s
 
 src/lv_widgets/lv_switch.o: src/lv_widgets/lv_switch.c.o
@@ -2129,7 +2129,7 @@ src/lv_widgets/lv_switch.o: src/lv_widgets/lv_switch.c.o
 
 # target to build an object file
 src/lv_widgets/lv_switch.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_switch.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_switch.c.o
 .PHONY : src/lv_widgets/lv_switch.c.o
 
 src/lv_widgets/lv_switch.i: src/lv_widgets/lv_switch.c.i
@@ -2138,7 +2138,7 @@ src/lv_widgets/lv_switch.i: src/lv_widgets/lv_switch.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_switch.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_switch.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_switch.c.i
 .PHONY : src/lv_widgets/lv_switch.c.i
 
 src/lv_widgets/lv_switch.s: src/lv_widgets/lv_switch.c.s
@@ -2147,7 +2147,7 @@ src/lv_widgets/lv_switch.s: src/lv_widgets/lv_switch.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_switch.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_switch.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_switch.c.s
 .PHONY : src/lv_widgets/lv_switch.c.s
 
 src/lv_widgets/lv_table.o: src/lv_widgets/lv_table.c.o
@@ -2156,7 +2156,7 @@ src/lv_widgets/lv_table.o: src/lv_widgets/lv_table.c.o
 
 # target to build an object file
 src/lv_widgets/lv_table.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_table.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_table.c.o
 .PHONY : src/lv_widgets/lv_table.c.o
 
 src/lv_widgets/lv_table.i: src/lv_widgets/lv_table.c.i
@@ -2165,7 +2165,7 @@ src/lv_widgets/lv_table.i: src/lv_widgets/lv_table.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_table.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_table.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_table.c.i
 .PHONY : src/lv_widgets/lv_table.c.i
 
 src/lv_widgets/lv_table.s: src/lv_widgets/lv_table.c.s
@@ -2174,7 +2174,7 @@ src/lv_widgets/lv_table.s: src/lv_widgets/lv_table.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_table.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_table.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_table.c.s
 .PHONY : src/lv_widgets/lv_table.c.s
 
 src/lv_widgets/lv_tabview.o: src/lv_widgets/lv_tabview.c.o
@@ -2183,7 +2183,7 @@ src/lv_widgets/lv_tabview.o: src/lv_widgets/lv_tabview.c.o
 
 # target to build an object file
 src/lv_widgets/lv_tabview.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tabview.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tabview.c.o
 .PHONY : src/lv_widgets/lv_tabview.c.o
 
 src/lv_widgets/lv_tabview.i: src/lv_widgets/lv_tabview.c.i
@@ -2192,7 +2192,7 @@ src/lv_widgets/lv_tabview.i: src/lv_widgets/lv_tabview.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_tabview.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tabview.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tabview.c.i
 .PHONY : src/lv_widgets/lv_tabview.c.i
 
 src/lv_widgets/lv_tabview.s: src/lv_widgets/lv_tabview.c.s
@@ -2201,7 +2201,7 @@ src/lv_widgets/lv_tabview.s: src/lv_widgets/lv_tabview.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_tabview.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tabview.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tabview.c.s
 .PHONY : src/lv_widgets/lv_tabview.c.s
 
 src/lv_widgets/lv_textarea.o: src/lv_widgets/lv_textarea.c.o
@@ -2210,7 +2210,7 @@ src/lv_widgets/lv_textarea.o: src/lv_widgets/lv_textarea.c.o
 
 # target to build an object file
 src/lv_widgets/lv_textarea.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_textarea.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_textarea.c.o
 .PHONY : src/lv_widgets/lv_textarea.c.o
 
 src/lv_widgets/lv_textarea.i: src/lv_widgets/lv_textarea.c.i
@@ -2219,7 +2219,7 @@ src/lv_widgets/lv_textarea.i: src/lv_widgets/lv_textarea.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_textarea.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_textarea.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_textarea.c.i
 .PHONY : src/lv_widgets/lv_textarea.c.i
 
 src/lv_widgets/lv_textarea.s: src/lv_widgets/lv_textarea.c.s
@@ -2228,7 +2228,7 @@ src/lv_widgets/lv_textarea.s: src/lv_widgets/lv_textarea.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_textarea.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_textarea.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_textarea.c.s
 .PHONY : src/lv_widgets/lv_textarea.c.s
 
 src/lv_widgets/lv_tileview.o: src/lv_widgets/lv_tileview.c.o
@@ -2237,7 +2237,7 @@ src/lv_widgets/lv_tileview.o: src/lv_widgets/lv_tileview.c.o
 
 # target to build an object file
 src/lv_widgets/lv_tileview.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tileview.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tileview.c.o
 .PHONY : src/lv_widgets/lv_tileview.c.o
 
 src/lv_widgets/lv_tileview.i: src/lv_widgets/lv_tileview.c.i
@@ -2246,7 +2246,7 @@ src/lv_widgets/lv_tileview.i: src/lv_widgets/lv_tileview.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_tileview.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tileview.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tileview.c.i
 .PHONY : src/lv_widgets/lv_tileview.c.i
 
 src/lv_widgets/lv_tileview.s: src/lv_widgets/lv_tileview.c.s
@@ -2255,7 +2255,7 @@ src/lv_widgets/lv_tileview.s: src/lv_widgets/lv_tileview.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_tileview.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tileview.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_tileview.c.s
 .PHONY : src/lv_widgets/lv_tileview.c.s
 
 src/lv_widgets/lv_win.o: src/lv_widgets/lv_win.c.o
@@ -2264,7 +2264,7 @@ src/lv_widgets/lv_win.o: src/lv_widgets/lv_win.c.o
 
 # target to build an object file
 src/lv_widgets/lv_win.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_win.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_win.c.o
 .PHONY : src/lv_widgets/lv_win.c.o
 
 src/lv_widgets/lv_win.i: src/lv_widgets/lv_win.c.i
@@ -2273,7 +2273,7 @@ src/lv_widgets/lv_win.i: src/lv_widgets/lv_win.c.i
 
 # target to preprocess a source file
 src/lv_widgets/lv_win.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_win.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_win.c.i
 .PHONY : src/lv_widgets/lv_win.c.i
 
 src/lv_widgets/lv_win.s: src/lv_widgets/lv_win.c.s
@@ -2282,7 +2282,7 @@ src/lv_widgets/lv_win.s: src/lv_widgets/lv_win.c.s
 
 # target to generate assembly for a file
 src/lv_widgets/lv_win.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_win.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/lvgl/CMakeFiles/lvgl_lib.dir/build.make src/lvgl/CMakeFiles/lvgl_lib.dir/src/lv_widgets/lv_win.c.s
 .PHONY : src/lv_widgets/lv_win.c.s
 
 # Help Target
@@ -2545,6 +2545,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

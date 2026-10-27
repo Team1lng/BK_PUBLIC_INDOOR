@@ -882,6 +882,12 @@ bool tuya_uuid_file_read(void)
 // 	back_logo_task_t = lv_task_create(back_logo_task, 3000, LV_TASK_PRIO_HIGH, NULL);
 // }
 
+static void feed_watchdog_task(lv_task_t *t)
+{
+	extern void watch_dog_feed(void);
+	watch_dog_feed();
+}
+
 void leo_api_init(void)
 {
 	lv_os_event_task_init();
@@ -1006,6 +1012,9 @@ void leo_api_init(void)
 	// goto_logo_display();
 	// extern void SD_card_space_clear(void);
 	// SD_card_space_clear();
+	extern void watchdog_open(void);
+	watchdog_open();
+	lv_task_ready(lv_task_create(feed_watchdog_task, 1000, LV_TASK_PRIO_HIGHEST, NULL));
 	monitor_channel_set(MON_CH_NONE);
 	goto_layout(pLAYOUT(standby));
 }

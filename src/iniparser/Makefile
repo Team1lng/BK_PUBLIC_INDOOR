@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.3-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
+CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_indoor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
+CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_indoor
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/iniparser/CMakeFiles/progress.marks
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/iniparser/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/iniparser/CMakeFiles/progress.marks
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/iniparser/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/iniparser/clean
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/iniparser/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/iniparser/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/iniparser/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/iniparser/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/iniparser/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/iniparser/CMakeFiles/iniparser.dir/rule:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/iniparser/CMakeFiles/iniparser.dir/rule
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/iniparser/CMakeFiles/iniparser.dir/rule
 .PHONY : src/iniparser/CMakeFiles/iniparser.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ iniparser: src/iniparser/CMakeFiles/iniparser.dir/rule
 
 # fast build rule for target.
 iniparser/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/build
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/build
 .PHONY : iniparser/fast
 
 src/dictionary.o: src/dictionary.c.o
@@ -131,7 +131,7 @@ src/dictionary.o: src/dictionary.c.o
 
 # target to build an object file
 src/dictionary.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/dictionary.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/dictionary.c.o
 .PHONY : src/dictionary.c.o
 
 src/dictionary.i: src/dictionary.c.i
@@ -140,7 +140,7 @@ src/dictionary.i: src/dictionary.c.i
 
 # target to preprocess a source file
 src/dictionary.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/dictionary.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/dictionary.c.i
 .PHONY : src/dictionary.c.i
 
 src/dictionary.s: src/dictionary.c.s
@@ -149,7 +149,7 @@ src/dictionary.s: src/dictionary.c.s
 
 # target to generate assembly for a file
 src/dictionary.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/dictionary.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/dictionary.c.s
 .PHONY : src/dictionary.c.s
 
 src/iniparser.o: src/iniparser.c.o
@@ -158,7 +158,7 @@ src/iniparser.o: src/iniparser.c.o
 
 # target to build an object file
 src/iniparser.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/iniparser.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/iniparser.c.o
 .PHONY : src/iniparser.c.o
 
 src/iniparser.i: src/iniparser.c.i
@@ -167,7 +167,7 @@ src/iniparser.i: src/iniparser.c.i
 
 # target to preprocess a source file
 src/iniparser.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/iniparser.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/iniparser.c.i
 .PHONY : src/iniparser.c.i
 
 src/iniparser.s: src/iniparser.c.s
@@ -176,7 +176,7 @@ src/iniparser.s: src/iniparser.c.s
 
 # target to generate assembly for a file
 src/iniparser.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/iniparser.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/iniparser/CMakeFiles/iniparser.dir/build.make src/iniparser/CMakeFiles/iniparser.dir/src/iniparser.c.s
 .PHONY : src/iniparser.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

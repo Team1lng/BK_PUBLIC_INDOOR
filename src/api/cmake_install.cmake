@@ -1,4 +1,4 @@
-# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/api
+# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/api
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

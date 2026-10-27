@@ -622,6 +622,30 @@ bool user_data_save(void)
 	return true;
 }
 
+bool user_data_save_sync(void)
+{
+	int fd = open(USER_DATA_PATH, O_WRONLY | O_CREAT | O_TRUNC, 0666);
+	if (fd < 0)
+	{
+		Debug("write open %s fail \n", USER_DATA_PATH);
+		return false;
+	}
+
+	ssize_t write_len = write(fd, &user_data, sizeof(user_data_info));
+	if (write_len != sizeof(user_data_info))
+	{
+		Debug("write %s fail, len:%d expected:%d\n", USER_DATA_PATH, (int)write_len, (int)sizeof(user_data_info));
+		close(fd);
+		return false;
+	}
+
+	fsync(fd);
+	close(fd);
+	user_data_save_flag = false;
+	system("sync");
+	return true;
+}
+
 static bool watch_dog_flag = false;
 void watchdog_open(void)
 {
@@ -679,7 +703,7 @@ static void *user_data_task(void *arg)
 
 	ak_get_ostime(&tv1);
 	ak_get_ostime(&tv3);
-	watchdog_open();
+	// watchdog_open();
 	while (1)
 	{
 		if (user_data_save_flag)
@@ -708,11 +732,11 @@ static void *user_data_task(void *arg)
 			system("echo 3 > /proc/sys/vm/drop_caches");
 		}
 		
-		if (abs(tv2.sec - tv3.sec) > 1)
-		{
-			watch_dog_feed();
-			tv3 = tv2;
-		}
+		// if (abs(tv2.sec - tv3.sec) > 1)
+		// {
+		// 	watch_dog_feed();
+		// 	tv3 = tv2;
+		// }
 
 
 		if (wifi_usb_module_enable() &&

@@ -1,4 +1,4 @@
-# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/lv_drivers
+# Install script for directory: /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/lv_drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

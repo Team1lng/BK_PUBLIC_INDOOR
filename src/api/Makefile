@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.3-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
+CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_indoor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
+CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_indoor
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/api/CMakeFiles/progress.marks
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/api/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/api/CMakeFiles/progress.marks
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/api/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/api/clean
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/api/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/api/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/api/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/api/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/api/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/api/CMakeFiles/leo_api_lib.dir/rule:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/api/CMakeFiles/leo_api_lib.dir/rule
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/api/CMakeFiles/leo_api_lib.dir/rule
 .PHONY : src/api/CMakeFiles/leo_api_lib.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ leo_api_lib: src/api/CMakeFiles/leo_api_lib.dir/rule
 
 # fast build rule for target.
 leo_api_lib/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/build
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/build
 .PHONY : leo_api_lib/fast
 
 audio/audio_config_anyka.o: audio/audio_config_anyka.c.o
@@ -131,7 +131,7 @@ audio/audio_config_anyka.o: audio/audio_config_anyka.c.o
 
 # target to build an object file
 audio/audio_config_anyka.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_anyka.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_anyka.c.o
 .PHONY : audio/audio_config_anyka.c.o
 
 audio/audio_config_anyka.i: audio/audio_config_anyka.c.i
@@ -140,7 +140,7 @@ audio/audio_config_anyka.i: audio/audio_config_anyka.c.i
 
 # target to preprocess a source file
 audio/audio_config_anyka.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_anyka.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_anyka.c.i
 .PHONY : audio/audio_config_anyka.c.i
 
 audio/audio_config_anyka.s: audio/audio_config_anyka.c.s
@@ -149,7 +149,7 @@ audio/audio_config_anyka.s: audio/audio_config_anyka.c.s
 
 # target to generate assembly for a file
 audio/audio_config_anyka.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_anyka.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_anyka.c.s
 .PHONY : audio/audio_config_anyka.c.s
 
 audio/audio_config_default.o: audio/audio_config_default.c.o
@@ -158,7 +158,7 @@ audio/audio_config_default.o: audio/audio_config_default.c.o
 
 # target to build an object file
 audio/audio_config_default.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_default.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_default.c.o
 .PHONY : audio/audio_config_default.c.o
 
 audio/audio_config_default.i: audio/audio_config_default.c.i
@@ -167,7 +167,7 @@ audio/audio_config_default.i: audio/audio_config_default.c.i
 
 # target to preprocess a source file
 audio/audio_config_default.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_default.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_default.c.i
 .PHONY : audio/audio_config_default.c.i
 
 audio/audio_config_default.s: audio/audio_config_default.c.s
@@ -176,7 +176,7 @@ audio/audio_config_default.s: audio/audio_config_default.c.s
 
 # target to generate assembly for a file
 audio/audio_config_default.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_default.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_config_default.c.s
 .PHONY : audio/audio_config_default.c.s
 
 audio/audio_decode.o: audio/audio_decode.c.o
@@ -185,7 +185,7 @@ audio/audio_decode.o: audio/audio_decode.c.o
 
 # target to build an object file
 audio/audio_decode.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_decode.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_decode.c.o
 .PHONY : audio/audio_decode.c.o
 
 audio/audio_decode.i: audio/audio_decode.c.i
@@ -194,7 +194,7 @@ audio/audio_decode.i: audio/audio_decode.c.i
 
 # target to preprocess a source file
 audio/audio_decode.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_decode.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_decode.c.i
 .PHONY : audio/audio_decode.c.i
 
 audio/audio_decode.s: audio/audio_decode.c.s
@@ -203,7 +203,7 @@ audio/audio_decode.s: audio/audio_decode.c.s
 
 # target to generate assembly for a file
 audio/audio_decode.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_decode.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_decode.c.s
 .PHONY : audio/audio_decode.c.s
 
 audio/audio_input.o: audio/audio_input.c.o
@@ -212,7 +212,7 @@ audio/audio_input.o: audio/audio_input.c.o
 
 # target to build an object file
 audio/audio_input.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_input.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_input.c.o
 .PHONY : audio/audio_input.c.o
 
 audio/audio_input.i: audio/audio_input.c.i
@@ -221,7 +221,7 @@ audio/audio_input.i: audio/audio_input.c.i
 
 # target to preprocess a source file
 audio/audio_input.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_input.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_input.c.i
 .PHONY : audio/audio_input.c.i
 
 audio/audio_input.s: audio/audio_input.c.s
@@ -230,7 +230,7 @@ audio/audio_input.s: audio/audio_input.c.s
 
 # target to generate assembly for a file
 audio/audio_input.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_input.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_input.c.s
 .PHONY : audio/audio_input.c.s
 
 audio/audio_output.o: audio/audio_output.c.o
@@ -239,7 +239,7 @@ audio/audio_output.o: audio/audio_output.c.o
 
 # target to build an object file
 audio/audio_output.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_output.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_output.c.o
 .PHONY : audio/audio_output.c.o
 
 audio/audio_output.i: audio/audio_output.c.i
@@ -248,7 +248,7 @@ audio/audio_output.i: audio/audio_output.c.i
 
 # target to preprocess a source file
 audio/audio_output.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_output.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_output.c.i
 .PHONY : audio/audio_output.c.i
 
 audio/audio_output.s: audio/audio_output.c.s
@@ -257,7 +257,7 @@ audio/audio_output.s: audio/audio_output.c.s
 
 # target to generate assembly for a file
 audio/audio_output.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_output.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_output.c.s
 .PHONY : audio/audio_output.c.s
 
 audio/audio_play.o: audio/audio_play.c.o
@@ -266,7 +266,7 @@ audio/audio_play.o: audio/audio_play.c.o
 
 # target to build an object file
 audio/audio_play.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_play.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_play.c.o
 .PHONY : audio/audio_play.c.o
 
 audio/audio_play.i: audio/audio_play.c.i
@@ -275,7 +275,7 @@ audio/audio_play.i: audio/audio_play.c.i
 
 # target to preprocess a source file
 audio/audio_play.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_play.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_play.c.i
 .PHONY : audio/audio_play.c.i
 
 audio/audio_play.s: audio/audio_play.c.s
@@ -284,7 +284,7 @@ audio/audio_play.s: audio/audio_play.c.s
 
 # target to generate assembly for a file
 audio/audio_play.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_play.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_play.c.s
 .PHONY : audio/audio_play.c.s
 
 audio/audio_vqe.o: audio/audio_vqe.c.o
@@ -293,7 +293,7 @@ audio/audio_vqe.o: audio/audio_vqe.c.o
 
 # target to build an object file
 audio/audio_vqe.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_vqe.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_vqe.c.o
 .PHONY : audio/audio_vqe.c.o
 
 audio/audio_vqe.i: audio/audio_vqe.c.i
@@ -302,7 +302,7 @@ audio/audio_vqe.i: audio/audio_vqe.c.i
 
 # target to preprocess a source file
 audio/audio_vqe.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_vqe.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_vqe.c.i
 .PHONY : audio/audio_vqe.c.i
 
 audio/audio_vqe.s: audio/audio_vqe.c.s
@@ -311,7 +311,7 @@ audio/audio_vqe.s: audio/audio_vqe.c.s
 
 # target to generate assembly for a file
 audio/audio_vqe.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_vqe.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/audio/audio_vqe.c.s
 .PHONY : audio/audio_vqe.c.s
 
 common/leo_audio_play.o: common/leo_audio_play.c.o
@@ -320,7 +320,7 @@ common/leo_audio_play.o: common/leo_audio_play.c.o
 
 # target to build an object file
 common/leo_audio_play.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_audio_play.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_audio_play.c.o
 .PHONY : common/leo_audio_play.c.o
 
 common/leo_audio_play.i: common/leo_audio_play.c.i
@@ -329,7 +329,7 @@ common/leo_audio_play.i: common/leo_audio_play.c.i
 
 # target to preprocess a source file
 common/leo_audio_play.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_audio_play.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_audio_play.c.i
 .PHONY : common/leo_audio_play.c.i
 
 common/leo_audio_play.s: common/leo_audio_play.c.s
@@ -338,7 +338,7 @@ common/leo_audio_play.s: common/leo_audio_play.c.s
 
 # target to generate assembly for a file
 common/leo_audio_play.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_audio_play.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_audio_play.c.s
 .PHONY : common/leo_audio_play.c.s
 
 common/leo_monitor.o: common/leo_monitor.c.o
@@ -347,7 +347,7 @@ common/leo_monitor.o: common/leo_monitor.c.o
 
 # target to build an object file
 common/leo_monitor.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_monitor.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_monitor.c.o
 .PHONY : common/leo_monitor.c.o
 
 common/leo_monitor.i: common/leo_monitor.c.i
@@ -356,7 +356,7 @@ common/leo_monitor.i: common/leo_monitor.c.i
 
 # target to preprocess a source file
 common/leo_monitor.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_monitor.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_monitor.c.i
 .PHONY : common/leo_monitor.c.i
 
 common/leo_monitor.s: common/leo_monitor.c.s
@@ -365,7 +365,7 @@ common/leo_monitor.s: common/leo_monitor.c.s
 
 # target to generate assembly for a file
 common/leo_monitor.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_monitor.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_monitor.c.s
 .PHONY : common/leo_monitor.c.s
 
 common/leo_record.o: common/leo_record.c.o
@@ -374,7 +374,7 @@ common/leo_record.o: common/leo_record.c.o
 
 # target to build an object file
 common/leo_record.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_record.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_record.c.o
 .PHONY : common/leo_record.c.o
 
 common/leo_record.i: common/leo_record.c.i
@@ -383,7 +383,7 @@ common/leo_record.i: common/leo_record.c.i
 
 # target to preprocess a source file
 common/leo_record.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_record.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_record.c.i
 .PHONY : common/leo_record.c.i
 
 common/leo_record.s: common/leo_record.c.s
@@ -392,7 +392,7 @@ common/leo_record.s: common/leo_record.c.s
 
 # target to generate assembly for a file
 common/leo_record.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_record.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/leo_record.c.s
 .PHONY : common/leo_record.c.s
 
 common/os_standby.o: common/os_standby.c.o
@@ -401,7 +401,7 @@ common/os_standby.o: common/os_standby.c.o
 
 # target to build an object file
 common/os_standby.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/os_standby.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/os_standby.c.o
 .PHONY : common/os_standby.c.o
 
 common/os_standby.i: common/os_standby.c.i
@@ -410,7 +410,7 @@ common/os_standby.i: common/os_standby.c.i
 
 # target to preprocess a source file
 common/os_standby.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/os_standby.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/os_standby.c.i
 .PHONY : common/os_standby.c.i
 
 common/os_standby.s: common/os_standby.c.s
@@ -419,7 +419,7 @@ common/os_standby.s: common/os_standby.c.s
 
 # target to generate assembly for a file
 common/os_standby.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/os_standby.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/common/os_standby.c.s
 .PHONY : common/os_standby.c.s
 
 filelist/leo_filelist.o: filelist/leo_filelist.c.o
@@ -428,7 +428,7 @@ filelist/leo_filelist.o: filelist/leo_filelist.c.o
 
 # target to build an object file
 filelist/leo_filelist.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/leo_filelist.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/leo_filelist.c.o
 .PHONY : filelist/leo_filelist.c.o
 
 filelist/leo_filelist.i: filelist/leo_filelist.c.i
@@ -437,7 +437,7 @@ filelist/leo_filelist.i: filelist/leo_filelist.c.i
 
 # target to preprocess a source file
 filelist/leo_filelist.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/leo_filelist.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/leo_filelist.c.i
 .PHONY : filelist/leo_filelist.c.i
 
 filelist/leo_filelist.s: filelist/leo_filelist.c.s
@@ -446,7 +446,7 @@ filelist/leo_filelist.s: filelist/leo_filelist.c.s
 
 # target to generate assembly for a file
 filelist/leo_filelist.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/leo_filelist.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/leo_filelist.c.s
 .PHONY : filelist/leo_filelist.c.s
 
 filelist/sdcard_partition.o: filelist/sdcard_partition.c.o
@@ -455,7 +455,7 @@ filelist/sdcard_partition.o: filelist/sdcard_partition.c.o
 
 # target to build an object file
 filelist/sdcard_partition.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/sdcard_partition.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/sdcard_partition.c.o
 .PHONY : filelist/sdcard_partition.c.o
 
 filelist/sdcard_partition.i: filelist/sdcard_partition.c.i
@@ -464,7 +464,7 @@ filelist/sdcard_partition.i: filelist/sdcard_partition.c.i
 
 # target to preprocess a source file
 filelist/sdcard_partition.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/sdcard_partition.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/sdcard_partition.c.i
 .PHONY : filelist/sdcard_partition.c.i
 
 filelist/sdcard_partition.s: filelist/sdcard_partition.c.s
@@ -473,7 +473,7 @@ filelist/sdcard_partition.s: filelist/sdcard_partition.c.s
 
 # target to generate assembly for a file
 filelist/sdcard_partition.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/sdcard_partition.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/filelist/sdcard_partition.c.s
 .PHONY : filelist/sdcard_partition.c.s
 
 freetype/lv_freetype.o: freetype/lv_freetype.c.o
@@ -482,7 +482,7 @@ freetype/lv_freetype.o: freetype/lv_freetype.c.o
 
 # target to build an object file
 freetype/lv_freetype.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/freetype/lv_freetype.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/freetype/lv_freetype.c.o
 .PHONY : freetype/lv_freetype.c.o
 
 freetype/lv_freetype.i: freetype/lv_freetype.c.i
@@ -491,7 +491,7 @@ freetype/lv_freetype.i: freetype/lv_freetype.c.i
 
 # target to preprocess a source file
 freetype/lv_freetype.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/freetype/lv_freetype.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/freetype/lv_freetype.c.i
 .PHONY : freetype/lv_freetype.c.i
 
 freetype/lv_freetype.s: freetype/lv_freetype.c.s
@@ -500,7 +500,7 @@ freetype/lv_freetype.s: freetype/lv_freetype.c.s
 
 # target to generate assembly for a file
 freetype/lv_freetype.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/freetype/lv_freetype.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/freetype/lv_freetype.c.s
 .PHONY : freetype/lv_freetype.c.s
 
 gpio/gpio_base.o: gpio/gpio_base.c.o
@@ -509,7 +509,7 @@ gpio/gpio_base.o: gpio/gpio_base.c.o
 
 # target to build an object file
 gpio/gpio_base.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/gpio_base.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/gpio_base.c.o
 .PHONY : gpio/gpio_base.c.o
 
 gpio/gpio_base.i: gpio/gpio_base.c.i
@@ -518,7 +518,7 @@ gpio/gpio_base.i: gpio/gpio_base.c.i
 
 # target to preprocess a source file
 gpio/gpio_base.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/gpio_base.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/gpio_base.c.i
 .PHONY : gpio/gpio_base.c.i
 
 gpio/gpio_base.s: gpio/gpio_base.c.s
@@ -527,7 +527,7 @@ gpio/gpio_base.s: gpio/gpio_base.c.s
 
 # target to generate assembly for a file
 gpio/gpio_base.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/gpio_base.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/gpio_base.c.s
 .PHONY : gpio/gpio_base.c.s
 
 gpio/leo_gpio.o: gpio/leo_gpio.c.o
@@ -536,7 +536,7 @@ gpio/leo_gpio.o: gpio/leo_gpio.c.o
 
 # target to build an object file
 gpio/leo_gpio.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_gpio.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_gpio.c.o
 .PHONY : gpio/leo_gpio.c.o
 
 gpio/leo_gpio.i: gpio/leo_gpio.c.i
@@ -545,7 +545,7 @@ gpio/leo_gpio.i: gpio/leo_gpio.c.i
 
 # target to preprocess a source file
 gpio/leo_gpio.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_gpio.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_gpio.c.i
 .PHONY : gpio/leo_gpio.c.i
 
 gpio/leo_gpio.s: gpio/leo_gpio.c.s
@@ -554,7 +554,7 @@ gpio/leo_gpio.s: gpio/leo_gpio.c.s
 
 # target to generate assembly for a file
 gpio/leo_gpio.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_gpio.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_gpio.c.s
 .PHONY : gpio/leo_gpio.c.s
 
 gpio/leo_pwm.o: gpio/leo_pwm.c.o
@@ -563,7 +563,7 @@ gpio/leo_pwm.o: gpio/leo_pwm.c.o
 
 # target to build an object file
 gpio/leo_pwm.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_pwm.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_pwm.c.o
 .PHONY : gpio/leo_pwm.c.o
 
 gpio/leo_pwm.i: gpio/leo_pwm.c.i
@@ -572,7 +572,7 @@ gpio/leo_pwm.i: gpio/leo_pwm.c.i
 
 # target to preprocess a source file
 gpio/leo_pwm.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_pwm.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_pwm.c.i
 .PHONY : gpio/leo_pwm.c.i
 
 gpio/leo_pwm.s: gpio/leo_pwm.c.s
@@ -581,7 +581,7 @@ gpio/leo_pwm.s: gpio/leo_pwm.c.s
 
 # target to generate assembly for a file
 gpio/leo_pwm.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_pwm.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/gpio/leo_pwm.c.s
 .PHONY : gpio/leo_pwm.c.s
 
 network/network_audio_package.o: network/network_audio_package.c.o
@@ -590,7 +590,7 @@ network/network_audio_package.o: network/network_audio_package.c.o
 
 # target to build an object file
 network/network_audio_package.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_audio_package.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_audio_package.c.o
 .PHONY : network/network_audio_package.c.o
 
 network/network_audio_package.i: network/network_audio_package.c.i
@@ -599,7 +599,7 @@ network/network_audio_package.i: network/network_audio_package.c.i
 
 # target to preprocess a source file
 network/network_audio_package.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_audio_package.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_audio_package.c.i
 .PHONY : network/network_audio_package.c.i
 
 network/network_audio_package.s: network/network_audio_package.c.s
@@ -608,7 +608,7 @@ network/network_audio_package.s: network/network_audio_package.c.s
 
 # target to generate assembly for a file
 network/network_audio_package.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_audio_package.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_audio_package.c.s
 .PHONY : network/network_audio_package.c.s
 
 network/network_common.o: network/network_common.c.o
@@ -617,7 +617,7 @@ network/network_common.o: network/network_common.c.o
 
 # target to build an object file
 network/network_common.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_common.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_common.c.o
 .PHONY : network/network_common.c.o
 
 network/network_common.i: network/network_common.c.i
@@ -626,7 +626,7 @@ network/network_common.i: network/network_common.c.i
 
 # target to preprocess a source file
 network/network_common.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_common.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_common.c.i
 .PHONY : network/network_common.c.i
 
 network/network_common.s: network/network_common.c.s
@@ -635,7 +635,7 @@ network/network_common.s: network/network_common.c.s
 
 # target to generate assembly for a file
 network/network_common.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_common.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_common.c.s
 .PHONY : network/network_common.c.s
 
 network/network_outdoor_upgrade.o: network/network_outdoor_upgrade.c.o
@@ -644,7 +644,7 @@ network/network_outdoor_upgrade.o: network/network_outdoor_upgrade.c.o
 
 # target to build an object file
 network/network_outdoor_upgrade.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_outdoor_upgrade.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_outdoor_upgrade.c.o
 .PHONY : network/network_outdoor_upgrade.c.o
 
 network/network_outdoor_upgrade.i: network/network_outdoor_upgrade.c.i
@@ -653,7 +653,7 @@ network/network_outdoor_upgrade.i: network/network_outdoor_upgrade.c.i
 
 # target to preprocess a source file
 network/network_outdoor_upgrade.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_outdoor_upgrade.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_outdoor_upgrade.c.i
 .PHONY : network/network_outdoor_upgrade.c.i
 
 network/network_outdoor_upgrade.s: network/network_outdoor_upgrade.c.s
@@ -662,7 +662,7 @@ network/network_outdoor_upgrade.s: network/network_outdoor_upgrade.c.s
 
 # target to generate assembly for a file
 network/network_outdoor_upgrade.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_outdoor_upgrade.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_outdoor_upgrade.c.s
 .PHONY : network/network_outdoor_upgrade.c.s
 
 network/network_video_package.o: network/network_video_package.c.o
@@ -671,7 +671,7 @@ network/network_video_package.o: network/network_video_package.c.o
 
 # target to build an object file
 network/network_video_package.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_video_package.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_video_package.c.o
 .PHONY : network/network_video_package.c.o
 
 network/network_video_package.i: network/network_video_package.c.i
@@ -680,7 +680,7 @@ network/network_video_package.i: network/network_video_package.c.i
 
 # target to preprocess a source file
 network/network_video_package.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_video_package.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_video_package.c.i
 .PHONY : network/network_video_package.c.i
 
 network/network_video_package.s: network/network_video_package.c.s
@@ -689,7 +689,7 @@ network/network_video_package.s: network/network_video_package.c.s
 
 # target to generate assembly for a file
 network/network_video_package.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_video_package.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/network_video_package.c.s
 .PHONY : network/network_video_package.c.s
 
 network/ping_host.o: network/ping_host.c.o
@@ -698,7 +698,7 @@ network/ping_host.o: network/ping_host.c.o
 
 # target to build an object file
 network/ping_host.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/ping_host.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/ping_host.c.o
 .PHONY : network/ping_host.c.o
 
 network/ping_host.i: network/ping_host.c.i
@@ -707,7 +707,7 @@ network/ping_host.i: network/ping_host.c.i
 
 # target to preprocess a source file
 network/ping_host.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/ping_host.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/ping_host.c.i
 .PHONY : network/ping_host.c.i
 
 network/ping_host.s: network/ping_host.c.s
@@ -716,7 +716,7 @@ network/ping_host.s: network/ping_host.c.s
 
 # target to generate assembly for a file
 network/ping_host.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/ping_host.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/ping_host.c.s
 .PHONY : network/ping_host.c.s
 
 network/testRTSPClient.o: network/testRTSPClient.cpp.o
@@ -725,7 +725,7 @@ network/testRTSPClient.o: network/testRTSPClient.cpp.o
 
 # target to build an object file
 network/testRTSPClient.cpp.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/testRTSPClient.cpp.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/testRTSPClient.cpp.o
 .PHONY : network/testRTSPClient.cpp.o
 
 network/testRTSPClient.i: network/testRTSPClient.cpp.i
@@ -734,7 +734,7 @@ network/testRTSPClient.i: network/testRTSPClient.cpp.i
 
 # target to preprocess a source file
 network/testRTSPClient.cpp.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/testRTSPClient.cpp.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/testRTSPClient.cpp.i
 .PHONY : network/testRTSPClient.cpp.i
 
 network/testRTSPClient.s: network/testRTSPClient.cpp.s
@@ -743,7 +743,7 @@ network/testRTSPClient.s: network/testRTSPClient.cpp.s
 
 # target to generate assembly for a file
 network/testRTSPClient.cpp.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/testRTSPClient.cpp.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/network/testRTSPClient.cpp.s
 .PHONY : network/testRTSPClient.cpp.s
 
 png_lib/lodepng.o: png_lib/lodepng.c.o
@@ -752,7 +752,7 @@ png_lib/lodepng.o: png_lib/lodepng.c.o
 
 # target to build an object file
 png_lib/lodepng.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lodepng.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lodepng.c.o
 .PHONY : png_lib/lodepng.c.o
 
 png_lib/lodepng.i: png_lib/lodepng.c.i
@@ -761,7 +761,7 @@ png_lib/lodepng.i: png_lib/lodepng.c.i
 
 # target to preprocess a source file
 png_lib/lodepng.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lodepng.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lodepng.c.i
 .PHONY : png_lib/lodepng.c.i
 
 png_lib/lodepng.s: png_lib/lodepng.c.s
@@ -770,7 +770,7 @@ png_lib/lodepng.s: png_lib/lodepng.c.s
 
 # target to generate assembly for a file
 png_lib/lodepng.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lodepng.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lodepng.c.s
 .PHONY : png_lib/lodepng.c.s
 
 png_lib/lv_png.o: png_lib/lv_png.c.o
@@ -779,7 +779,7 @@ png_lib/lv_png.o: png_lib/lv_png.c.o
 
 # target to build an object file
 png_lib/lv_png.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lv_png.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lv_png.c.o
 .PHONY : png_lib/lv_png.c.o
 
 png_lib/lv_png.i: png_lib/lv_png.c.i
@@ -788,7 +788,7 @@ png_lib/lv_png.i: png_lib/lv_png.c.i
 
 # target to preprocess a source file
 png_lib/lv_png.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lv_png.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lv_png.c.i
 .PHONY : png_lib/lv_png.c.i
 
 png_lib/lv_png.s: png_lib/lv_png.c.s
@@ -797,7 +797,7 @@ png_lib/lv_png.s: png_lib/lv_png.c.s
 
 # target to generate assembly for a file
 png_lib/lv_png.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lv_png.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/png_lib/lv_png.c.s
 .PHONY : png_lib/lv_png.c.s
 
 queue/link_list.o: queue/link_list.c.o
@@ -806,7 +806,7 @@ queue/link_list.o: queue/link_list.c.o
 
 # target to build an object file
 queue/link_list.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/link_list.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/link_list.c.o
 .PHONY : queue/link_list.c.o
 
 queue/link_list.i: queue/link_list.c.i
@@ -815,7 +815,7 @@ queue/link_list.i: queue/link_list.c.i
 
 # target to preprocess a source file
 queue/link_list.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/link_list.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/link_list.c.i
 .PHONY : queue/link_list.c.i
 
 queue/link_list.s: queue/link_list.c.s
@@ -824,7 +824,7 @@ queue/link_list.s: queue/link_list.c.s
 
 # target to generate assembly for a file
 queue/link_list.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/link_list.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/link_list.c.s
 .PHONY : queue/link_list.c.s
 
 queue/queue.o: queue/queue.c.o
@@ -833,7 +833,7 @@ queue/queue.o: queue/queue.c.o
 
 # target to build an object file
 queue/queue.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/queue.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/queue.c.o
 .PHONY : queue/queue.c.o
 
 queue/queue.i: queue/queue.c.i
@@ -842,7 +842,7 @@ queue/queue.i: queue/queue.c.i
 
 # target to preprocess a source file
 queue/queue.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/queue.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/queue.c.i
 .PHONY : queue/queue.c.i
 
 queue/queue.s: queue/queue.c.s
@@ -851,7 +851,7 @@ queue/queue.s: queue/queue.c.s
 
 # target to generate assembly for a file
 queue/queue.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/queue.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/queue.c.s
 .PHONY : queue/queue.c.s
 
 queue/ring_buffer.o: queue/ring_buffer.c.o
@@ -860,7 +860,7 @@ queue/ring_buffer.o: queue/ring_buffer.c.o
 
 # target to build an object file
 queue/ring_buffer.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/ring_buffer.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/ring_buffer.c.o
 .PHONY : queue/ring_buffer.c.o
 
 queue/ring_buffer.i: queue/ring_buffer.c.i
@@ -869,7 +869,7 @@ queue/ring_buffer.i: queue/ring_buffer.c.i
 
 # target to preprocess a source file
 queue/ring_buffer.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/ring_buffer.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/ring_buffer.c.i
 .PHONY : queue/ring_buffer.c.i
 
 queue/ring_buffer.s: queue/ring_buffer.c.s
@@ -878,7 +878,7 @@ queue/ring_buffer.s: queue/ring_buffer.c.s
 
 # target to generate assembly for a file
 queue/ring_buffer.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/ring_buffer.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/queue/ring_buffer.c.s
 .PHONY : queue/ring_buffer.c.s
 
 tcp_network/tcp_clinet.o: tcp_network/tcp_clinet.c.o
@@ -887,7 +887,7 @@ tcp_network/tcp_clinet.o: tcp_network/tcp_clinet.c.o
 
 # target to build an object file
 tcp_network/tcp_clinet.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_clinet.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_clinet.c.o
 .PHONY : tcp_network/tcp_clinet.c.o
 
 tcp_network/tcp_clinet.i: tcp_network/tcp_clinet.c.i
@@ -896,7 +896,7 @@ tcp_network/tcp_clinet.i: tcp_network/tcp_clinet.c.i
 
 # target to preprocess a source file
 tcp_network/tcp_clinet.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_clinet.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_clinet.c.i
 .PHONY : tcp_network/tcp_clinet.c.i
 
 tcp_network/tcp_clinet.s: tcp_network/tcp_clinet.c.s
@@ -905,7 +905,7 @@ tcp_network/tcp_clinet.s: tcp_network/tcp_clinet.c.s
 
 # target to generate assembly for a file
 tcp_network/tcp_clinet.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_clinet.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_clinet.c.s
 .PHONY : tcp_network/tcp_clinet.c.s
 
 tcp_network/tcp_management.o: tcp_network/tcp_management.c.o
@@ -914,7 +914,7 @@ tcp_network/tcp_management.o: tcp_network/tcp_management.c.o
 
 # target to build an object file
 tcp_network/tcp_management.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_management.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_management.c.o
 .PHONY : tcp_network/tcp_management.c.o
 
 tcp_network/tcp_management.i: tcp_network/tcp_management.c.i
@@ -923,7 +923,7 @@ tcp_network/tcp_management.i: tcp_network/tcp_management.c.i
 
 # target to preprocess a source file
 tcp_network/tcp_management.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_management.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_management.c.i
 .PHONY : tcp_network/tcp_management.c.i
 
 tcp_network/tcp_management.s: tcp_network/tcp_management.c.s
@@ -932,7 +932,7 @@ tcp_network/tcp_management.s: tcp_network/tcp_management.c.s
 
 # target to generate assembly for a file
 tcp_network/tcp_management.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_management.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_management.c.s
 .PHONY : tcp_network/tcp_management.c.s
 
 tcp_network/tcp_socket.o: tcp_network/tcp_socket.c.o
@@ -941,7 +941,7 @@ tcp_network/tcp_socket.o: tcp_network/tcp_socket.c.o
 
 # target to build an object file
 tcp_network/tcp_socket.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_socket.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_socket.c.o
 .PHONY : tcp_network/tcp_socket.c.o
 
 tcp_network/tcp_socket.i: tcp_network/tcp_socket.c.i
@@ -950,7 +950,7 @@ tcp_network/tcp_socket.i: tcp_network/tcp_socket.c.i
 
 # target to preprocess a source file
 tcp_network/tcp_socket.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_socket.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_socket.c.i
 .PHONY : tcp_network/tcp_socket.c.i
 
 tcp_network/tcp_socket.s: tcp_network/tcp_socket.c.s
@@ -959,7 +959,7 @@ tcp_network/tcp_socket.s: tcp_network/tcp_socket.c.s
 
 # target to generate assembly for a file
 tcp_network/tcp_socket.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_socket.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_socket.c.s
 .PHONY : tcp_network/tcp_socket.c.s
 
 tcp_network/tcp_upgrade.o: tcp_network/tcp_upgrade.c.o
@@ -968,7 +968,7 @@ tcp_network/tcp_upgrade.o: tcp_network/tcp_upgrade.c.o
 
 # target to build an object file
 tcp_network/tcp_upgrade.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_upgrade.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_upgrade.c.o
 .PHONY : tcp_network/tcp_upgrade.c.o
 
 tcp_network/tcp_upgrade.i: tcp_network/tcp_upgrade.c.i
@@ -977,7 +977,7 @@ tcp_network/tcp_upgrade.i: tcp_network/tcp_upgrade.c.i
 
 # target to preprocess a source file
 tcp_network/tcp_upgrade.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_upgrade.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_upgrade.c.i
 .PHONY : tcp_network/tcp_upgrade.c.i
 
 tcp_network/tcp_upgrade.s: tcp_network/tcp_upgrade.c.s
@@ -986,7 +986,7 @@ tcp_network/tcp_upgrade.s: tcp_network/tcp_upgrade.c.s
 
 # target to generate assembly for a file
 tcp_network/tcp_upgrade.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_upgrade.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/tcp_network/tcp_upgrade.c.s
 .PHONY : tcp_network/tcp_upgrade.c.s
 
 video/avilib.o: video/avilib.c.o
@@ -995,7 +995,7 @@ video/avilib.o: video/avilib.c.o
 
 # target to build an object file
 video/avilib.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/avilib.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/avilib.c.o
 .PHONY : video/avilib.c.o
 
 video/avilib.i: video/avilib.c.i
@@ -1004,7 +1004,7 @@ video/avilib.i: video/avilib.c.i
 
 # target to preprocess a source file
 video/avilib.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/avilib.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/avilib.c.i
 .PHONY : video/avilib.c.i
 
 video/avilib.s: video/avilib.c.s
@@ -1013,7 +1013,7 @@ video/avilib.s: video/avilib.c.s
 
 # target to generate assembly for a file
 video/avilib.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/avilib.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/avilib.c.s
 .PHONY : video/avilib.c.s
 
 video/jpeg_record.o: video/jpeg_record.c.o
@@ -1022,7 +1022,7 @@ video/jpeg_record.o: video/jpeg_record.c.o
 
 # target to build an object file
 video/jpeg_record.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/jpeg_record.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/jpeg_record.c.o
 .PHONY : video/jpeg_record.c.o
 
 video/jpeg_record.i: video/jpeg_record.c.i
@@ -1031,7 +1031,7 @@ video/jpeg_record.i: video/jpeg_record.c.i
 
 # target to preprocess a source file
 video/jpeg_record.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/jpeg_record.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/jpeg_record.c.i
 .PHONY : video/jpeg_record.c.i
 
 video/jpeg_record.s: video/jpeg_record.c.s
@@ -1040,7 +1040,7 @@ video/jpeg_record.s: video/jpeg_record.c.s
 
 # target to generate assembly for a file
 video/jpeg_record.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/jpeg_record.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/jpeg_record.c.s
 .PHONY : video/jpeg_record.c.s
 
 video/media_thumb.o: video/media_thumb.c.o
@@ -1049,7 +1049,7 @@ video/media_thumb.o: video/media_thumb.c.o
 
 # target to build an object file
 video/media_thumb.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/media_thumb.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/media_thumb.c.o
 .PHONY : video/media_thumb.c.o
 
 video/media_thumb.i: video/media_thumb.c.i
@@ -1058,7 +1058,7 @@ video/media_thumb.i: video/media_thumb.c.i
 
 # target to preprocess a source file
 video/media_thumb.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/media_thumb.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/media_thumb.c.i
 .PHONY : video/media_thumb.c.i
 
 video/media_thumb.s: video/media_thumb.c.s
@@ -1067,7 +1067,7 @@ video/media_thumb.s: video/media_thumb.c.s
 
 # target to generate assembly for a file
 video/media_thumb.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/media_thumb.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/media_thumb.c.s
 .PHONY : video/media_thumb.c.s
 
 video/video_decode.o: video/video_decode.c.o
@@ -1076,7 +1076,7 @@ video/video_decode.o: video/video_decode.c.o
 
 # target to build an object file
 video/video_decode.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_decode.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_decode.c.o
 .PHONY : video/video_decode.c.o
 
 video/video_decode.i: video/video_decode.c.i
@@ -1085,7 +1085,7 @@ video/video_decode.i: video/video_decode.c.i
 
 # target to preprocess a source file
 video/video_decode.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_decode.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_decode.c.i
 .PHONY : video/video_decode.c.i
 
 video/video_decode.s: video/video_decode.c.s
@@ -1094,7 +1094,7 @@ video/video_decode.s: video/video_decode.c.s
 
 # target to generate assembly for a file
 video/video_decode.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_decode.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_decode.c.s
 .PHONY : video/video_decode.c.s
 
 video/video_play.o: video/video_play.c.o
@@ -1103,7 +1103,7 @@ video/video_play.o: video/video_play.c.o
 
 # target to build an object file
 video/video_play.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_play.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_play.c.o
 .PHONY : video/video_play.c.o
 
 video/video_play.i: video/video_play.c.i
@@ -1112,7 +1112,7 @@ video/video_play.i: video/video_play.c.i
 
 # target to preprocess a source file
 video/video_play.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_play.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_play.c.i
 .PHONY : video/video_play.c.i
 
 video/video_play.s: video/video_play.c.s
@@ -1121,7 +1121,7 @@ video/video_play.s: video/video_play.c.s
 
 # target to generate assembly for a file
 video/video_play.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_play.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_play.c.s
 .PHONY : video/video_play.c.s
 
 video/video_raw_queue.o: video/video_raw_queue.c.o
@@ -1130,7 +1130,7 @@ video/video_raw_queue.o: video/video_raw_queue.c.o
 
 # target to build an object file
 video/video_raw_queue.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_raw_queue.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_raw_queue.c.o
 .PHONY : video/video_raw_queue.c.o
 
 video/video_raw_queue.i: video/video_raw_queue.c.i
@@ -1139,7 +1139,7 @@ video/video_raw_queue.i: video/video_raw_queue.c.i
 
 # target to preprocess a source file
 video/video_raw_queue.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_raw_queue.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_raw_queue.c.i
 .PHONY : video/video_raw_queue.c.i
 
 video/video_raw_queue.s: video/video_raw_queue.c.s
@@ -1148,7 +1148,7 @@ video/video_raw_queue.s: video/video_raw_queue.c.s
 
 # target to generate assembly for a file
 video/video_raw_queue.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_raw_queue.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_raw_queue.c.s
 .PHONY : video/video_raw_queue.c.s
 
 video/video_record.o: video/video_record.c.o
@@ -1157,7 +1157,7 @@ video/video_record.o: video/video_record.c.o
 
 # target to build an object file
 video/video_record.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_record.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_record.c.o
 .PHONY : video/video_record.c.o
 
 video/video_record.i: video/video_record.c.i
@@ -1166,7 +1166,7 @@ video/video_record.i: video/video_record.c.i
 
 # target to preprocess a source file
 video/video_record.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_record.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_record.c.i
 .PHONY : video/video_record.c.i
 
 video/video_record.s: video/video_record.c.s
@@ -1175,7 +1175,7 @@ video/video_record.s: video/video_record.c.s
 
 # target to generate assembly for a file
 video/video_record.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_record.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/video/video_record.c.s
 .PHONY : video/video_record.c.s
 
 wlan/wlan.o: wlan/wlan.c.o
@@ -1184,7 +1184,7 @@ wlan/wlan.o: wlan/wlan.c.o
 
 # target to build an object file
 wlan/wlan.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/wlan/wlan.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/wlan/wlan.c.o
 .PHONY : wlan/wlan.c.o
 
 wlan/wlan.i: wlan/wlan.c.i
@@ -1193,7 +1193,7 @@ wlan/wlan.i: wlan/wlan.c.i
 
 # target to preprocess a source file
 wlan/wlan.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/wlan/wlan.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/wlan/wlan.c.i
 .PHONY : wlan/wlan.c.i
 
 wlan/wlan.s: wlan/wlan.c.s
@@ -1202,7 +1202,7 @@ wlan/wlan.s: wlan/wlan.c.s
 
 # target to generate assembly for a file
 wlan/wlan.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/wlan/wlan.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/api/CMakeFiles/leo_api_lib.dir/build.make src/api/CMakeFiles/leo_api_lib.dir/wlan/wlan.c.s
 .PHONY : wlan/wlan.c.s
 
 # Help Target
@@ -1345,6 +1345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

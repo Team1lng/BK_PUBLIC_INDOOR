@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.3-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
+CMAKE_SOURCE_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_indoor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6
+CMAKE_BINARY_DIR = /home/leo/workspace/BK/APP/Indoor/bk_public_indoor
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/src/tuya-6.2.20/CMakeFiles/progress.marks
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya-6.2.20/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6/CMakeFiles 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/CMakeFiles /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/src/tuya-6.2.20/CMakeFiles/progress.marks
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/tuya-6.2.20/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/workspace/BK/APP/Indoor/bk_public_indoor/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya-6.2.20/clean
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/tuya-6.2.20/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya-6.2.20/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/tuya-6.2.20/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya-6.2.20/preinstall
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/tuya-6.2.20/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/tuya-6.2.20/CMakeFiles/tuya.dir/rule:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f CMakeFiles/Makefile2 src/tuya-6.2.20/CMakeFiles/tuya.dir/rule
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f CMakeFiles/Makefile2 src/tuya-6.2.20/CMakeFiles/tuya.dir/rule
 .PHONY : src/tuya-6.2.20/CMakeFiles/tuya.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ tuya: src/tuya-6.2.20/CMakeFiles/tuya.dir/rule
 
 # fast build rule for target.
 tuya/fast:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/build
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/build
 .PHONY : tuya/fast
 
 app/app_lowpower_sample/src/crc32i.o: app/app_lowpower_sample/src/crc32i.c.o
@@ -131,7 +131,7 @@ app/app_lowpower_sample/src/crc32i.o: app/app_lowpower_sample/src/crc32i.c.o
 
 # target to build an object file
 app/app_lowpower_sample/src/crc32i.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/crc32i.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/crc32i.c.o
 .PHONY : app/app_lowpower_sample/src/crc32i.c.o
 
 app/app_lowpower_sample/src/crc32i.i: app/app_lowpower_sample/src/crc32i.c.i
@@ -140,7 +140,7 @@ app/app_lowpower_sample/src/crc32i.i: app/app_lowpower_sample/src/crc32i.c.i
 
 # target to preprocess a source file
 app/app_lowpower_sample/src/crc32i.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/crc32i.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/crc32i.c.i
 .PHONY : app/app_lowpower_sample/src/crc32i.c.i
 
 app/app_lowpower_sample/src/crc32i.s: app/app_lowpower_sample/src/crc32i.c.s
@@ -149,7 +149,7 @@ app/app_lowpower_sample/src/crc32i.s: app/app_lowpower_sample/src/crc32i.c.s
 
 # target to generate assembly for a file
 app/app_lowpower_sample/src/crc32i.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/crc32i.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/crc32i.c.s
 .PHONY : app/app_lowpower_sample/src/crc32i.c.s
 
 app/app_lowpower_sample/src/lp_auth.o: app/app_lowpower_sample/src/lp_auth.c.o
@@ -158,7 +158,7 @@ app/app_lowpower_sample/src/lp_auth.o: app/app_lowpower_sample/src/lp_auth.c.o
 
 # target to build an object file
 app/app_lowpower_sample/src/lp_auth.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_auth.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_auth.c.o
 .PHONY : app/app_lowpower_sample/src/lp_auth.c.o
 
 app/app_lowpower_sample/src/lp_auth.i: app/app_lowpower_sample/src/lp_auth.c.i
@@ -167,7 +167,7 @@ app/app_lowpower_sample/src/lp_auth.i: app/app_lowpower_sample/src/lp_auth.c.i
 
 # target to preprocess a source file
 app/app_lowpower_sample/src/lp_auth.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_auth.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_auth.c.i
 .PHONY : app/app_lowpower_sample/src/lp_auth.c.i
 
 app/app_lowpower_sample/src/lp_auth.s: app/app_lowpower_sample/src/lp_auth.c.s
@@ -176,7 +176,7 @@ app/app_lowpower_sample/src/lp_auth.s: app/app_lowpower_sample/src/lp_auth.c.s
 
 # target to generate assembly for a file
 app/app_lowpower_sample/src/lp_auth.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_auth.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_auth.c.s
 .PHONY : app/app_lowpower_sample/src/lp_auth.c.s
 
 app/app_lowpower_sample/src/lp_cli.o: app/app_lowpower_sample/src/lp_cli.c.o
@@ -185,7 +185,7 @@ app/app_lowpower_sample/src/lp_cli.o: app/app_lowpower_sample/src/lp_cli.c.o
 
 # target to build an object file
 app/app_lowpower_sample/src/lp_cli.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_cli.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_cli.c.o
 .PHONY : app/app_lowpower_sample/src/lp_cli.c.o
 
 app/app_lowpower_sample/src/lp_cli.i: app/app_lowpower_sample/src/lp_cli.c.i
@@ -194,7 +194,7 @@ app/app_lowpower_sample/src/lp_cli.i: app/app_lowpower_sample/src/lp_cli.c.i
 
 # target to preprocess a source file
 app/app_lowpower_sample/src/lp_cli.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_cli.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_cli.c.i
 .PHONY : app/app_lowpower_sample/src/lp_cli.c.i
 
 app/app_lowpower_sample/src/lp_cli.s: app/app_lowpower_sample/src/lp_cli.c.s
@@ -203,7 +203,7 @@ app/app_lowpower_sample/src/lp_cli.s: app/app_lowpower_sample/src/lp_cli.c.s
 
 # target to generate assembly for a file
 app/app_lowpower_sample/src/lp_cli.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_cli.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_cli.c.s
 .PHONY : app/app_lowpower_sample/src/lp_cli.c.s
 
 app/app_lowpower_sample/src/lp_com.o: app/app_lowpower_sample/src/lp_com.c.o
@@ -212,7 +212,7 @@ app/app_lowpower_sample/src/lp_com.o: app/app_lowpower_sample/src/lp_com.c.o
 
 # target to build an object file
 app/app_lowpower_sample/src/lp_com.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_com.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_com.c.o
 .PHONY : app/app_lowpower_sample/src/lp_com.c.o
 
 app/app_lowpower_sample/src/lp_com.i: app/app_lowpower_sample/src/lp_com.c.i
@@ -221,7 +221,7 @@ app/app_lowpower_sample/src/lp_com.i: app/app_lowpower_sample/src/lp_com.c.i
 
 # target to preprocess a source file
 app/app_lowpower_sample/src/lp_com.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_com.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_com.c.i
 .PHONY : app/app_lowpower_sample/src/lp_com.c.i
 
 app/app_lowpower_sample/src/lp_com.s: app/app_lowpower_sample/src/lp_com.c.s
@@ -230,7 +230,7 @@ app/app_lowpower_sample/src/lp_com.s: app/app_lowpower_sample/src/lp_com.c.s
 
 # target to generate assembly for a file
 app/app_lowpower_sample/src/lp_com.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_com.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_com.c.s
 .PHONY : app/app_lowpower_sample/src/lp_com.c.s
 
 app/app_lowpower_sample/src/lp_protocol.o: app/app_lowpower_sample/src/lp_protocol.c.o
@@ -239,7 +239,7 @@ app/app_lowpower_sample/src/lp_protocol.o: app/app_lowpower_sample/src/lp_protoc
 
 # target to build an object file
 app/app_lowpower_sample/src/lp_protocol.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_protocol.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_protocol.c.o
 .PHONY : app/app_lowpower_sample/src/lp_protocol.c.o
 
 app/app_lowpower_sample/src/lp_protocol.i: app/app_lowpower_sample/src/lp_protocol.c.i
@@ -248,7 +248,7 @@ app/app_lowpower_sample/src/lp_protocol.i: app/app_lowpower_sample/src/lp_protoc
 
 # target to preprocess a source file
 app/app_lowpower_sample/src/lp_protocol.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_protocol.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_protocol.c.i
 .PHONY : app/app_lowpower_sample/src/lp_protocol.c.i
 
 app/app_lowpower_sample/src/lp_protocol.s: app/app_lowpower_sample/src/lp_protocol.c.s
@@ -257,7 +257,7 @@ app/app_lowpower_sample/src/lp_protocol.s: app/app_lowpower_sample/src/lp_protoc
 
 # target to generate assembly for a file
 app/app_lowpower_sample/src/lp_protocol.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_protocol.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/lp_protocol.c.s
 .PHONY : app/app_lowpower_sample/src/lp_protocol.c.s
 
 app/app_lowpower_sample/src/tuya_ipc_low_power_api.o: app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.o
@@ -266,7 +266,7 @@ app/app_lowpower_sample/src/tuya_ipc_low_power_api.o: app/app_lowpower_sample/sr
 
 # target to build an object file
 app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.o
 .PHONY : app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.o
 
 app/app_lowpower_sample/src/tuya_ipc_low_power_api.i: app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.i
@@ -275,7 +275,7 @@ app/app_lowpower_sample/src/tuya_ipc_low_power_api.i: app/app_lowpower_sample/sr
 
 # target to preprocess a source file
 app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.i
 .PHONY : app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.i
 
 app/app_lowpower_sample/src/tuya_ipc_low_power_api.s: app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.s
@@ -284,7 +284,7 @@ app/app_lowpower_sample/src/tuya_ipc_low_power_api.s: app/app_lowpower_sample/sr
 
 # target to generate assembly for a file
 app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.s
 .PHONY : app/app_lowpower_sample/src/tuya_ipc_low_power_api.c.s
 
 app/app_main/src/ty_sdk_ai_chat.o: app/app_main/src/ty_sdk_ai_chat.c.o
@@ -293,7 +293,7 @@ app/app_main/src/ty_sdk_ai_chat.o: app/app_main/src/ty_sdk_ai_chat.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_ai_chat.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_ai_chat.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_ai_chat.c.o
 .PHONY : app/app_main/src/ty_sdk_ai_chat.c.o
 
 app/app_main/src/ty_sdk_ai_chat.i: app/app_main/src/ty_sdk_ai_chat.c.i
@@ -302,7 +302,7 @@ app/app_main/src/ty_sdk_ai_chat.i: app/app_main/src/ty_sdk_ai_chat.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_ai_chat.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_ai_chat.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_ai_chat.c.i
 .PHONY : app/app_main/src/ty_sdk_ai_chat.c.i
 
 app/app_main/src/ty_sdk_ai_chat.s: app/app_main/src/ty_sdk_ai_chat.c.s
@@ -311,7 +311,7 @@ app/app_main/src/ty_sdk_ai_chat.s: app/app_main/src/ty_sdk_ai_chat.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_ai_chat.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_ai_chat.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_ai_chat.c.s
 .PHONY : app/app_main/src/ty_sdk_ai_chat.c.s
 
 app/app_main/src/ty_sdk_aov_demo.o: app/app_main/src/ty_sdk_aov_demo.c.o
@@ -320,7 +320,7 @@ app/app_main/src/ty_sdk_aov_demo.o: app/app_main/src/ty_sdk_aov_demo.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_aov_demo.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_aov_demo.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_aov_demo.c.o
 .PHONY : app/app_main/src/ty_sdk_aov_demo.c.o
 
 app/app_main/src/ty_sdk_aov_demo.i: app/app_main/src/ty_sdk_aov_demo.c.i
@@ -329,7 +329,7 @@ app/app_main/src/ty_sdk_aov_demo.i: app/app_main/src/ty_sdk_aov_demo.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_aov_demo.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_aov_demo.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_aov_demo.c.i
 .PHONY : app/app_main/src/ty_sdk_aov_demo.c.i
 
 app/app_main/src/ty_sdk_aov_demo.s: app/app_main/src/ty_sdk_aov_demo.c.s
@@ -338,7 +338,7 @@ app/app_main/src/ty_sdk_aov_demo.s: app/app_main/src/ty_sdk_aov_demo.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_aov_demo.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_aov_demo.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_aov_demo.c.s
 .PHONY : app/app_main/src/ty_sdk_aov_demo.c.s
 
 app/app_main/src/ty_sdk_av.o: app/app_main/src/ty_sdk_av.c.o
@@ -347,7 +347,7 @@ app/app_main/src/ty_sdk_av.o: app/app_main/src/ty_sdk_av.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_av.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_av.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_av.c.o
 .PHONY : app/app_main/src/ty_sdk_av.c.o
 
 app/app_main/src/ty_sdk_av.i: app/app_main/src/ty_sdk_av.c.i
@@ -356,7 +356,7 @@ app/app_main/src/ty_sdk_av.i: app/app_main/src/ty_sdk_av.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_av.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_av.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_av.c.i
 .PHONY : app/app_main/src/ty_sdk_av.c.i
 
 app/app_main/src/ty_sdk_av.s: app/app_main/src/ty_sdk_av.c.s
@@ -365,7 +365,7 @@ app/app_main/src/ty_sdk_av.s: app/app_main/src/ty_sdk_av.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_av.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_av.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_av.c.s
 .PHONY : app/app_main/src/ty_sdk_av.c.s
 
 app/app_main/src/ty_sdk_call.o: app/app_main/src/ty_sdk_call.c.o
@@ -374,7 +374,7 @@ app/app_main/src/ty_sdk_call.o: app/app_main/src/ty_sdk_call.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_call.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_call.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_call.c.o
 .PHONY : app/app_main/src/ty_sdk_call.c.o
 
 app/app_main/src/ty_sdk_call.i: app/app_main/src/ty_sdk_call.c.i
@@ -383,7 +383,7 @@ app/app_main/src/ty_sdk_call.i: app/app_main/src/ty_sdk_call.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_call.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_call.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_call.c.i
 .PHONY : app/app_main/src/ty_sdk_call.c.i
 
 app/app_main/src/ty_sdk_call.s: app/app_main/src/ty_sdk_call.c.s
@@ -392,7 +392,7 @@ app/app_main/src/ty_sdk_call.s: app/app_main/src/ty_sdk_call.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_call.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_call.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_call.c.s
 .PHONY : app/app_main/src/ty_sdk_call.c.s
 
 app/app_main/src/ty_sdk_doorbell.o: app/app_main/src/ty_sdk_doorbell.c.o
@@ -401,7 +401,7 @@ app/app_main/src/ty_sdk_doorbell.o: app/app_main/src/ty_sdk_doorbell.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_doorbell.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_doorbell.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_doorbell.c.o
 .PHONY : app/app_main/src/ty_sdk_doorbell.c.o
 
 app/app_main/src/ty_sdk_doorbell.i: app/app_main/src/ty_sdk_doorbell.c.i
@@ -410,7 +410,7 @@ app/app_main/src/ty_sdk_doorbell.i: app/app_main/src/ty_sdk_doorbell.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_doorbell.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_doorbell.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_doorbell.c.i
 .PHONY : app/app_main/src/ty_sdk_doorbell.c.i
 
 app/app_main/src/ty_sdk_doorbell.s: app/app_main/src/ty_sdk_doorbell.c.s
@@ -419,7 +419,7 @@ app/app_main/src/ty_sdk_doorbell.s: app/app_main/src/ty_sdk_doorbell.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_doorbell.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_doorbell.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_doorbell.c.s
 .PHONY : app/app_main/src/ty_sdk_doorbell.c.s
 
 app/app_main/src/ty_sdk_dp_callback.o: app/app_main/src/ty_sdk_dp_callback.c.o
@@ -428,7 +428,7 @@ app/app_main/src/ty_sdk_dp_callback.o: app/app_main/src/ty_sdk_dp_callback.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_dp_callback.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_callback.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_callback.c.o
 .PHONY : app/app_main/src/ty_sdk_dp_callback.c.o
 
 app/app_main/src/ty_sdk_dp_callback.i: app/app_main/src/ty_sdk_dp_callback.c.i
@@ -437,7 +437,7 @@ app/app_main/src/ty_sdk_dp_callback.i: app/app_main/src/ty_sdk_dp_callback.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_dp_callback.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_callback.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_callback.c.i
 .PHONY : app/app_main/src/ty_sdk_dp_callback.c.i
 
 app/app_main/src/ty_sdk_dp_callback.s: app/app_main/src/ty_sdk_dp_callback.c.s
@@ -446,7 +446,7 @@ app/app_main/src/ty_sdk_dp_callback.s: app/app_main/src/ty_sdk_dp_callback.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_dp_callback.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_callback.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_callback.c.s
 .PHONY : app/app_main/src/ty_sdk_dp_callback.c.s
 
 app/app_main/src/ty_sdk_dp_handler.o: app/app_main/src/ty_sdk_dp_handler.c.o
@@ -455,7 +455,7 @@ app/app_main/src/ty_sdk_dp_handler.o: app/app_main/src/ty_sdk_dp_handler.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_dp_handler.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_handler.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_handler.c.o
 .PHONY : app/app_main/src/ty_sdk_dp_handler.c.o
 
 app/app_main/src/ty_sdk_dp_handler.i: app/app_main/src/ty_sdk_dp_handler.c.i
@@ -464,7 +464,7 @@ app/app_main/src/ty_sdk_dp_handler.i: app/app_main/src/ty_sdk_dp_handler.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_dp_handler.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_handler.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_handler.c.i
 .PHONY : app/app_main/src/ty_sdk_dp_handler.c.i
 
 app/app_main/src/ty_sdk_dp_handler.s: app/app_main/src/ty_sdk_dp_handler.c.s
@@ -473,7 +473,7 @@ app/app_main/src/ty_sdk_dp_handler.s: app/app_main/src/ty_sdk_dp_handler.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_dp_handler.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_handler.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_dp_handler.c.s
 .PHONY : app/app_main/src/ty_sdk_dp_handler.c.s
 
 app/app_main/src/ty_sdk_lowpower.o: app/app_main/src/ty_sdk_lowpower.c.o
@@ -482,7 +482,7 @@ app/app_main/src/ty_sdk_lowpower.o: app/app_main/src/ty_sdk_lowpower.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_lowpower.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_lowpower.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_lowpower.c.o
 .PHONY : app/app_main/src/ty_sdk_lowpower.c.o
 
 app/app_main/src/ty_sdk_lowpower.i: app/app_main/src/ty_sdk_lowpower.c.i
@@ -491,7 +491,7 @@ app/app_main/src/ty_sdk_lowpower.i: app/app_main/src/ty_sdk_lowpower.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_lowpower.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_lowpower.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_lowpower.c.i
 .PHONY : app/app_main/src/ty_sdk_lowpower.c.i
 
 app/app_main/src/ty_sdk_lowpower.s: app/app_main/src/ty_sdk_lowpower.c.s
@@ -500,7 +500,7 @@ app/app_main/src/ty_sdk_lowpower.s: app/app_main/src/ty_sdk_lowpower.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_lowpower.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_lowpower.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_lowpower.c.s
 .PHONY : app/app_main/src/ty_sdk_lowpower.c.s
 
 app/app_main/src/ty_sdk_main.o: app/app_main/src/ty_sdk_main.c.o
@@ -509,7 +509,7 @@ app/app_main/src/ty_sdk_main.o: app/app_main/src/ty_sdk_main.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_main.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_main.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_main.c.o
 .PHONY : app/app_main/src/ty_sdk_main.c.o
 
 app/app_main/src/ty_sdk_main.i: app/app_main/src/ty_sdk_main.c.i
@@ -518,7 +518,7 @@ app/app_main/src/ty_sdk_main.i: app/app_main/src/ty_sdk_main.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_main.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_main.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_main.c.i
 .PHONY : app/app_main/src/ty_sdk_main.c.i
 
 app/app_main/src/ty_sdk_main.s: app/app_main/src/ty_sdk_main.c.s
@@ -527,7 +527,7 @@ app/app_main/src/ty_sdk_main.s: app/app_main/src/ty_sdk_main.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_main.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_main.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_main.c.s
 .PHONY : app/app_main/src/ty_sdk_main.c.s
 
 app/app_main/src/ty_sdk_media_callback.o: app/app_main/src/ty_sdk_media_callback.c.o
@@ -536,7 +536,7 @@ app/app_main/src/ty_sdk_media_callback.o: app/app_main/src/ty_sdk_media_callback
 
 # target to build an object file
 app/app_main/src/ty_sdk_media_callback.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_media_callback.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_media_callback.c.o
 .PHONY : app/app_main/src/ty_sdk_media_callback.c.o
 
 app/app_main/src/ty_sdk_media_callback.i: app/app_main/src/ty_sdk_media_callback.c.i
@@ -545,7 +545,7 @@ app/app_main/src/ty_sdk_media_callback.i: app/app_main/src/ty_sdk_media_callback
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_media_callback.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_media_callback.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_media_callback.c.i
 .PHONY : app/app_main/src/ty_sdk_media_callback.c.i
 
 app/app_main/src/ty_sdk_media_callback.s: app/app_main/src/ty_sdk_media_callback.c.s
@@ -554,7 +554,7 @@ app/app_main/src/ty_sdk_media_callback.s: app/app_main/src/ty_sdk_media_callback
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_media_callback.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_media_callback.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_media_callback.c.s
 .PHONY : app/app_main/src/ty_sdk_media_callback.c.s
 
 app/app_main/src/ty_sdk_motion_detect.o: app/app_main/src/ty_sdk_motion_detect.c.o
@@ -563,7 +563,7 @@ app/app_main/src/ty_sdk_motion_detect.o: app/app_main/src/ty_sdk_motion_detect.c
 
 # target to build an object file
 app/app_main/src/ty_sdk_motion_detect.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_motion_detect.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_motion_detect.c.o
 .PHONY : app/app_main/src/ty_sdk_motion_detect.c.o
 
 app/app_main/src/ty_sdk_motion_detect.i: app/app_main/src/ty_sdk_motion_detect.c.i
@@ -572,7 +572,7 @@ app/app_main/src/ty_sdk_motion_detect.i: app/app_main/src/ty_sdk_motion_detect.c
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_motion_detect.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_motion_detect.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_motion_detect.c.i
 .PHONY : app/app_main/src/ty_sdk_motion_detect.c.i
 
 app/app_main/src/ty_sdk_motion_detect.s: app/app_main/src/ty_sdk_motion_detect.c.s
@@ -581,7 +581,7 @@ app/app_main/src/ty_sdk_motion_detect.s: app/app_main/src/ty_sdk_motion_detect.c
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_motion_detect.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_motion_detect.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_motion_detect.c.s
 .PHONY : app/app_main/src/ty_sdk_motion_detect.c.s
 
 app/app_main/src/ty_sdk_move_path.o: app/app_main/src/ty_sdk_move_path.c.o
@@ -590,7 +590,7 @@ app/app_main/src/ty_sdk_move_path.o: app/app_main/src/ty_sdk_move_path.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_move_path.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_move_path.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_move_path.c.o
 .PHONY : app/app_main/src/ty_sdk_move_path.c.o
 
 app/app_main/src/ty_sdk_move_path.i: app/app_main/src/ty_sdk_move_path.c.i
@@ -599,7 +599,7 @@ app/app_main/src/ty_sdk_move_path.i: app/app_main/src/ty_sdk_move_path.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_move_path.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_move_path.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_move_path.c.i
 .PHONY : app/app_main/src/ty_sdk_move_path.c.i
 
 app/app_main/src/ty_sdk_move_path.s: app/app_main/src/ty_sdk_move_path.c.s
@@ -608,7 +608,7 @@ app/app_main/src/ty_sdk_move_path.s: app/app_main/src/ty_sdk_move_path.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_move_path.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_move_path.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_move_path.c.s
 .PHONY : app/app_main/src/ty_sdk_move_path.c.s
 
 app/app_main/src/ty_sdk_sd_album.o: app/app_main/src/ty_sdk_sd_album.c.o
@@ -617,7 +617,7 @@ app/app_main/src/ty_sdk_sd_album.o: app/app_main/src/ty_sdk_sd_album.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_sd_album.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_album.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_album.c.o
 .PHONY : app/app_main/src/ty_sdk_sd_album.c.o
 
 app/app_main/src/ty_sdk_sd_album.i: app/app_main/src/ty_sdk_sd_album.c.i
@@ -626,7 +626,7 @@ app/app_main/src/ty_sdk_sd_album.i: app/app_main/src/ty_sdk_sd_album.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_sd_album.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_album.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_album.c.i
 .PHONY : app/app_main/src/ty_sdk_sd_album.c.i
 
 app/app_main/src/ty_sdk_sd_album.s: app/app_main/src/ty_sdk_sd_album.c.s
@@ -635,7 +635,7 @@ app/app_main/src/ty_sdk_sd_album.s: app/app_main/src/ty_sdk_sd_album.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_sd_album.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_album.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_album.c.s
 .PHONY : app/app_main/src/ty_sdk_sd_album.c.s
 
 app/app_main/src/ty_sdk_sd_card.o: app/app_main/src/ty_sdk_sd_card.c.o
@@ -644,7 +644,7 @@ app/app_main/src/ty_sdk_sd_card.o: app/app_main/src/ty_sdk_sd_card.c.o
 
 # target to build an object file
 app/app_main/src/ty_sdk_sd_card.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_card.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_card.c.o
 .PHONY : app/app_main/src/ty_sdk_sd_card.c.o
 
 app/app_main/src/ty_sdk_sd_card.i: app/app_main/src/ty_sdk_sd_card.c.i
@@ -653,7 +653,7 @@ app/app_main/src/ty_sdk_sd_card.i: app/app_main/src/ty_sdk_sd_card.c.i
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_sd_card.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_card.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_card.c.i
 .PHONY : app/app_main/src/ty_sdk_sd_card.c.i
 
 app/app_main/src/ty_sdk_sd_card.s: app/app_main/src/ty_sdk_sd_card.c.s
@@ -662,7 +662,7 @@ app/app_main/src/ty_sdk_sd_card.s: app/app_main/src/ty_sdk_sd_card.c.s
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_sd_card.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_card.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_sd_card.c.s
 .PHONY : app/app_main/src/ty_sdk_sd_card.c.s
 
 app/app_main/src/ty_sdk_status_callback.o: app/app_main/src/ty_sdk_status_callback.c.o
@@ -671,7 +671,7 @@ app/app_main/src/ty_sdk_status_callback.o: app/app_main/src/ty_sdk_status_callba
 
 # target to build an object file
 app/app_main/src/ty_sdk_status_callback.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_status_callback.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_status_callback.c.o
 .PHONY : app/app_main/src/ty_sdk_status_callback.c.o
 
 app/app_main/src/ty_sdk_status_callback.i: app/app_main/src/ty_sdk_status_callback.c.i
@@ -680,7 +680,7 @@ app/app_main/src/ty_sdk_status_callback.i: app/app_main/src/ty_sdk_status_callba
 
 # target to preprocess a source file
 app/app_main/src/ty_sdk_status_callback.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_status_callback.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_status_callback.c.i
 .PHONY : app/app_main/src/ty_sdk_status_callback.c.i
 
 app/app_main/src/ty_sdk_status_callback.s: app/app_main/src/ty_sdk_status_callback.c.s
@@ -689,7 +689,7 @@ app/app_main/src/ty_sdk_status_callback.s: app/app_main/src/ty_sdk_status_callba
 
 # target to generate assembly for a file
 app/app_main/src/ty_sdk_status_callback.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_status_callback.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_main/src/ty_sdk_status_callback.c.s
 .PHONY : app/app_main/src/ty_sdk_status_callback.c.s
 
 app/app_user_upgrade/src/ty_sdk_upgrade.o: app/app_user_upgrade/src/ty_sdk_upgrade.c.o
@@ -698,7 +698,7 @@ app/app_user_upgrade/src/ty_sdk_upgrade.o: app/app_user_upgrade/src/ty_sdk_upgra
 
 # target to build an object file
 app/app_user_upgrade/src/ty_sdk_upgrade.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_user_upgrade/src/ty_sdk_upgrade.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_user_upgrade/src/ty_sdk_upgrade.c.o
 .PHONY : app/app_user_upgrade/src/ty_sdk_upgrade.c.o
 
 app/app_user_upgrade/src/ty_sdk_upgrade.i: app/app_user_upgrade/src/ty_sdk_upgrade.c.i
@@ -707,7 +707,7 @@ app/app_user_upgrade/src/ty_sdk_upgrade.i: app/app_user_upgrade/src/ty_sdk_upgra
 
 # target to preprocess a source file
 app/app_user_upgrade/src/ty_sdk_upgrade.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_user_upgrade/src/ty_sdk_upgrade.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_user_upgrade/src/ty_sdk_upgrade.c.i
 .PHONY : app/app_user_upgrade/src/ty_sdk_upgrade.c.i
 
 app/app_user_upgrade/src/ty_sdk_upgrade.s: app/app_user_upgrade/src/ty_sdk_upgrade.c.s
@@ -716,7 +716,7 @@ app/app_user_upgrade/src/ty_sdk_upgrade.s: app/app_user_upgrade/src/ty_sdk_upgra
 
 # target to generate assembly for a file
 app/app_user_upgrade/src/ty_sdk_upgrade.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_user_upgrade/src/ty_sdk_upgrade.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/app/app_user_upgrade/src/ty_sdk_upgrade.c.s
 .PHONY : app/app_user_upgrade/src/ty_sdk_upgrade.c.s
 
 tuya_sdk.o: tuya_sdk.c.o
@@ -725,7 +725,7 @@ tuya_sdk.o: tuya_sdk.c.o
 
 # target to build an object file
 tuya_sdk.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuya_sdk.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuya_sdk.c.o
 .PHONY : tuya_sdk.c.o
 
 tuya_sdk.i: tuya_sdk.c.i
@@ -734,7 +734,7 @@ tuya_sdk.i: tuya_sdk.c.i
 
 # target to preprocess a source file
 tuya_sdk.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuya_sdk.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuya_sdk.c.i
 .PHONY : tuya_sdk.c.i
 
 tuya_sdk.s: tuya_sdk.c.s
@@ -743,7 +743,7 @@ tuya_sdk.s: tuya_sdk.c.s
 
 # target to generate assembly for a file
 tuya_sdk.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuya_sdk.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuya_sdk.c.s
 .PHONY : tuya_sdk.c.s
 
 tuyaos_adapter/include/init/src/tkl_init_common.o: tuyaos_adapter/include/init/src/tkl_init_common.c.o
@@ -752,7 +752,7 @@ tuyaos_adapter/include/init/src/tkl_init_common.o: tuyaos_adapter/include/init/s
 
 # target to build an object file
 tuyaos_adapter/include/init/src/tkl_init_common.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_common.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_common.c.o
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_common.c.o
 
 tuyaos_adapter/include/init/src/tkl_init_common.i: tuyaos_adapter/include/init/src/tkl_init_common.c.i
@@ -761,7 +761,7 @@ tuyaos_adapter/include/init/src/tkl_init_common.i: tuyaos_adapter/include/init/s
 
 # target to preprocess a source file
 tuyaos_adapter/include/init/src/tkl_init_common.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_common.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_common.c.i
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_common.c.i
 
 tuyaos_adapter/include/init/src/tkl_init_common.s: tuyaos_adapter/include/init/src/tkl_init_common.c.s
@@ -770,7 +770,7 @@ tuyaos_adapter/include/init/src/tkl_init_common.s: tuyaos_adapter/include/init/s
 
 # target to generate assembly for a file
 tuyaos_adapter/include/init/src/tkl_init_common.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_common.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_common.c.s
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_common.c.s
 
 tuyaos_adapter/include/init/src/tkl_init_pm.o: tuyaos_adapter/include/init/src/tkl_init_pm.c.o
@@ -779,7 +779,7 @@ tuyaos_adapter/include/init/src/tkl_init_pm.o: tuyaos_adapter/include/init/src/t
 
 # target to build an object file
 tuyaos_adapter/include/init/src/tkl_init_pm.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_pm.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_pm.c.o
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_pm.c.o
 
 tuyaos_adapter/include/init/src/tkl_init_pm.i: tuyaos_adapter/include/init/src/tkl_init_pm.c.i
@@ -788,7 +788,7 @@ tuyaos_adapter/include/init/src/tkl_init_pm.i: tuyaos_adapter/include/init/src/t
 
 # target to preprocess a source file
 tuyaos_adapter/include/init/src/tkl_init_pm.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_pm.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_pm.c.i
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_pm.c.i
 
 tuyaos_adapter/include/init/src/tkl_init_pm.s: tuyaos_adapter/include/init/src/tkl_init_pm.c.s
@@ -797,7 +797,7 @@ tuyaos_adapter/include/init/src/tkl_init_pm.s: tuyaos_adapter/include/init/src/t
 
 # target to generate assembly for a file
 tuyaos_adapter/include/init/src/tkl_init_pm.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_pm.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_pm.c.s
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_pm.c.s
 
 tuyaos_adapter/include/init/src/tkl_init_system.o: tuyaos_adapter/include/init/src/tkl_init_system.c.o
@@ -806,7 +806,7 @@ tuyaos_adapter/include/init/src/tkl_init_system.o: tuyaos_adapter/include/init/s
 
 # target to build an object file
 tuyaos_adapter/include/init/src/tkl_init_system.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_system.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_system.c.o
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_system.c.o
 
 tuyaos_adapter/include/init/src/tkl_init_system.i: tuyaos_adapter/include/init/src/tkl_init_system.c.i
@@ -815,7 +815,7 @@ tuyaos_adapter/include/init/src/tkl_init_system.i: tuyaos_adapter/include/init/s
 
 # target to preprocess a source file
 tuyaos_adapter/include/init/src/tkl_init_system.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_system.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_system.c.i
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_system.c.i
 
 tuyaos_adapter/include/init/src/tkl_init_system.s: tuyaos_adapter/include/init/src/tkl_init_system.c.s
@@ -824,7 +824,7 @@ tuyaos_adapter/include/init/src/tkl_init_system.s: tuyaos_adapter/include/init/s
 
 # target to generate assembly for a file
 tuyaos_adapter/include/init/src/tkl_init_system.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_system.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_system.c.s
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_system.c.s
 
 tuyaos_adapter/include/init/src/tkl_init_wifi.o: tuyaos_adapter/include/init/src/tkl_init_wifi.c.o
@@ -833,7 +833,7 @@ tuyaos_adapter/include/init/src/tkl_init_wifi.o: tuyaos_adapter/include/init/src
 
 # target to build an object file
 tuyaos_adapter/include/init/src/tkl_init_wifi.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wifi.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wifi.c.o
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_wifi.c.o
 
 tuyaos_adapter/include/init/src/tkl_init_wifi.i: tuyaos_adapter/include/init/src/tkl_init_wifi.c.i
@@ -842,7 +842,7 @@ tuyaos_adapter/include/init/src/tkl_init_wifi.i: tuyaos_adapter/include/init/src
 
 # target to preprocess a source file
 tuyaos_adapter/include/init/src/tkl_init_wifi.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wifi.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wifi.c.i
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_wifi.c.i
 
 tuyaos_adapter/include/init/src/tkl_init_wifi.s: tuyaos_adapter/include/init/src/tkl_init_wifi.c.s
@@ -851,7 +851,7 @@ tuyaos_adapter/include/init/src/tkl_init_wifi.s: tuyaos_adapter/include/init/src
 
 # target to generate assembly for a file
 tuyaos_adapter/include/init/src/tkl_init_wifi.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wifi.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wifi.c.s
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_wifi.c.s
 
 tuyaos_adapter/include/init/src/tkl_init_wired.o: tuyaos_adapter/include/init/src/tkl_init_wired.c.o
@@ -860,7 +860,7 @@ tuyaos_adapter/include/init/src/tkl_init_wired.o: tuyaos_adapter/include/init/sr
 
 # target to build an object file
 tuyaos_adapter/include/init/src/tkl_init_wired.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wired.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wired.c.o
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_wired.c.o
 
 tuyaos_adapter/include/init/src/tkl_init_wired.i: tuyaos_adapter/include/init/src/tkl_init_wired.c.i
@@ -869,7 +869,7 @@ tuyaos_adapter/include/init/src/tkl_init_wired.i: tuyaos_adapter/include/init/sr
 
 # target to preprocess a source file
 tuyaos_adapter/include/init/src/tkl_init_wired.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wired.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wired.c.i
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_wired.c.i
 
 tuyaos_adapter/include/init/src/tkl_init_wired.s: tuyaos_adapter/include/init/src/tkl_init_wired.c.s
@@ -878,7 +878,7 @@ tuyaos_adapter/include/init/src/tkl_init_wired.s: tuyaos_adapter/include/init/sr
 
 # target to generate assembly for a file
 tuyaos_adapter/include/init/src/tkl_init_wired.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wired.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/init/src/tkl_init_wired.c.s
 .PHONY : tuyaos_adapter/include/init/src/tkl_init_wired.c.s
 
 tuyaos_adapter/include/utilities/src/tuya_hashmap.o: tuyaos_adapter/include/utilities/src/tuya_hashmap.c.o
@@ -887,7 +887,7 @@ tuyaos_adapter/include/utilities/src/tuya_hashmap.o: tuyaos_adapter/include/util
 
 # target to build an object file
 tuyaos_adapter/include/utilities/src/tuya_hashmap.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_hashmap.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_hashmap.c.o
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_hashmap.c.o
 
 tuyaos_adapter/include/utilities/src/tuya_hashmap.i: tuyaos_adapter/include/utilities/src/tuya_hashmap.c.i
@@ -896,7 +896,7 @@ tuyaos_adapter/include/utilities/src/tuya_hashmap.i: tuyaos_adapter/include/util
 
 # target to preprocess a source file
 tuyaos_adapter/include/utilities/src/tuya_hashmap.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_hashmap.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_hashmap.c.i
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_hashmap.c.i
 
 tuyaos_adapter/include/utilities/src/tuya_hashmap.s: tuyaos_adapter/include/utilities/src/tuya_hashmap.c.s
@@ -905,7 +905,7 @@ tuyaos_adapter/include/utilities/src/tuya_hashmap.s: tuyaos_adapter/include/util
 
 # target to generate assembly for a file
 tuyaos_adapter/include/utilities/src/tuya_hashmap.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_hashmap.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_hashmap.c.s
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_hashmap.c.s
 
 tuyaos_adapter/include/utilities/src/tuya_list.o: tuyaos_adapter/include/utilities/src/tuya_list.c.o
@@ -914,7 +914,7 @@ tuyaos_adapter/include/utilities/src/tuya_list.o: tuyaos_adapter/include/utiliti
 
 # target to build an object file
 tuyaos_adapter/include/utilities/src/tuya_list.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_list.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_list.c.o
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_list.c.o
 
 tuyaos_adapter/include/utilities/src/tuya_list.i: tuyaos_adapter/include/utilities/src/tuya_list.c.i
@@ -923,7 +923,7 @@ tuyaos_adapter/include/utilities/src/tuya_list.i: tuyaos_adapter/include/utiliti
 
 # target to preprocess a source file
 tuyaos_adapter/include/utilities/src/tuya_list.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_list.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_list.c.i
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_list.c.i
 
 tuyaos_adapter/include/utilities/src/tuya_list.s: tuyaos_adapter/include/utilities/src/tuya_list.c.s
@@ -932,7 +932,7 @@ tuyaos_adapter/include/utilities/src/tuya_list.s: tuyaos_adapter/include/utiliti
 
 # target to generate assembly for a file
 tuyaos_adapter/include/utilities/src/tuya_list.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_list.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_list.c.s
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_list.c.s
 
 tuyaos_adapter/include/utilities/src/tuya_mem_heap.o: tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.o
@@ -941,7 +941,7 @@ tuyaos_adapter/include/utilities/src/tuya_mem_heap.o: tuyaos_adapter/include/uti
 
 # target to build an object file
 tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.o
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.o
 
 tuyaos_adapter/include/utilities/src/tuya_mem_heap.i: tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.i
@@ -950,7 +950,7 @@ tuyaos_adapter/include/utilities/src/tuya_mem_heap.i: tuyaos_adapter/include/uti
 
 # target to preprocess a source file
 tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.i
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.i
 
 tuyaos_adapter/include/utilities/src/tuya_mem_heap.s: tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.s
@@ -959,7 +959,7 @@ tuyaos_adapter/include/utilities/src/tuya_mem_heap.s: tuyaos_adapter/include/uti
 
 # target to generate assembly for a file
 tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.s
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_mem_heap.c.s
 
 tuyaos_adapter/include/utilities/src/tuya_queue.o: tuyaos_adapter/include/utilities/src/tuya_queue.c.o
@@ -968,7 +968,7 @@ tuyaos_adapter/include/utilities/src/tuya_queue.o: tuyaos_adapter/include/utilit
 
 # target to build an object file
 tuyaos_adapter/include/utilities/src/tuya_queue.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_queue.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_queue.c.o
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_queue.c.o
 
 tuyaos_adapter/include/utilities/src/tuya_queue.i: tuyaos_adapter/include/utilities/src/tuya_queue.c.i
@@ -977,7 +977,7 @@ tuyaos_adapter/include/utilities/src/tuya_queue.i: tuyaos_adapter/include/utilit
 
 # target to preprocess a source file
 tuyaos_adapter/include/utilities/src/tuya_queue.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_queue.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_queue.c.i
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_queue.c.i
 
 tuyaos_adapter/include/utilities/src/tuya_queue.s: tuyaos_adapter/include/utilities/src/tuya_queue.c.s
@@ -986,7 +986,7 @@ tuyaos_adapter/include/utilities/src/tuya_queue.s: tuyaos_adapter/include/utilit
 
 # target to generate assembly for a file
 tuyaos_adapter/include/utilities/src/tuya_queue.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_queue.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_queue.c.s
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_queue.c.s
 
 tuyaos_adapter/include/utilities/src/tuya_ringbuf.o: tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.o
@@ -995,7 +995,7 @@ tuyaos_adapter/include/utilities/src/tuya_ringbuf.o: tuyaos_adapter/include/util
 
 # target to build an object file
 tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.o
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.o
 
 tuyaos_adapter/include/utilities/src/tuya_ringbuf.i: tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.i
@@ -1004,7 +1004,7 @@ tuyaos_adapter/include/utilities/src/tuya_ringbuf.i: tuyaos_adapter/include/util
 
 # target to preprocess a source file
 tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.i
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.i
 
 tuyaos_adapter/include/utilities/src/tuya_ringbuf.s: tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.s
@@ -1013,7 +1013,7 @@ tuyaos_adapter/include/utilities/src/tuya_ringbuf.s: tuyaos_adapter/include/util
 
 # target to generate assembly for a file
 tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.s
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_ringbuf.c.s
 
 tuyaos_adapter/include/utilities/src/tuya_smartpointer.o: tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.o
@@ -1022,7 +1022,7 @@ tuyaos_adapter/include/utilities/src/tuya_smartpointer.o: tuyaos_adapter/include
 
 # target to build an object file
 tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.o
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.o
 
 tuyaos_adapter/include/utilities/src/tuya_smartpointer.i: tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.i
@@ -1031,7 +1031,7 @@ tuyaos_adapter/include/utilities/src/tuya_smartpointer.i: tuyaos_adapter/include
 
 # target to preprocess a source file
 tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.i
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.i
 
 tuyaos_adapter/include/utilities/src/tuya_smartpointer.s: tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.s
@@ -1040,7 +1040,7 @@ tuyaos_adapter/include/utilities/src/tuya_smartpointer.s: tuyaos_adapter/include
 
 # target to generate assembly for a file
 tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.s
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_smartpointer.c.s
 
 tuyaos_adapter/include/utilities/src/tuya_tools.o: tuyaos_adapter/include/utilities/src/tuya_tools.c.o
@@ -1049,7 +1049,7 @@ tuyaos_adapter/include/utilities/src/tuya_tools.o: tuyaos_adapter/include/utilit
 
 # target to build an object file
 tuyaos_adapter/include/utilities/src/tuya_tools.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_tools.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_tools.c.o
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_tools.c.o
 
 tuyaos_adapter/include/utilities/src/tuya_tools.i: tuyaos_adapter/include/utilities/src/tuya_tools.c.i
@@ -1058,7 +1058,7 @@ tuyaos_adapter/include/utilities/src/tuya_tools.i: tuyaos_adapter/include/utilit
 
 # target to preprocess a source file
 tuyaos_adapter/include/utilities/src/tuya_tools.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_tools.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_tools.c.i
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_tools.c.i
 
 tuyaos_adapter/include/utilities/src/tuya_tools.s: tuyaos_adapter/include/utilities/src/tuya_tools.c.s
@@ -1067,7 +1067,7 @@ tuyaos_adapter/include/utilities/src/tuya_tools.s: tuyaos_adapter/include/utilit
 
 # target to generate assembly for a file
 tuyaos_adapter/include/utilities/src/tuya_tools.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_tools.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/include/utilities/src/tuya_tools.c.s
 .PHONY : tuyaos_adapter/include/utilities/src/tuya_tools.c.s
 
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.o: tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.o
@@ -1076,7 +1076,7 @@ tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.o: tuyaos_adapter/src/tkl_blu
 
 # target to build an object file
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.o
 .PHONY : tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.o
 
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.i: tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.i
@@ -1085,7 +1085,7 @@ tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.i: tuyaos_adapter/src/tkl_blu
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.i
 .PHONY : tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.i
 
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.s: tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.s
@@ -1094,7 +1094,7 @@ tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.s: tuyaos_adapter/src/tkl_blu
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.s
 .PHONY : tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth.c.s
 
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.o: tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.o
@@ -1103,7 +1103,7 @@ tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.o: tuyaos_adapter
 
 # target to build an object file
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.o
 .PHONY : tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.o
 
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.i: tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.i
@@ -1112,7 +1112,7 @@ tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.i: tuyaos_adapter
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.i
 .PHONY : tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.i
 
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.s: tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.s
@@ -1121,7 +1121,7 @@ tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.s: tuyaos_adapter
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.s
 .PHONY : tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_device.c.s
 
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.o: tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.o
@@ -1130,7 +1130,7 @@ tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.o: tuyaos_adapter/s
 
 # target to build an object file
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.o
 .PHONY : tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.o
 
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.i: tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.i
@@ -1139,7 +1139,7 @@ tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.i: tuyaos_adapter/s
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.i
 .PHONY : tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.i
 
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.s: tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.s
@@ -1148,7 +1148,7 @@ tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.s: tuyaos_adapter/s
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.s
 .PHONY : tuyaos_adapter/src/tkl_bluetooth/src/tkl_bluetooth_mesh_prov.c.s
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_audio.o: tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.o
@@ -1157,7 +1157,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_audio.o: tuyaos_adapter/src/tkl_me
 
 # target to build an object file
 tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.o
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.o
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_audio.i: tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.i
@@ -1166,7 +1166,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_audio.i: tuyaos_adapter/src/tkl_me
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.i
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.i
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_audio.s: tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.s
@@ -1175,7 +1175,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_audio.s: tuyaos_adapter/src/tkl_me
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.s
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_audio.c.s
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_isp.o: tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.o
@@ -1184,7 +1184,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_isp.o: tuyaos_adapter/src/tkl_medi
 
 # target to build an object file
 tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.o
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.o
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_isp.i: tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.i
@@ -1193,7 +1193,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_isp.i: tuyaos_adapter/src/tkl_medi
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.i
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.i
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_isp.s: tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.s
@@ -1202,7 +1202,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_isp.s: tuyaos_adapter/src/tkl_medi
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.s
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_isp.c.s
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.o: tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.o
@@ -1211,7 +1211,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.o: tuyaos_adapter/src/tk
 
 # target to build an object file
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.o
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.o
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.i: tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.i
@@ -1220,7 +1220,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.i: tuyaos_adapter/src/tk
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.i
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.i
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.s: tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.s
@@ -1229,7 +1229,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.s: tuyaos_adapter/src/tk
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.s
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_video_enc.c.s
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.o: tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.o
@@ -1238,7 +1238,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.o: tuyaos_adapter/src/tkl
 
 # target to build an object file
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.o
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.o
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.i: tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.i
@@ -1247,7 +1247,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.i: tuyaos_adapter/src/tkl
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.i
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.i
 
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.s: tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.s
@@ -1256,7 +1256,7 @@ tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.s: tuyaos_adapter/src/tkl
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.s
 .PHONY : tuyaos_adapter/src/tkl_media_template/src/tkl_video_in.c.s
 
 tuyaos_adapter/src/tkl_system/src/tkl_fs.o: tuyaos_adapter/src/tkl_system/src/tkl_fs.c.o
@@ -1265,7 +1265,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_fs.o: tuyaos_adapter/src/tkl_system/src/tk
 
 # target to build an object file
 tuyaos_adapter/src/tkl_system/src/tkl_fs.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_fs.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_fs.c.o
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_fs.c.o
 
 tuyaos_adapter/src/tkl_system/src/tkl_fs.i: tuyaos_adapter/src/tkl_system/src/tkl_fs.c.i
@@ -1274,7 +1274,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_fs.i: tuyaos_adapter/src/tkl_system/src/tk
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_system/src/tkl_fs.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_fs.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_fs.c.i
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_fs.c.i
 
 tuyaos_adapter/src/tkl_system/src/tkl_fs.s: tuyaos_adapter/src/tkl_system/src/tkl_fs.c.s
@@ -1283,7 +1283,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_fs.s: tuyaos_adapter/src/tkl_system/src/tk
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_system/src/tkl_fs.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_fs.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_fs.c.s
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_fs.c.s
 
 tuyaos_adapter/src/tkl_system/src/tkl_memory.o: tuyaos_adapter/src/tkl_system/src/tkl_memory.c.o
@@ -1292,7 +1292,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_memory.o: tuyaos_adapter/src/tkl_system/sr
 
 # target to build an object file
 tuyaos_adapter/src/tkl_system/src/tkl_memory.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_memory.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_memory.c.o
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_memory.c.o
 
 tuyaos_adapter/src/tkl_system/src/tkl_memory.i: tuyaos_adapter/src/tkl_system/src/tkl_memory.c.i
@@ -1301,7 +1301,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_memory.i: tuyaos_adapter/src/tkl_system/sr
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_system/src/tkl_memory.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_memory.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_memory.c.i
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_memory.c.i
 
 tuyaos_adapter/src/tkl_system/src/tkl_memory.s: tuyaos_adapter/src/tkl_system/src/tkl_memory.c.s
@@ -1310,7 +1310,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_memory.s: tuyaos_adapter/src/tkl_system/sr
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_system/src/tkl_memory.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_memory.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_memory.c.s
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_memory.c.s
 
 tuyaos_adapter/src/tkl_system/src/tkl_mutex.o: tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.o
@@ -1319,7 +1319,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_mutex.o: tuyaos_adapter/src/tkl_system/src
 
 # target to build an object file
 tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.o
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.o
 
 tuyaos_adapter/src/tkl_system/src/tkl_mutex.i: tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.i
@@ -1328,7 +1328,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_mutex.i: tuyaos_adapter/src/tkl_system/src
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.i
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.i
 
 tuyaos_adapter/src/tkl_system/src/tkl_mutex.s: tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.s
@@ -1337,7 +1337,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_mutex.s: tuyaos_adapter/src/tkl_system/src
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.s
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_mutex.c.s
 
 tuyaos_adapter/src/tkl_system/src/tkl_ota.o: tuyaos_adapter/src/tkl_system/src/tkl_ota.c.o
@@ -1346,7 +1346,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_ota.o: tuyaos_adapter/src/tkl_system/src/t
 
 # target to build an object file
 tuyaos_adapter/src/tkl_system/src/tkl_ota.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_ota.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_ota.c.o
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_ota.c.o
 
 tuyaos_adapter/src/tkl_system/src/tkl_ota.i: tuyaos_adapter/src/tkl_system/src/tkl_ota.c.i
@@ -1355,7 +1355,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_ota.i: tuyaos_adapter/src/tkl_system/src/t
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_system/src/tkl_ota.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_ota.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_ota.c.i
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_ota.c.i
 
 tuyaos_adapter/src/tkl_system/src/tkl_ota.s: tuyaos_adapter/src/tkl_system/src/tkl_ota.c.s
@@ -1364,7 +1364,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_ota.s: tuyaos_adapter/src/tkl_system/src/t
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_system/src/tkl_ota.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_ota.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_ota.c.s
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_ota.c.s
 
 tuyaos_adapter/src/tkl_system/src/tkl_output.o: tuyaos_adapter/src/tkl_system/src/tkl_output.c.o
@@ -1373,7 +1373,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_output.o: tuyaos_adapter/src/tkl_system/sr
 
 # target to build an object file
 tuyaos_adapter/src/tkl_system/src/tkl_output.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_output.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_output.c.o
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_output.c.o
 
 tuyaos_adapter/src/tkl_system/src/tkl_output.i: tuyaos_adapter/src/tkl_system/src/tkl_output.c.i
@@ -1382,7 +1382,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_output.i: tuyaos_adapter/src/tkl_system/sr
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_system/src/tkl_output.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_output.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_output.c.i
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_output.c.i
 
 tuyaos_adapter/src/tkl_system/src/tkl_output.s: tuyaos_adapter/src/tkl_system/src/tkl_output.c.s
@@ -1391,7 +1391,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_output.s: tuyaos_adapter/src/tkl_system/sr
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_system/src/tkl_output.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_output.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_output.c.s
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_output.c.s
 
 tuyaos_adapter/src/tkl_system/src/tkl_queue.o: tuyaos_adapter/src/tkl_system/src/tkl_queue.c.o
@@ -1400,7 +1400,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_queue.o: tuyaos_adapter/src/tkl_system/src
 
 # target to build an object file
 tuyaos_adapter/src/tkl_system/src/tkl_queue.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_queue.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_queue.c.o
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_queue.c.o
 
 tuyaos_adapter/src/tkl_system/src/tkl_queue.i: tuyaos_adapter/src/tkl_system/src/tkl_queue.c.i
@@ -1409,7 +1409,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_queue.i: tuyaos_adapter/src/tkl_system/src
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_system/src/tkl_queue.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_queue.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_queue.c.i
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_queue.c.i
 
 tuyaos_adapter/src/tkl_system/src/tkl_queue.s: tuyaos_adapter/src/tkl_system/src/tkl_queue.c.s
@@ -1418,7 +1418,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_queue.s: tuyaos_adapter/src/tkl_system/src
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_system/src/tkl_queue.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_queue.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_queue.c.s
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_queue.c.s
 
 tuyaos_adapter/src/tkl_system/src/tkl_semaphore.o: tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.o
@@ -1427,7 +1427,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_semaphore.o: tuyaos_adapter/src/tkl_system
 
 # target to build an object file
 tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.o
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.o
 
 tuyaos_adapter/src/tkl_system/src/tkl_semaphore.i: tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.i
@@ -1436,7 +1436,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_semaphore.i: tuyaos_adapter/src/tkl_system
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.i
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.i
 
 tuyaos_adapter/src/tkl_system/src/tkl_semaphore.s: tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.s
@@ -1445,7 +1445,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_semaphore.s: tuyaos_adapter/src/tkl_system
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.s
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_semaphore.c.s
 
 tuyaos_adapter/src/tkl_system/src/tkl_sleep.o: tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.o
@@ -1454,7 +1454,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_sleep.o: tuyaos_adapter/src/tkl_system/src
 
 # target to build an object file
 tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.o
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.o
 
 tuyaos_adapter/src/tkl_system/src/tkl_sleep.i: tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.i
@@ -1463,7 +1463,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_sleep.i: tuyaos_adapter/src/tkl_system/src
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.i
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.i
 
 tuyaos_adapter/src/tkl_system/src/tkl_sleep.s: tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.s
@@ -1472,7 +1472,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_sleep.s: tuyaos_adapter/src/tkl_system/src
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.s
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_sleep.c.s
 
 tuyaos_adapter/src/tkl_system/src/tkl_system.o: tuyaos_adapter/src/tkl_system/src/tkl_system.c.o
@@ -1481,7 +1481,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_system.o: tuyaos_adapter/src/tkl_system/sr
 
 # target to build an object file
 tuyaos_adapter/src/tkl_system/src/tkl_system.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_system.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_system.c.o
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_system.c.o
 
 tuyaos_adapter/src/tkl_system/src/tkl_system.i: tuyaos_adapter/src/tkl_system/src/tkl_system.c.i
@@ -1490,7 +1490,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_system.i: tuyaos_adapter/src/tkl_system/sr
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_system/src/tkl_system.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_system.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_system.c.i
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_system.c.i
 
 tuyaos_adapter/src/tkl_system/src/tkl_system.s: tuyaos_adapter/src/tkl_system/src/tkl_system.c.s
@@ -1499,7 +1499,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_system.s: tuyaos_adapter/src/tkl_system/sr
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_system/src/tkl_system.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_system.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_system.c.s
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_system.c.s
 
 tuyaos_adapter/src/tkl_system/src/tkl_thread.o: tuyaos_adapter/src/tkl_system/src/tkl_thread.c.o
@@ -1508,7 +1508,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_thread.o: tuyaos_adapter/src/tkl_system/sr
 
 # target to build an object file
 tuyaos_adapter/src/tkl_system/src/tkl_thread.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_thread.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_thread.c.o
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_thread.c.o
 
 tuyaos_adapter/src/tkl_system/src/tkl_thread.i: tuyaos_adapter/src/tkl_system/src/tkl_thread.c.i
@@ -1517,7 +1517,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_thread.i: tuyaos_adapter/src/tkl_system/sr
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_system/src/tkl_thread.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_thread.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_thread.c.i
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_thread.c.i
 
 tuyaos_adapter/src/tkl_system/src/tkl_thread.s: tuyaos_adapter/src/tkl_system/src/tkl_thread.c.s
@@ -1526,7 +1526,7 @@ tuyaos_adapter/src/tkl_system/src/tkl_thread.s: tuyaos_adapter/src/tkl_system/sr
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_system/src/tkl_thread.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_thread.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_system/src/tkl_thread.c.s
 .PHONY : tuyaos_adapter/src/tkl_system/src/tkl_thread.c.s
 
 tuyaos_adapter/src/tkl_wired/src/tkl_wired.o: tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.o
@@ -1535,7 +1535,7 @@ tuyaos_adapter/src/tkl_wired/src/tkl_wired.o: tuyaos_adapter/src/tkl_wired/src/t
 
 # target to build an object file
 tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.o:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.o
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.o
 .PHONY : tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.o
 
 tuyaos_adapter/src/tkl_wired/src/tkl_wired.i: tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.i
@@ -1544,7 +1544,7 @@ tuyaos_adapter/src/tkl_wired/src/tkl_wired.i: tuyaos_adapter/src/tkl_wired/src/t
 
 # target to preprocess a source file
 tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.i:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.i
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.i
 .PHONY : tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.i
 
 tuyaos_adapter/src/tkl_wired/src/tkl_wired.s: tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.s
@@ -1553,7 +1553,7 @@ tuyaos_adapter/src/tkl_wired/src/tkl_wired.s: tuyaos_adapter/src/tkl_wired/src/t
 
 # target to generate assembly for a file
 tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.s:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.s
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(MAKE) -f src/tuya-6.2.20/CMakeFiles/tuya.dir/build.make src/tuya-6.2.20/CMakeFiles/tuya.dir/tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.s
 .PHONY : tuyaos_adapter/src/tkl_wired/src/tkl_wired.c.s
 
 # Help Target
@@ -1735,6 +1735,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leo/workspace/BK/APP/Indoor/bk_public_tuya6 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leo/workspace/BK/APP/Indoor/bk_public_indoor && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
