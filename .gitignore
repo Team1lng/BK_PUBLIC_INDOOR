@@ -16,3 +16,9 @@ output/
 \*.cache
 \*.depend
 \*.o
+# 交叉编译工具链目录（整体忽略，无需提交入库）
+compilat_tool/
+
+# 临时备份文件与脚本
+*.backup
+*_backup_*
